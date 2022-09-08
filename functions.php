@@ -71,6 +71,35 @@ if ( ! function_exists( 'twenty_twenty_one_setup' ) ) {
 		add_theme_support( 'post-thumbnails' );
 		set_post_thumbnail_size( 1568, 9999 );
 
+		/* Creating Custom Post Types -- Luke Johnsen */
+		function create_posttype() {
+			register_post_type( 'attractions',
+		array(
+			'labels' => array(
+				'name' => __( 'Attractions' ),
+				'singular_name' => __( 'Attraction' )
+			),
+			'public' => true,
+			'has_archive' => true,
+			'rewrite' => array('slug' => 'attractions'),
+			'show_in_rest' => true,
+		) 
+	);
+		}
+		add_action( 'init', 'create_posttype' );
+
+
+		/* Registering Custom Menus -- Luke Johnsen */
+		function my_custom_menu() {
+			register_nav_menus(
+				array(
+					'my-custom-menu' => _( 'Header Menu' ),
+					'my-custom-menu-2' => _( 'Footer Menu' )
+				)
+				);
+		}
+		add_action( 'init', 'my_custom_menu' );
+
 		register_nav_menus(
 			array(
 				'primary' => esc_html__( 'Primary menu', 'twentytwentyone' ),

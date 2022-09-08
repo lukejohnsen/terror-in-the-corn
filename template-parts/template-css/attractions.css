@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: 'Horrormaster';
+    src: url('../assets/fonts/Horrormaster.ttf');
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../assets/fonts/EBGaramond12-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Gilaka';
+    src: url('../assets/fonts/Gilaka-yqqY.otf');
+}
+
+.attractions {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../assets/bg-texture.png');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.video-hero {
+    background-image: url('../assets/carousel-border.png');
+    backdrop-filter: blur(8px);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 1160px;
+    height: 589px;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+
+.hero-heading {
+    color: #b90803;
+    font-size: 70px;
+    margin-left: 97px;
+    margin-top: 163px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: 'Horrormaster';
+    letter-spacing: 8.4px;
+    margin-left: 44px;
+}
+
+.hero-text {
+    color: #ffffff;
+    font-size: 35px;
+    margin-left: 97px;
+    margin-right: 400px;
+    font-family: 'EB Garamond';
+    line-height: 1.45;
+    margin-right: 500px;
+    margin-left: 44px;
+}
+
+
+.get-tickets-button {
+    background-image: url('../assets/button-static-2.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    width: 350px;
+    height: 120px;
+}
+
+.get-tickets-text {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    letter-spacing: 3.5px;
+    font-family: 'Gilaka';
+}
+
+.border-container {
+    background-image: url('../assets/attractions-border.png');
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.border-container-alt {
+    background-image: url('../assets/attractions-border.png');
+    background-size: contain;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.field-of-screams-container {
+    background: url('../assets/corn.png');
+    background-size: cover;
+    background-position: center;
+    width: 1160px;
+    height: 424px;
+    margin-top: 100px;
+    display: flex;
+}
+
+.inner-hero {
+    backdrop-filter: blur(2px);
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+}
+
+.attraction-heading {
+    color: #b90803;
+    font-family: 'Gilaka';
+    font-size: 48px;
+    display: flex;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.attraction-text {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'EB Garamond';
+    display: flex;
+    margin-left: 30px;
+    margin-right: 15px;
+    line-height: 1.45;
+    margin-bottom: 0px
+}
+
+.get-tickets-button-alt {
+    background-image: url('../assets/button-static-1.png');
+    background-position: center;
+    background-size: cover;
+    font-family: 'Gilaka';
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    width: 350px;
+    height: 100px;
+    transform: matrix(1, -0.09, 0.03, 1, 0, 0);
+}
+
+.get-tickets-text-alt {
+    display: flex;
+    align-items: center;
+    font-family: 'Gilaka';
+    letter-spacing: 3.5px;
+}
+
+.shady-acres-asylum-container {
+    background: url('../assets/Asylum.png');
+    background-size: cover;
+    background-position: center;
+    width: 1160px;
+    height: 424px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.circus-of-horrors-container {
+    background: url('../assets/Circus.png');
+    background-size: cover;
+    background-position: center;
+    width: 1160px;
+    height: 424px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.axe-throwing-container {
+    background: url('../assets/Axe.png');
+    background-size: cover;
+    background-position: center;
+    width: 1160px;
+    height: 424px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.escape-room-container {
+    background: url('../assets/Escape.png');
+    background-size: cover;
+    background-position: center;
+    width: 1160px;
+    height: 424px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.zombie-paintball-container {
+    background: url('../assets/Paintball.png');
+    background-size: cover;
+    background-position: top;
+    width: 1160px;
+    height: 424px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#zb-hero {
+    width: 45%
+}
+
+.midway-container {
+    background: url('../assets/Creepy-kids.png');
+    background-size: cover;
+    background-position: top;
+    width: 1160px;
+    height: 424px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+

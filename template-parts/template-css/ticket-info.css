@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: 'Horrormaster';
+    src: url('../assets/fonts/Horrormaster.ttf');
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../assets/fonts/EBGaramond12-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Gilaka';
+    src: url('../assets/fonts/Gilaka-yqqY.otf');
+}
+
+.ticket-info-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../assets/bg-texture.png');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket-info-hero {
+    background-image: url('../assets/Circus.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 589px;
+    width: 1160px;
+}
+
+.blur-container {
+    background-image: url('../assets/carousel-border.png');
+    background-size: cover;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ticket-hero-heading {
+    color: #b90803;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Horrormaster';
+    letter-spacing: 8.4px;
+}
+
+.ticket-hero-text {
+    color: #ffffff;
+    font-size: 35px;
+    margin: 24px 196px;
+    font-family: 'EB Garamond';
+    line-height: 1.45;
+    text-align: center;
+}
+
+.pricing-promotion-container {
+    display: flex;
+    width: 1160px;
+}
+
+.pricing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 568px
+}
+
+.pricing-promotion-heading {
+    color: #b90803;
+    font-size: 70px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-family: 'Horrormaster';
+    letter-spacing: 8.4px;
+}
+
+.pricing-info {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'EB Garamond';
+    line-height: 1.32;
+}
+
+.promotion-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 474px;
+}
+
+.promotion-info {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'EB Garamond';
+    line-height: 1.32;
+}
+
+.get-tickets-button {
+    background-image: url('../assets/button-static-2.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    width: 350px;
+    height: 120px;
+}
+
+.get-tickets-text {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    letter-spacing: 3.5px;
+    font-family: 'Gilaka'
+}
+
+.admission-info-container {
+    background-image: url('../assets/carousel-border.png');
+    background-size: cover;
+    background-color: #373737;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+}
+
+.admission-heading {
+    color: #b90803;
+    font-size: 70px;
+    margin-bottom: 40px;
+    margin-top: 84px;
+    text-transform: uppercase;
+    font-family: 'Horrormaster';
+    letter-spacing: 8.4px;
+}
+
+.admission-top-info {
+    width: 1156px;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'EB Garamond';
+    line-height: 1.32;
+}
+
+.admission-bullets-container {
+    display: flex;
+    margin: 100px 150px;
+}
+
+.admission-bullets-left {
+    display: flex;
+    flex-direction: column;
+    width: 628px;
+}
+
+.admission-bullets-right {
+        display: flex;
+        flex-direction: column;
+        width: 550px;
+}
+
+.admission-bullet {
+    display: flex;
+    align-items: center;
+}
+
+.fingerprint {
+    width: 42.18px;
+    height: 42.18px;
+    transform: matrix(0.97, 0.22, -0.22, 0.97, 0, 0);
+}
+
+.fingerprint-alt {
+    width: 42.18px;
+    height: 42.18px;
+    transform: matrix(0.97, -0.26, 0.26, 0.97, 0, 0);
+}
+
+.bullet-info {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'EB Garamond';
+    line-height: 1.32;
+}
+
+.refund-policy-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1156px;
+}
+
+.refund-heading {
+    color: #b90803;
+    font-size: 70px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-family: 'Horrormaster';
+    letter-spacing: 8.4px;
+}
+
+.refund-info {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'EB Garamond';
+    line-height: 1.32;
+}

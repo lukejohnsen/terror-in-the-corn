@@ -1,5 +1,5 @@
-<?php /* Template Name: Attractions */ ?>
-<?php  get_header(); ?>
+<?php /* Template Name: Attractions Main */ ?>
+<?php get_template_part( 'template-parts/template-header' ); ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -160,3 +160,5 @@
 </body>
 
 </html>
+
+<?php get_template_part( 'template-parts/template-footer' ); ?>

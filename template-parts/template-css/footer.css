@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: 'Gilaka';
+    src: url('../assets/fonts/Gilaka-yqqY.otf');
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../assets/fonts/EBGaramond12-Regular.otf');
+}
+
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../assets/bg-texture.png');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mailing-list-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../assets/corn-footer.png');
+    min-height: 68vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ads-section {
+    display: flex;
+    gap: 28px
+}
+
+.email-signup-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#mailing-list-text {
+    font-size: 48px;
+    color: #b90803;
+    font-family: 'Gilaka';
+    letter-spacing: 7.2px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#mailing-list-instructions {
+    font-size: 21px;
+    color: #ffffff;
+    font-family: 'EB Garamond';
+    margin: 10px 0px;
+}
+
+#email-input {
+    width: 368px;
+    height: 40px;
+    font-size: 21px;
+    font-family: 'EB Garamond'
+}
+
+#mailing-list-disclaimer {
+    font-size: 14px;
+    color: #ffffff;
+    inline-size: 376px;
+}
+
+.subscribe-button-container {
+    font-size: 35px;
+    background-image: url('../assets/button-static-1.png');
+    background-size: cover;
+    background-position: center;
+    width: 275px;
+    height: 70px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.subscribe-button {
+    margin-left: 65px;
+    margin-top: 15px;
+    font-family: 'Gilaka';
+    letter-spacing: 3.5px;
+}
+
+.universal-section {
+    height: 129.5px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buckelew-links-container {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 716px;
+}
+
+.buckelew-links-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    font-size: 21px;
+    margin: 15px 0px;
+    padding-left: 0px;
+    /* font-family: New Spirit, Bold Condensed */
+}
+
+#contact-info {
+    margin: 10px 0px;
+    font-size: 16px;
+    font-family: 'EB Garamond';
+    display: flex;
+    justify-content: center;
+}
+
+#email-address {
+    color: #fdb41a;
+}
+
+.gjj-footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../assets/bg-texture.png');
+    background-size: cover;
+    height: 129.5px;
+    display: flex;
+    justify-content: center;
+}
+
+#gjj-logo {
+    height: 129.5px;
+    width: auto;
+}

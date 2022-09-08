@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: 'Horrormaster';
+    src: url('../assets/fonts/Horrormaster.ttf');
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../assets/fonts/EBGaramond12-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Gilaka';
+    src: url('../assets/fonts/Gilaka-yqqY.otf');
+}
+
+.dates-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../assets/bg-texture.png');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dates-hero {
+    background-image: url('../assets/Circus.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 589px;
+    width: 1160px;
+}
+
+.blur-container {
+    background-image: url('../assets/carousel-border.png');
+    background-size: cover;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dates-heading {
+    color: #b90803;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Horrormaster';
+    letter-spacing: 8.4px;
+    margin-bottom: 0px;
+}
+
+.dates-text {
+    color: #ffffff;
+    font-size: 35px;
+    margin: 24px 196px;
+    font-family: 'EB Garamond';
+    line-height: 1.45;
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    width: 1160px;
+    justify-content: space-between;
+}
+
+.heading {
+    font-size: 70px;
+    color: #b90803;
+    font-family: 'Horrormaster';
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 7.8px;
+}
+
+.info-text {
+    font-size: 25px;
+    font-family: 'EB Garamond';
+    color: #ffffff;
+    width: 474px;
+    line-height: 1.32
+}
+
+.get-tickets-button {
+    background-image: url('../assets/button-static-2.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    width: 350px;
+    height: 120px;
+}
+
+.get-tickets-text {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    letter-spacing: 3.5px;
+    font-family: 'Gilaka';
+}
+
+.calendar-visual {
+    width: 596px;
+    opacity: .75;
+}
+
+.promotions-text {
+    font-size: 25px;
+    font-family: 'EB Garamond';
+    color: #ffffff;
+    width: 1156px;
+    line-height: 1.32
+}

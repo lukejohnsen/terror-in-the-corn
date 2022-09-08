@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: 'Horrormaster';
+    src: url('../assets/fonts/Horrormaster.ttf');
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../assets/fonts/EBGaramond12-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Gilaka';
+    src: url('../assets/fonts/Gilaka-yqqY.otf');
+}
+
+@font-face {
+    font-family: 'Horrorfind';
+    src: url('../assets/fonts/Horrorfind.ttf');
+}
+
+.attraction-info-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../assets/bg-texture.png');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.video-hero {
+    background-image: url('../assets/carousel-border.png');
+    backdrop-filter: blur(8px);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 1160px;
+    height: 589px;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+
+.hero-heading {
+    color: #b90803;
+    font-size: 70px;
+    margin-left: 97px;
+    margin-top: 163px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: 'Horrormaster';
+    letter-spacing: 8.4px;
+    margin-left: 44px;
+    width: 307px;
+}
+
+.hero-text {
+    color: #ffffff;
+    font-size: 35px;
+    margin-left: 97px;
+    margin-right: 400px;
+    font-family: 'EB Garamond';
+    line-height: 1.45;
+    margin-right: 500px;
+    margin-left: 44px;
+}
+
+
+.get-tickets-button {
+    background-image: url('../assets/button-static-2.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    width: 350px;
+    height: 120px;
+}
+
+.get-tickets-text {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    letter-spacing: 3.5px;
+    font-family: 'Gilaka';
+}
+
+.sub-hero-text {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'EB Garamond';
+    line-height: 1.32;
+    width: 1160px;
+}
+
+.info-container {
+    display: flex;
+    width: 1160px;
+    justify-content: space-between;
+}
+
+.heading {
+    font-size: 70px;
+    color: #b90803;
+    font-family: 'Horrorfind';
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 7.8px;
+}
+
+.info-text {
+    font-size: 25px;
+    font-family: 'EB Garamond';
+    color: #ffffff;
+    width: 474px;
+    line-height: 1.32
+}
+
+.sponsors-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sponsors-heading {
+    font-size: 70px;
+    color: #b90803;
+    font-family: 'Horrorfind';
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 7.8px;
+    z-index: 1;
+}
+
+.sponsors-text {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'EB Garamond';
+    width: 50vw;
+    text-align: center;
+    line-height: 1.25;
+    z-index: 1;
+}
+
+.sponsor-logos-container {
+    display: flex;
+    flex-direction: column;
+    width: 1177px;
+    z-index: 1;
+    align-items: center;
+}
+
+.level-1-sponsors {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.top-row {
+    width: 25%;
+}

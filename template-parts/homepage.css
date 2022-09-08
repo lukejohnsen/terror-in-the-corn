@@ -1,0 +1,381 @@
+body {
+    margin: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: 'Horrormaster';
+    src: url('../assets/fonts/Horrormaster.ttf');
+}
+
+@font-face {
+    font-family: 'Horrorfind';
+    src: url('../assets/fonts/Horrorfind.ttf');
+}
+
+@font-face {
+    font-family: 'Gilaka';
+    src: url('../assets/fonts/Gilaka-yqqY.otf');
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../assets/fonts/EBGaramond12-Regular.otf');
+}
+
+@font-face {
+    font-family: 'EB Garamond, Bold';
+    src: url('../assets/fonts/EBGaramond08-Regular.otf');
+}
+
+
+
+.homepage {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../assets/bg-texture.png');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.hero-container {
+    background-image: url('../assets/Circus.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 589px;
+    width: 1160px;
+}
+
+.hero-title {
+    color: #b90803;
+    font-size: 70px;
+    margin-left: 97px;
+    margin-top: 163px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: 'Horrormaster';
+    letter-spacing: 8.4px;
+}
+
+.hero-text {
+    color: #ffffff;
+    font-size: 35px;
+    margin-left: 97px;
+    margin-right: 400px;
+    font-family: 'EB Garamond';
+    line-height: 1.45;
+}
+
+.sub-hero-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 1160px;
+}
+
+.blood-dot-container {
+    display: flex;
+    width: 84px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    gap: 5px;
+}
+
+.blood-dots {
+    width: 14px;
+    height: 14px;
+}
+
+.blood-dots-alt {
+    width: 22px
+}
+
+.sub-hero-text {
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    text-align: center;
+    margin: 70px 150px;
+    font-family: 'EB Garamond';
+}
+
+.get-tickets-button {
+    background-image: url('../assets/button-static-2.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    width: 350px;
+    height: 120px;
+}
+
+.get-tickets-text {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    letter-spacing: 3.5px;
+    font-family: 'Gilaka';
+}
+
+.calendar-location-container {
+    position: relative;
+}
+
+.bg-farm {
+    position: absolute;
+    z-index: 0;
+    width: 700px;
+    margin-left: -450px;
+    opacity: .5;
+}
+
+.calendar-location-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calendar-location-heading {
+    font-size: 70px;
+    color: #b90803;
+    font-family: 'Horrormaster';
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 8.4px;
+    z-index: 1;
+}
+
+.hours-text {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'EB Garamond, Bold' /*Bold*/;
+    margin: 44px 0 0 0;
+    text-align: center;
+}
+
+.hours-sub-text {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'EB Garamond';
+    margin: 0;
+}
+
+.calendar-location-visuals {
+    display: flex;
+    width: 1175px;
+    margin: 90px auto;
+    z-index: 1;
+}
+
+.bg-scarecrow {
+    position: absolute;
+    z-index: 0;
+    width: 565px;
+    opacity: .5;
+    margin-left: 1100px;
+    margin-top: -650px;
+}
+
+.calendar-visual {
+    width: 596px;
+    opacity: .75;
+}
+
+.map-visual {
+    width: 571px;
+    opacity: .75;
+}
+
+.attractions-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    width: 1350px;
+}
+
+.attractions-heading {
+    font-size: 70px;
+    color: #b90803;
+    font-family: 'Horrormaster';
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 8.4px;
+}
+
+.attractions-card {
+    background-size: cover;
+    width: 275px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    flex-basis: 33.33333%;
+}
+
+.attractions-card-alt {
+    background-size: cover;
+    width: 275px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    flex-basis: 33.33333%;
+    transform: matrix(1, -0.07, 0.07, 1, 0, 0);
+}
+
+.attractions-title {
+    color: #b90803;
+    font-family: 'Gilaka';
+    font-size: 48px;
+    transform: matrix(1, 0.03, -0.03, 1, 0, 0);
+    width: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#field-screams-card {
+    background-image: url('../assets/Polaroid-corn.png');
+}
+
+#shady-acres-card {
+    background-image: url('../assets/Polaroid-asylum.png');
+}
+
+#circus-horror-card {
+    background-image: url('../assets/Polaroid-circus.png')
+}
+
+#axe-throwing-card {
+    background-image: url('../assets/Polaroid-axe.png');
+}
+
+#escape-room-card {
+    background-image: url('../assets/Polaroid-escape.png');
+}
+
+#zombie-paintball-card {
+    background-image: url('../assets/Polaroid-paintball.png');
+}
+
+.get-tickets-button-alt {
+    background-image: url('../assets/button-static-1.png');
+    background-position: center;
+    background-size: cover;
+    font-family: 'Gilaka';
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    width: 350px;
+    height: 100px;
+    transform: matrix(1, -0.02, 0.02, 1, 0, 0);
+}
+
+.get-tickets-text-alt {
+    display: flex;
+    align-items: center;
+    font-family: 'Gilaka';
+    letter-spacing: 3.5px;
+    transform: matrix(1, -0.02, 0.02, 1, 0, 0);
+}
+
+.sponsors-container {
+    width: 1213px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sponsors-heading {
+    font-size: 70px;
+    color: #b90803;
+    font-family: 'Horrorfind';
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 7.8px;
+    z-index: 1;
+}
+
+.sponsors-text {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'EB Garamond';
+    width: 50vw;
+    text-align: center;
+    line-height: 1.25;
+    z-index: 1;
+}
+
+.bg-tools {
+    position: absolute;
+    z-index: 0;
+    width: 501px;
+    opacity: .5;
+    margin-left: -700px;
+}
+
+.sponsor-logos-container {
+    display: flex;
+    flex-direction: column;
+    width: 1177px;
+    z-index: 1;
+    align-items: center;
+}
+
+.level-1-sponsors {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.top-row {
+    width: 25%;
+}
+
+#concord-logo {
+    width: 33.3333%;
+    height: 114px
+    
+}
+
+#rusing-lopez-lizardi-logo {
+    width: 33.3333%;
+    height: 114px
+}
+
+#buckelew-farm-logo {
+    width: 200px;
+    height: 200px;
+}
+
+.red-line {
+    width: 326px;
+}
+
+.level-2-sponsors {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.bottom-row-two {
+    width: 25%;
+    margin-top: 20px;
+}
+
