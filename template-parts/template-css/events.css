@@ -26,6 +26,7 @@ body {
 .events-container {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../assets/bg-texture.png');
     width: 100%;
+    height: 110%;
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
@@ -94,24 +95,64 @@ body {
 
 .events-submission-form {
     display: flex;
-    flex-direction: column;
     width: 1160px;
+    justify-content: center;
 }
 
-.subscribe-button-container {
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1160px;
+    justify-content: space-between;
+}
+
+.input-1 {
+    width: 1160px;
+    height: 64px;
+    font-family: 'EB Garamond';
+    font-size: 32px;
+    margin-bottom: 21px;
+}
+
+.input-2 {
+    width: 671px;
+    height: 64px;
+    font-family: 'EB Garamond';
+    font-size: 32px;
+    margin-bottom: 21px;
+}
+
+.input-3 {
+    width: 450px;
+    height: 64px;
+    font-family: 'EB Garamond';
+    font-size: 32px;
+}
+
+.submit-button-container {
     font-size: 35px;
     background-image: url('../assets/button-static-1.png');
     background-size: cover;
     background-position: center;
-    width: 275px;
+    width: 233px;
     height: 70px;
     display: flex;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
 }
 
-.subscribe-button {
-    margin-left: 65px;
-    margin-top: 15px;
+.submit-button {
     font-family: 'Gilaka';
     letter-spacing: 3.5px;
+}
+
+.submit-button-container:hover {
+    width: 239px;
+    height: 76px;
+    animation-duration: 0.3s;
+}
+
+.submit-button:hover {
+    font-size: 39px;
+    animation-duration: 0.3s;
 }

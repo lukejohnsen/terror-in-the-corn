@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: 'Horrormaster';
+    src: url('../assets/fonts/Horrormaster.ttf');
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../assets/fonts/EBGaramond12-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Gilaka';
+    src: url('../assets/fonts/Gilaka-yqqY.otf');
+}
+
+@font-face {
+    font-family: 'Horrorfind';
+    src: url('../assets/fonts/Horrorfind.ttf');
+}
+
+.jobs-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../assets/bg-texture.png');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jobs-hero {
+    background-image: url('../assets/Circus.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 589px;
+    width: 1160px;
+}
+
+.blur-container {
+    background-image: url('../assets/carousel-border.png');
+    background-size: cover;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jobs-heading {
+    color: #b90803;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Horrormaster';
+    letter-spacing: 8.4px;
+    margin-bottom: 0px;
+}
+
+.jobs-text {
+    color: #ffffff;
+    font-size: 35px;
+    margin: 24px 196px;
+    font-family: 'EB Garamond';
+    line-height: 1.45;
+    text-align: center;
+}
+
+.opportunities-heading {
+    font-size: 65px;
+    color: #b90803;
+    font-family: 'Horrorfind';
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 7.8px;
+}
+
+.opportunities-text {
+    font-size: 25px;
+    font-family: 'EB Garamond';
+    color: #ffffff;
+    width: 1160px;
+    line-height: 1.32
+}
+
+.job-description-container {
+    background-image: url('../assets/carousel-border.png');
+    background-size: cover;
+    background-color: #373737;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+    margin-bottom: 54px;
+}
+
+.job-description-heading {
+    color: #b90803;
+    font-size: 65px;
+    margin-bottom: 40px;
+    margin-top: 84px;
+    text-transform: uppercase;
+    font-family: 'Horrorfind';
+    letter-spacing: 7.8px;
+}
+
+.bullets-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.bullets-left {
+    display: flex;
+    flex-direction: column;
+    width: 581px;
+}
+
+.bullets-right {
+        display: flex;
+        flex-direction: column;
+        width: 581px;
+        margin-bottom: 40px;
+}
+
+.bullet {
+    display: flex;
+    align-items: center;
+}
+
+.sub-bullet {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.fingerprint {
+    width: 42.18px;
+    height: 42.18px;
+    transform: matrix(0.97, 0.22, -0.22, 0.97, 0, 0);
+}
+
+.fingerprint-alt {
+    width: 42.18px;
+    height: 42.18px;
+    transform: matrix(0.97, -0.26, 0.26, 0.97, 0, 0);
+}
+
+.bullet-info {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'EB Garamond';
+    line-height: 1.32;
+}
+
+.apply-button-container {
+    font-size: 35px;
+    background-image: url('../assets/button-static-1.png');
+    background-size: cover;
+    background-position: center;
+    width: 233px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apply-button {
+    font-family: 'Gilaka';
+    letter-spacing: 3.5px;
+}
+
+.apply-button-container:hover {
+    width: 239px;
+    height: 76px;
+    animation-duration: 0.3s;
+}
+
+.apply-button:hover {
+    font-size: 39px;
+    animation-duration: 0.3s;
+}
+

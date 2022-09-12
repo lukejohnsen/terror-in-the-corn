@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header.css" />
 </head>
 
 <body>
@@ -40,6 +41,10 @@
                 <div class="get-tickets-container">
                     <a id="get-tickets-link">Get Tickets</a>
                 </div>
+            </div>
+
+            <div class="mobile-nav">
+                <img src="../assets/mobile-hamburger.png" class="nav-hamburger">
             </div>
         </div>
 

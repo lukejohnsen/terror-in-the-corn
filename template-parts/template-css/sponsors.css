@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: 'Horrormaster';
+    src: url('../assets/fonts/Horrormaster.ttf');
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../assets/fonts/EBGaramond12-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Gilaka';
+    src: url('../assets/fonts/Gilaka-yqqY.otf');
+}
+
+@font-face {
+    font-family: 'Horrorfind';
+    src: url('../assets/fonts/Horrorfind.ttf');
+}
+
+.sponsors-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../assets/bg-texture.png');
+    width: 100%;
+    height: 110%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsors-hero {
+    background-image: url('../assets/Circus.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 589px;
+    width: 1160px;
+}
+
+.blur-container {
+    background-image: url('../assets/carousel-border.png');
+    background-size: cover;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sponsors-hero-heading {
+    color: #b90803;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Horrormaster';
+    letter-spacing: 8.4px;
+    margin-bottom: 0px;
+}
+
+.sponsors-hero-text {
+    color: #ffffff;
+    font-size: 35px;
+    margin: 24px 196px;
+    font-family: 'EB Garamond';
+    line-height: 1.45;
+    text-align: center;
+}
+
+.sponsor-logos-container {
+    display: flex;
+    flex-direction: column;
+    width: 1177px;
+    z-index: 1;
+    align-items: center;
+}
+
+.sponsors-secondary-heading {
+    font-size: 60px;
+    color: #b90803;
+    font-family: 'Horrorfind';
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 7.8px;
+    margin-top: 114px;
+}
+
+.top-level-sponsors {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1177px;
+}
+
+.premier-row {
+    width: 33%;
+}
+
+.level-1-sponsors {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.top-row {
+    width: 25%;
+}
+
+#concord-logo {
+    width: 33.3333%;
+    height: 114px
+    
+}
+
+#rusing-lopez-lizardi-logo {
+    width: 33.3333%;
+    height: 114px
+}
+
+#buckelew-farm-logo {
+    width: 200px;
+    height: 200px;
+}
+
+.red-line {
+    width: 326px;
+}
+
+.level-2-sponsors {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.bottom-row-two {
+    width: 25%;
+    margin-top: 20px;
+}
+
+.sponsor-signup-text {
+    font-family: 'EB Garamond';
+    font-size: 25px;
+    color:#ffffff;
+    text-align: center;
+    width: 1020px;
+    
+}
+
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1020px;
+    justify-content: space-between;
+}
+
+.input-1 {
+    width: 1020px;
+    height: 64px;
+    font-family: 'EB Garamond';
+    font-size: 32px;
+    margin-bottom: 21px;
+}
+
+.input-2 {
+    width: 671px;
+    height: 64px;
+    font-family: 'EB Garamond';
+    font-size: 32px;
+    margin-bottom: 21px;
+}
+
+.input-3 {
+    width: 321px;
+    height: 64px;
+    font-family: 'EB Garamond';
+    font-size: 32px;
+}
+
+.submit-button-container {
+    font-size: 35px;
+    background-image: url('../assets/button-static-1.png');
+    background-size: cover;
+    background-position: center;
+    width: 233px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-button {
+    font-family: 'Gilaka';
+    letter-spacing: 3.5px;
+}
+
+.submit-button-container:hover {
+    width: 239px;
+    height: 76px;
+    animation-duration: 0.3s;
+}
+
+.submit-button:hover {
+    font-size: 39px;
+    animation-duration: 0.3s;
+}

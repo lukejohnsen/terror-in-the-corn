@@ -5,33 +5,33 @@ body {
 
 @font-face {
     font-family: 'Horrormaster';
-    src: url('../assets/fonts/Horrormaster.ttf');
+    src: url('../template-assets/fonts/Horrormaster.ttf');
 }
 
 @font-face {
     font-family: 'Horrorfind';
-    src: url('../assets/fonts/Horrorfind.ttf');
+    src: url('../template-assets/fonts/Horrorfind.ttf');
 }
 
 @font-face {
     font-family: 'Gilaka';
-    src: url('../assets/fonts/Gilaka-yqqY.otf');
+    src: url('../template-assets/fonts/Gilaka-yqqY.otf');
 }
 
 @font-face {
     font-family: 'EB Garamond';
-    src: url('../assets/fonts/EBGaramond12-Regular.otf');
+    src: url('../template-assets/fonts/EBGaramond12-Regular.otf');
 }
 
 @font-face {
     font-family: 'EB Garamond, Bold';
-    src: url('../assets/fonts/EBGaramond08-Regular.otf');
+    src: url('../template-assets/fonts/EBGaramond08-Regular.otf');
 }
 
 
 
 .homepage {
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../assets/bg-texture.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../template-assets/bg-texture.png');
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -43,13 +43,13 @@ body {
 }
 
 .hero-container {
-    background-image: url('../assets/Circus.png');
+    background-image: url('../template-assets/Circus.png');
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     height: 589px;
     width: 1160px;
 }
@@ -58,7 +58,6 @@ body {
     color: #b90803;
     font-size: 70px;
     margin-left: 97px;
-    margin-top: 163px;
     margin-bottom: 0;
     text-transform: uppercase;
     font-family: 'Horrormaster';
@@ -79,7 +78,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 1160px;
+    width: 80%;
 }
 
 .blood-dot-container {
@@ -110,31 +109,35 @@ body {
 }
 
 .get-tickets-button {
-    background-image: url('../assets/button-static-2.png');
+    background-image: url('../template-assets/button-static-2.png');
     background-position: center;
     background-size: cover;
     display: flex;
     justify-content: center;
-    font-size: 35px;
-    width: 350px;
-    height: 120px;
+    height: 22vh;
+    width: 18vw;
 }
 
 .get-tickets-text {
     display: flex;
     align-items: center;
     margin-top: 25px;
+    font-size: 35px;
     letter-spacing: 3.5px;
     font-family: 'Gilaka';
 }
 
 .calendar-location-container {
+    display: flex;
+    flex-direction: column;
     position: relative;
+    width: 80%;
+    z-index: 1;
 }
 
 .bg-farm {
     position: absolute;
-    z-index: 0;
+    z-index: -1;
     width: 700px;
     margin-left: -450px;
     opacity: .5;
@@ -144,6 +147,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .calendar-location-heading {
@@ -159,7 +163,9 @@ body {
 .hours-text {
     color: #ffffff;
     font-size: 25px;
-    font-family: 'EB Garamond, Bold' /*Bold*/;
+    font-family: 'EB Garamond, Bold'
+        /*Bold*/
+    ;
     margin: 44px 0 0 0;
     text-align: center;
 }
@@ -173,9 +179,10 @@ body {
 
 .calendar-location-visuals {
     display: flex;
-    width: 1175px;
+    width: 100%;
     margin: 90px auto;
     z-index: 1;
+    justify-content: center;
 }
 
 .bg-scarecrow {
@@ -183,8 +190,8 @@ body {
     z-index: 0;
     width: 565px;
     opacity: .5;
-    margin-left: 1100px;
-    margin-top: -650px;
+    margin-left: 1250px;
+    margin-top: 500px;
 }
 
 .calendar-visual {
@@ -197,11 +204,17 @@ body {
     opacity: .75;
 }
 
+.attractions-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .attractions-cards-container {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 60px;
-    width: 1350px;
 }
 
 .attractions-heading {
@@ -248,31 +261,31 @@ body {
 }
 
 #field-screams-card {
-    background-image: url('../assets/Polaroid-corn.png');
+    background-image: url('../template-assets/Polaroid-corn.png');
 }
 
 #shady-acres-card {
-    background-image: url('../assets/Polaroid-asylum.png');
+    background-image: url('../template-assets/Polaroid-asylum.png');
 }
 
 #circus-horror-card {
-    background-image: url('../assets/Polaroid-circus.png')
+    background-image: url('../template-assets/Polaroid-circus.png')
 }
 
 #axe-throwing-card {
-    background-image: url('../assets/Polaroid-axe.png');
+    background-image: url('../template-assets/Polaroid-axe.png');
 }
 
 #escape-room-card {
-    background-image: url('../assets/Polaroid-escape.png');
+    background-image: url('../template-assets/Polaroid-escape.png');
 }
 
 #zombie-paintball-card {
-    background-image: url('../assets/Polaroid-paintball.png');
+    background-image: url('../template-assets/Polaroid-paintball.png');
 }
 
 .get-tickets-button-alt {
-    background-image: url('../assets/button-static-1.png');
+    background-image: url('../template-assets/button-static-1.png');
     background-position: center;
     background-size: cover;
     font-family: 'Gilaka';
@@ -293,7 +306,7 @@ body {
 }
 
 .sponsors-container {
-    width: 1213px;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -314,7 +327,7 @@ body {
     color: #ffffff;
     font-size: 25px;
     font-family: 'EB Garamond';
-    width: 50vw;
+    width: 80%;
     text-align: center;
     line-height: 1.25;
     z-index: 1;
@@ -331,9 +344,22 @@ body {
 .sponsor-logos-container {
     display: flex;
     flex-direction: column;
-    width: 1177px;
+    width: 100%;
     z-index: 1;
     align-items: center;
+}
+
+.top-level-sponsors {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+}
+
+.premier-row {
+    width: 50%;
+    height: 50%;
 }
 
 .level-1-sponsors {
@@ -349,18 +375,14 @@ body {
 
 #concord-logo {
     width: 33.3333%;
-    height: 114px
-    
 }
 
 #rusing-lopez-lizardi-logo {
     width: 33.3333%;
-    height: 114px
 }
 
 #buckelew-farm-logo {
-    width: 200px;
-    height: 200px;
+    width: 20vw;
 }
 
 .red-line {
@@ -372,10 +394,126 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+}
+
+.top-row-two {
+    width: 20vw;
 }
 
 .bottom-row-two {
-    width: 25%;
+    width: 20vw;
     margin-top: 20px;
 }
 
+@media (min-width: 601px) {
+    .mobile-calendar-location-heading {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero-container {
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 80%;
+        height: 275px;
+        align-items: center;
+    }
+
+    .hero-title {
+        margin-left: 0;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .hero-text {
+        margin: 15px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .blood-dot-container {
+        margin-top: 5px;
+        gap: 0;
+    }
+
+    .blood-dots {
+        width: 8px;
+        height: 8px;
+    }
+    
+    .blood-dots-alt {
+        width: 14px
+    }
+
+    .sub-hero-text {
+        font-size: 16px;
+        margin: 20px 40px;
+        line-height: 1.45;
+    }
+
+    .get-tickets-button {
+        width: 50%
+    }
+
+    .get-tickets-text {
+        font-size: 5vw;
+        margin-top: 13px;
+        text-align: center;
+    }
+
+    .calendar-location-heading {
+        display: none;
+    }
+
+    .mobile-calendar-location-heading {
+        font-size: 45px;
+    color: #b90803;
+    font-family: 'Horrorfind';
+    letter-spacing: 6.75px;
+    }
+
+    .bg-farm {
+        display: none;
+    }
+
+    .bg-scarecrow {
+        display: none;
+    }
+
+    .bg-tools {
+        display: none;
+    }
+
+    .calendar-location-visuals {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .calendar-visual {
+        width: 80%;
+        opacity: .75;
+    }
+    
+    .map-visual {
+        width: 80%;
+        opacity: .75;
+    }
+
+    .attractions-heading {
+        font-size: 45px;
+        color: #b90803;
+        font-family: 'Horrorfind';
+    }
+
+    .sponsors-heading {
+        font-size: 45px;
+        color: #b90803;
+        font-family: 'Horrorfind';
+    }
+
+    .sponsors-text {
+        font-size: 21px;
+    }
+}

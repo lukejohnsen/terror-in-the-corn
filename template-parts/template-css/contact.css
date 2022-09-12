@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: 'Horrormaster';
+    src: url('../assets/fonts/Horrormaster.ttf');
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../assets/fonts/EBGaramond12-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Gilaka';
+    src: url('../assets/fonts/Gilaka-yqqY.otf');
+}
+
+@font-face {
+    font-family: 'Horrorfind';
+    src: url('../assets/fonts/Horrorfind.ttf');
+}
+
+.contact-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../assets/bg-texture.png');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-container {
+    display: flex;
+    width: 1162px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us-heading {
+    font-family: 'Horrormaster';
+    font-size: 70px;
+    letter-spacing: 8.4px;
+    color: #b90803;
+}
+
+.contact-us-text {
+    font-family: 'EB Garamond';
+    font-size: 25px;
+    line-height: 1.32;
+    color: #ffffff;
+}
+
+.contact-form-container {
+    display: flex;
+    width: 1162px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    background: grey 0% 0% no-repeat padding-box;;
+    width: 474px;
+    height: 323px;
+    backdrop-filter: blur(30px);
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 572px;
+    justify-content: space-between;
+}
+
+.contact-form-heading {
+    font-family: 'Horrorfind';
+    font-size: 65px;
+    letter-spacing: 7.5px;
+    color: #b90803;
+    margin-top: 0px;
+}
+
+.input-1 {
+    width: 572px;
+    height: 64px;
+    font-family: 'EB Garamond';
+    font-size: 32px;
+    margin-bottom: 21px;
+}
+
+.input-2 {
+    width: 360px;
+    height: 64px;
+    font-family: 'EB Garamond';
+    font-size: 32px;
+    margin-bottom: 21px;
+}
+
+.input-3 {
+    width: 180px;
+    height: 64px;
+    font-family: 'EB Garamond';
+    font-size: 32px;
+}
+
+.input-4 {
+    width: 572px;
+    height: 252px;
+    font-family: 'EB Garamond';
+    font-size: 32px;
+}
+
+.submit-button-container {
+    font-size: 35px;
+    background-image: url('../assets/button-static-1.png');
+    background-size: cover;
+    background-position: center;
+    width: 233px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-button {
+    font-family: 'Gilaka';
+    letter-spacing: 3.5px;
+}
+
+.submit-button-container:hover {
+    width: 239px;
+    height: 76px;
+    animation-duration: 0.3s;
+}
+
+.submit-button:hover {
+    font-size: 39px;
+    animation-duration: 0.3s;
+}
+
+

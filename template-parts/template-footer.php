@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/footer.css" />
 </head>
 
 <body>
@@ -49,6 +50,14 @@
                 <p id="contact-info"> I-10 & Tangerine Exit 240 • 9312 W Rillito Village Trail Tucson, AZ 85653 • <a
                         href="/" id="email-address">info@buckelewfarm.com</a></p>
             </div>
+
+            <div class="mobile-social-media-nav">
+                <img class="social-media-links" src="../assets/social-carousel.png">
+                <img class="social-media-links" src="../assets/social-carousel.png">
+                <img class="social-media-links" src="../assets/social-carousel.png">
+                <img class="social-media-links" src="../assets/social-carousel.png">
+                <img class="social-media-links" src="../assets/social-carousel.png">
+            </div>
         </div>
 
         <div class='gjj-footer'>
@@ -56,3 +65,5 @@
         </div>
     </div>
 </body>
+
+</html>

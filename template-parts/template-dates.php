@@ -26,7 +26,7 @@
         <div class="info-container">
             <div class="calendar-container">
                 <h2 class="heading">Calendar</h2>
-                <img src="../assets/calendar.png" class="calendar-visual">
+                <img src="/wp-content/uploads/2022/09/calendar.png" class="calendar-visual">
             </div>
 
             <div class="time-container">

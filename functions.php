@@ -71,23 +71,6 @@ if ( ! function_exists( 'twenty_twenty_one_setup' ) ) {
 		add_theme_support( 'post-thumbnails' );
 		set_post_thumbnail_size( 1568, 9999 );
 
-		/* Creating Custom Post Types -- Luke Johnsen */
-		function create_posttype() {
-			register_post_type( 'attractions',
-		array(
-			'labels' => array(
-				'name' => __( 'Attractions' ),
-				'singular_name' => __( 'Attraction' )
-			),
-			'public' => true,
-			'has_archive' => true,
-			'rewrite' => array('slug' => 'attractions'),
-			'show_in_rest' => true,
-		) 
-	);
-		}
-		add_action( 'init', 'create_posttype' );
-
 
 		/* Registering Custom Menus -- Luke Johnsen */
 		function my_custom_menu() {
@@ -684,3 +667,43 @@ if ( ! function_exists( 'wp_get_list_item_separator' ) ) :
 	}
 endif;
 
+/* Creating Custom Post Types -- Luke Johnsen */
+function create_posttype() {
+	register_post_type( 'attractions',
+array(
+	'labels' => array(
+		'name' => __( 'Attractions' ),
+		'singular_name' => __( 'Attraction' )
+	),
+	'public' => true,
+	'has_archive' => true,
+	'rewrite' => array('slug' => 'attractions'),
+	'show_in_rest' => true,
+) 
+);
+}
+add_action( 'init', 'create_posttype' );
+
+function load_scripts() {
+    wp_register_style( 'homepage', get_stylesheet_directory_uri().'/template-parts/template-css/homepage.css');
+	wp_register_style( 'dates', get_stylesheet_directory_uri().'/template-parts/template-css/dates.css');
+	wp_register_style( 'ticket-info', get_stylesheet_directory_uri().'/template-parts/template-css/ticket-info.css');
+	wp_register_style( 'header', get_stylesheet_directory_uri().'/template-parts/template-css/header.css');
+
+if ( is_page_template( 'template-parts/template-homepage.php' ) ) {
+    wp_enqueue_style( 'homepage' );
+}
+
+if ( is_page_template( 'template-parts/template-dates.php' ) ) {
+    wp_enqueue_style( 'dates' );
+}
+
+if ( is_page_template( 'template-parts/template-ticket-info.php' ) ) {
+    wp_enqueue_style( 'ticket-info' );
+}
+
+if ( is_page_template( 'template-parts/header/site-header.php' ) ) {
+    wp_enqueue_style( 'header' );
+}
+}
+add_action('wp_enqueue_scripts', 'load_scripts');

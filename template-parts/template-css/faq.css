@@ -40,9 +40,9 @@ body {
     background-position: center;
     background-size: cover;
     display: flex;
-    height: 589px;
-    width: 1160px;
-    margin-bottom: 50px;
+    width: 80%;
+    max-width: 1160px;
+    height: 75vh;
 }
 
 .blur-container {
@@ -78,15 +78,36 @@ body {
     background-size: cover;
     display: flex;
     justify-content: center;
-    font-size: 35px;
-    width: 350px;
-    height: 120px;
+    height: 22vh;
+    width: 18vw;
 }
 
 .get-tickets-text {
     display: flex;
     align-items: center;
     margin-top: 25px;
+    font-size: 35px;
     letter-spacing: 3.5px;
-    font-family: 'Gilaka'
+    font-family: 'Gilaka';
+}
+
+@media (max-width: 600px) {
+    .faq-hero {
+        width: 100%;
+    }
+
+    .faq-heading {
+        font-size: 50px;
+        font-family: 'Horrormaster';
+    }
+
+    .faq-text {
+        font-size: 22px;
+        margin: 0;
+        width: 80%
+    }
+
+    .get-tickets-button {
+        width: 50vw;
+    }
 }

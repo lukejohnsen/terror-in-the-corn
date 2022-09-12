@@ -1,6 +1,6 @@
 <?php /* 
 * Template Name: Attractions Individual
-* Template Post Type: attractions
+Template Post Type: attractions
  */ ?>
 <?php  get_header(); ?>
 

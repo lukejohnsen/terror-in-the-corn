@@ -23,26 +23,34 @@
             <a class='get-tickets-text'>Get Tickets</a>
         </div>
 
-
+        <div class="mobile-attraction-title">
+            <p class="mobile-attraction-heading">Field of Screams</p>
+        </div>
         <div class="field-of-screams-container">
             <div class="border-container">
-            <div class="inner-hero">
-                <h2 class="attraction-heading">Field of Screams</h2>
-                <p class="attraction-text">See what dangers and devilish scares await you in the darkness of a
-                    haunted
-                    cornfield. Avoid the insane locals who lurk in the long grass. Escape the monsters of lore just
-                    waiting to snatch their next victim. Keep away from the creatures that call the corn home. Enter
-                    if
-                    you dare, but remember…if you get lost in the Field of Screams, you may never make it out again!
-                </p>
+                <div class="inner-hero">
+                    <h2 class="attraction-heading">Field of Screams</h2>
+                    <p class="attraction-text">See what dangers and devilish scares await you in the darkness of a
+                        haunted
+                        cornfield. Avoid the insane locals who lurk in the long grass. Escape the monsters of lore just
+                        waiting to snatch their next victim. Keep away from the creatures that call the corn home. Enter
+                        if
+                        you dare, but remember…if you get lost in the Field of Screams, you may never make it out again!
+                    </p>
 
-                <div class="get-tickets-button-alt">
-                    <a class='get-tickets-text-alt'>Get Tickets</a>
+                    <div class="get-tickets-button-alt">
+                        <a class='get-tickets-text-alt'>Get Tickets</a>
+                    </div>
                 </div>
             </div>
-        </div>
+            <div class="mobile-arrow-container">
+                <img src='../assets/arrow.png' class="mobile-arrow">
+            </div>
         </div>
 
+        <div class="mobile-attraction-title">
+            <p class="mobile-attraction-heading">Shady Acres Asylum</p>
+        </div>
         <div class="shady-acres-asylum-container">
             <div class="border-container-alt">
                 <div class="inner-hero">
@@ -60,8 +68,14 @@
                     </div>
                 </div>
             </div>
+            <div class="mobile-arrow-container">
+                <img src='../assets/arrow.png' class="mobile-arrow">
+            </div>
         </div>
 
+        <div class="mobile-attraction-title">
+            <p class="mobile-attraction-heading">Circus of Horrors</p>
+        </div>
         <div class="circus-of-horrors-container">
             <div class="border-container">
                 <div class="inner-hero">
@@ -77,10 +91,19 @@
                     <div class="get-tickets-button-alt">
                         <a class='get-tickets-text-alt'>Get Tickets</a>
                     </div>
+
                 </div>
             </div>
+
+            <div class="mobile-arrow-container">
+                <img src='../assets/arrow.png' class="mobile-arrow">
+            </div>
+
         </div>
 
+        <div class="mobile-attraction-title">
+            <p class="mobile-attraction-heading">Axe Throwing</p>
+        </div>
         <div class="axe-throwing-container">
             <div class="border-container-alt">
                 <div class="inner-hero">
@@ -98,8 +121,14 @@
                     </div>
                 </div>
             </div>
+            <div class="mobile-arrow-container">
+                <img src='../assets/arrow.png' class="mobile-arrow">
+            </div>
         </div>
 
+        <div class="mobile-attraction-title">
+            <p class="mobile-attraction-heading">Escape Room</p>
+        </div>
         <div class="escape-room-container">
             <div class="border-container">
                 <div class="inner-hero">
@@ -118,8 +147,15 @@
                     </div>
                 </div>
             </div>
+
+            <div class="mobile-arrow-container">
+                <img src='../assets/arrow.png' class="mobile-arrow">
+            </div>
         </div>
 
+        <div class="mobile-attraction-title">
+            <p class="mobile-attraction-heading">Zombie Paintball Shootout</p>
+        </div>
         <div class="zombie-paintball-container">
             <div class="border-container-alt">
                 <div class="inner-hero" id="zb-hero">
@@ -138,22 +174,35 @@
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="midway-container">
-            <div class="border-container">
-            <div class="inner-hero">
-                <h2 class="attraction-heading">Midway Area</h2>
-                <p class="attraction-text">In addition to the three haunted attractions included in your ticket price,
-                    plus the Zombie Paintball, Escape Room, and Ax Throwing (for additional fees), there’s much more to
-                    see and do at Terror in the Corn.</p>
-
-                <div class="get-tickets-button-alt">
-                    <a class='get-tickets-text-alt'>Learn More</a>
-                </div>
+            <div class="mobile-arrow-container">
+                <img src='../assets/arrow.png' class="mobile-arrow">
             </div>
         </div>
-    </div>
+
+        <div class="mobile-attraction-title">
+            <p class="mobile-attraction-heading">Midway Area</p>
+        </div>
+        <div class="midway-container">
+            <div class="border-container">
+                <div class="inner-hero">
+                    <h2 class="attraction-heading">Midway Area</h2>
+                    <p class="attraction-text">In addition to the three haunted attractions included in your ticket
+                        price,
+                        plus the Zombie Paintball, Escape Room, and Ax Throwing (for additional fees), there’s much more
+                        to
+                        see and do at Terror in the Corn.</p>
+
+
+                    <div class="get-tickets-button-alt">
+                        <a class='get-tickets-text-alt'>Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-arrow-container">
+                <img src='../assets/arrow.png' class="mobile-arrow">
+            </div>
+        </div>
 
     </div>
 

@@ -5,21 +5,26 @@ body {
 
 @font-face {
     font-family: 'Horrormaster';
-    src: url('../assets/fonts/Horrormaster.ttf');
+    src: url('../template-assets/fonts/Horrormaster.ttf');
 }
 
 @font-face {
     font-family: 'EB Garamond';
-    src: url('../assets/fonts/EBGaramond12-Regular.otf');
+    src: url('../template-assets/fonts/EBGaramond12-Regular.otf');
 }
 
 @font-face {
     font-family: 'Gilaka';
-    src: url('../assets/fonts/Gilaka-yqqY.otf');
+    src: url('../template-assets/fonts/Gilaka-yqqY.otf');
+}
+
+@font-face {
+    font-family: 'Horrorfind';
+    src: url('../template-assets/fonts/Horrorfind.ttf');
 }
 
 .dates-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../assets/bg-texture.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../template-assets/bg-texture.png');
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -31,16 +36,17 @@ body {
 }
 
 .dates-hero {
-    background-image: url('../assets/Circus.png');
+    background-image: url('../template-assets/Circus.png');
     background-position: center;
     background-size: cover;
     display: flex;
-    height: 589px;
-    width: 1160px;
+    width: 80%;
+    max-width: 1160px;
+    height: 75vh;
 }
 
 .blur-container {
-    background-image: url('../assets/carousel-border.png');
+    background-image: url('../template-assets/carousel-border.png');
     background-size: cover;
     backdrop-filter: blur(20px);
     display: flex;
@@ -61,7 +67,7 @@ body {
 .dates-text {
     color: #ffffff;
     font-size: 35px;
-    margin: 24px 196px;
+    width: 80%;
     font-family: 'EB Garamond';
     line-height: 1.45;
     text-align: center;
@@ -69,8 +75,8 @@ body {
 
 .info-container {
     display: flex;
-    width: 1160px;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .heading {
@@ -90,21 +96,27 @@ body {
     line-height: 1.32
 }
 
+.time-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .get-tickets-button {
-    background-image: url('../assets/button-static-2.png');
+    background-image: url('../template-assets/button-static-2.png');
     background-position: center;
     background-size: cover;
     display: flex;
     justify-content: center;
-    font-size: 35px;
-    width: 350px;
-    height: 120px;
+    height: 22vh;
+    width: 18vw;
 }
 
 .get-tickets-text {
     display: flex;
     align-items: center;
     margin-top: 25px;
+    font-size: 35px;
     letter-spacing: 3.5px;
     font-family: 'Gilaka';
 }
@@ -114,10 +126,77 @@ body {
     opacity: .75;
 }
 
+.promotions-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .promotions-text {
     font-size: 25px;
     font-family: 'EB Garamond';
     color: #ffffff;
-    width: 1156px;
-    line-height: 1.32
+    width: 60%;
+    line-height: 1.32;
+    text-align: center
+}
+
+@media (max-width: 600px) {
+    .dates-hero {
+        width: 100%;
+    }
+
+    .dates-heading {
+        font-size: 50px;
+        font-family: 'Horrormaster';
+    }
+
+    .dates-text {
+        font-size: 22px;
+        margin: 0;
+        width: 80%
+    }
+
+    .info-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-text {
+        font-size: 20px;
+    }
+
+    .heading {
+        font-size: 50px;
+        font-family: 'Horrorfind';
+    }
+
+    .calendar-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .time-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dates-text {
+        font-size: 22px;
+    }
+
+    .calendar-visual {
+        width: 80%;
+    }
+
+    .get-tickets-button {
+        width: 50vw;
+    }
+
+    .promotions-text {
+        font-size: 20px;
+    }
 }
