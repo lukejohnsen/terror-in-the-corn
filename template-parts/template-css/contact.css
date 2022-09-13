@@ -5,26 +5,26 @@ body {
 
 @font-face {
     font-family: 'Horrormaster';
-    src: url('../assets/fonts/Horrormaster.ttf');
+    src: url('../template-assets/fonts/Horrormaster.ttf');
 }
 
 @font-face {
     font-family: 'EB Garamond';
-    src: url('../assets/fonts/EBGaramond12-Regular.otf');
+    src: url('../template-assets/fonts/EBGaramond12-Regular.otf');
 }
 
 @font-face {
     font-family: 'Gilaka';
-    src: url('../assets/fonts/Gilaka-yqqY.otf');
+    src: url('../template-assets/fonts/Gilaka-yqqY.otf');
 }
 
 @font-face {
     font-family: 'Horrorfind';
-    src: url('../assets/fonts/Horrorfind.ttf');
+    src: url('../template-assets/fonts/Horrorfind.ttf');
 }
 
 .contact-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../assets/bg-texture.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../template-assets/bg-texture.png');
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -117,7 +117,7 @@ body {
 
 .submit-button-container {
     font-size: 35px;
-    background-image: url('../assets/button-static-1.png');
+    background-image: url('../template-assets/button-static-1.png');
     background-size: cover;
     background-position: center;
     width: 233px;

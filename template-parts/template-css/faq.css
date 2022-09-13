@@ -5,26 +5,26 @@ body {
 
 @font-face {
     font-family: 'Horrormaster';
-    src: url('../assets/fonts/Horrormaster.ttf');
+    src: url('../template-assets/fonts/Horrormaster.ttf');
 }
 
 @font-face {
     font-family: 'EB Garamond';
-    src: url('../assets/fonts/EBGaramond12-Regular.otf');
+    src: url('../template-assets/fonts/EBGaramond12-Regular.otf');
 }
 
 @font-face {
     font-family: 'Gilaka';
-    src: url('../assets/fonts/Gilaka-yqqY.otf');
+    src: url('../template-assets/fonts/Gilaka-yqqY.otf');
 }
 
 @font-face {
     font-family: 'Horrorfind';
-    src: url('../assets/fonts/Horrorfind.ttf');
+    src: url('../template-assets/fonts/Horrorfind.ttf');
 }
 
 .faq-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../assets/bg-texture.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../template-assets/bg-texture.png');
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -36,7 +36,7 @@ body {
 }
 
 .faq-hero {
-    background-image: url('../assets/Circus.png');
+    background-image: url('../template-assets/Circus.png');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -46,7 +46,7 @@ body {
 }
 
 .blur-container {
-    background-image: url('../assets/carousel-border.png');
+    background-image: url('../template-assets/carousel-border.png');
     background-size: cover;
     backdrop-filter: blur(20px);
     display: flex;
@@ -73,7 +73,7 @@ body {
 }
 
 .get-tickets-button {
-    background-image: url('../assets/button-static-2.png');
+    background-image: url('../template-assets/button-static-2.png');
     background-position: center;
     background-size: cover;
     display: flex;

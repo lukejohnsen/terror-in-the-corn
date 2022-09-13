@@ -1,5 +1,5 @@
 <?php /* Template Name: Attractions Main */ ?>
-<?php get_template_part( 'template-parts/template-header' ); ?>
+<?php get_header(); ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="mobile-arrow-container">
-                <img src='../assets/arrow.png' class="mobile-arrow">
+                <img src='/wp-content/uploads/2022/09/arrow.png' class="mobile-arrow">
             </div>
         </div>
 
@@ -69,7 +69,7 @@
                 </div>
             </div>
             <div class="mobile-arrow-container">
-                <img src='../assets/arrow.png' class="mobile-arrow">
+                <img src='/wp-content/uploads/2022/09/arrow.png' class="mobile-arrow">
             </div>
         </div>
 
@@ -96,7 +96,7 @@
             </div>
 
             <div class="mobile-arrow-container">
-                <img src='../assets/arrow.png' class="mobile-arrow">
+                <img src='/wp-content/uploads/2022/09/arrow.png' class="mobile-arrow">
             </div>
 
         </div>
@@ -122,7 +122,7 @@
                 </div>
             </div>
             <div class="mobile-arrow-container">
-                <img src='../assets/arrow.png' class="mobile-arrow">
+                <img src='/wp-content/uploads/2022/09/arrow.png' class="mobile-arrow">
             </div>
         </div>
 
@@ -149,7 +149,7 @@
             </div>
 
             <div class="mobile-arrow-container">
-                <img src='../assets/arrow.png' class="mobile-arrow">
+                <img src='/wp-content/uploads/2022/09/arrow.png' class="mobile-arrow">
             </div>
         </div>
 
@@ -176,7 +176,7 @@
             </div>
 
             <div class="mobile-arrow-container">
-                <img src='../assets/arrow.png' class="mobile-arrow">
+                <img src='/wp-content/uploads/2022/09/arrow.png' class="mobile-arrow">
             </div>
         </div>
 
@@ -200,7 +200,7 @@
                 </div>
             </div>
             <div class="mobile-arrow-container">
-                <img src='../assets/arrow.png' class="mobile-arrow">
+                <img src='/wp-content/uploads/2022/09/arrow.png' class="mobile-arrow">
             </div>
         </div>
 
@@ -209,5 +209,3 @@
 </body>
 
 </html>
-
-<?php get_template_part( 'template-parts/template-footer' ); ?>

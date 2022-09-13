@@ -1,6 +1,5 @@
-<?php /* Template Name: About */ 
-get_header();
-?>
+<?php /* Template Name: About */ ?>
+<?php  get_header() ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,7 +8,7 @@ get_header();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/about.css" />
+    <link rel="stylesheet" href='../css/about.css'>
 </head>
 
 <body>
@@ -50,7 +49,3 @@ get_header();
 </body>
 
 </html>
-
-<?php 
-get_footer();
-?>

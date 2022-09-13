@@ -667,6 +667,75 @@ if ( ! function_exists( 'wp_get_list_item_separator' ) ) :
 	}
 endif;
 
+function load_scripts() {
+    wp_register_style( 'homepage', get_stylesheet_directory_uri().'/template-parts/template-css/homepage.css');
+	wp_register_style( 'dates', get_stylesheet_directory_uri().'/template-parts/template-css/dates.css');
+	wp_register_style( 'ticket-info', get_stylesheet_directory_uri().'/template-parts/template-css/ticket-info.css');
+	wp_register_style( 'attractions', get_stylesheet_directory_uri().'/template-parts/template-css/attractions.css');
+	wp_register_style( 'about-page', get_stylesheet_directory_uri().'/template-parts/template-css/about.css');
+	wp_register_style( 'location', get_stylesheet_directory_uri().'/template-parts/template-css/location.css');
+	wp_register_style( 'warnings', get_stylesheet_directory_uri().'/template-parts/template-css/warnings.css');
+	wp_register_style( 'faq', get_stylesheet_directory_uri().'/template-parts/template-css/faq.css');
+	wp_register_style( 'events', get_stylesheet_directory_uri().'/template-parts/template-css/events.css');
+	wp_register_style( 'sponsors', get_stylesheet_directory_uri().'/template-parts/template-css/sponsors.css');
+	wp_register_style( 'gallery', get_stylesheet_directory_uri().'/template-parts/template-css/gallery.css');
+	wp_register_style( 'contact', get_stylesheet_directory_uri().'/template-parts/template-css/contact.css');
+	wp_register_style( 'jobs', get_stylesheet_directory_uri().'/template-parts/template-css/jobs.css');
+
+if ( is_page_template( 'template-parts/template-homepage.php' ) ) {
+    wp_enqueue_style( 'homepage' );
+}
+
+if ( is_page_template( 'template-parts/template-dates.php' ) ) {
+    wp_enqueue_style( 'dates' );
+}
+
+if ( is_page_template( 'template-parts/template-ticket-info.php' ) ) {
+    wp_enqueue_style( 'ticket-info' );
+}
+
+if ( is_page_template( 'template-parts/template-attractions.php' ) ) {
+    wp_enqueue_style( 'attractions' );
+}
+
+if ( is_page_template( 'template-parts/template-about-page.php' ) ) {
+    wp_enqueue_style( 'about-page' );
+}
+
+if ( is_page_template( 'template-parts/template-location.php' ) ) {
+    wp_enqueue_style( 'location' );
+}
+
+if ( is_page_template( 'template-parts/template-warnings.php' ) ) {
+    wp_enqueue_style( 'warnings' );
+}
+
+if ( is_page_template( 'template-parts/template-faq.php' ) ) {
+    wp_enqueue_style( 'faq' );
+}
+
+if ( is_page_template( 'template-parts/template-events.php' ) ) {
+    wp_enqueue_style( 'events' );
+}
+
+if ( is_page_template( 'template-parts/template-sponsors.php' ) ) {
+    wp_enqueue_style( 'sponsors' );
+}
+
+if ( is_page_template( 'template-parts/template-gallery.php' ) ) {
+    wp_enqueue_style( 'gallery' );
+}
+
+if ( is_page_template( 'template-parts/template-contact.php' ) ) {
+    wp_enqueue_style( 'contact' );
+}
+
+if ( is_page_template( 'template-parts/template-jobs.php' ) ) {
+    wp_enqueue_style( 'jobs' );
+}
+}
+add_action('wp_enqueue_scripts', 'load_scripts');
+
 /* Creating Custom Post Types -- Luke Johnsen */
 function create_posttype() {
 	register_post_type( 'attractions',
@@ -683,27 +752,3 @@ array(
 );
 }
 add_action( 'init', 'create_posttype' );
-
-function load_scripts() {
-    wp_register_style( 'homepage', get_stylesheet_directory_uri().'/template-parts/template-css/homepage.css');
-	wp_register_style( 'dates', get_stylesheet_directory_uri().'/template-parts/template-css/dates.css');
-	wp_register_style( 'ticket-info', get_stylesheet_directory_uri().'/template-parts/template-css/ticket-info.css');
-	wp_register_style( 'header', get_stylesheet_directory_uri().'/template-parts/template-css/header.css');
-
-if ( is_page_template( 'template-parts/template-homepage.php' ) ) {
-    wp_enqueue_style( 'homepage' );
-}
-
-if ( is_page_template( 'template-parts/template-dates.php' ) ) {
-    wp_enqueue_style( 'dates' );
-}
-
-if ( is_page_template( 'template-parts/template-ticket-info.php' ) ) {
-    wp_enqueue_style( 'ticket-info' );
-}
-
-if ( is_page_template( 'template-parts/header/site-header.php' ) ) {
-    wp_enqueue_style( 'header' );
-}
-}
-add_action('wp_enqueue_scripts', 'load_scripts');
