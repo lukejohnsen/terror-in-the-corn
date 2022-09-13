@@ -1,6 +1,12 @@
 body {
     margin: 0;
     border: 0;
+    background-image: url('../template-assets/corn-stalks.png'), url('../template-assets/bg-texture.png');
+    background-position: top center, bottom center;
+    background-size: contain;
+    background-repeat: no-repeat, repeat;
+    background-color: rgba(0, 0, 0, .9);
+    width: 100%;
 }
 
 @font-face {
@@ -9,8 +15,8 @@ body {
 }
 
 @font-face {
-    font-family: 'EB Garamond';
-    src: url('../template-assets/fonts/EBGaramond12-Regular.otf');
+    font-family: 'Horrorfind';
+    src: url('../template-assets/fonts/Horrorfind.ttf');
 }
 
 @font-face {
@@ -18,12 +24,19 @@ body {
     src: url('../template-assets/fonts/Gilaka-yqqY.otf');
 }
 
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../template-assets/fonts/EBGaramond12-Regular.otf');
+}
+
+@font-face {
+    font-family: 'EB Garamond, Bold';
+    src: url('../template-assets/fonts/EBGaramond08-Regular.otf');
+}
+
 .ticket-info-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../template-assets/bg-texture.png');
     width: 100%;
     background-size: cover;
-    background-position: center;
-    background-repeat: repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,7 +48,7 @@ body {
     background-position: center;
     background-size: cover;
     display: flex;
-    height: 589px;
+    height: 75vh;
     width: 1160px;
 }
 
@@ -219,4 +232,338 @@ body {
     font-size: 25px;
     font-family: 'EB Garamond';
     line-height: 1.32;
+}
+
+/* Header CSS */
+
+.header {
+    max-width: 100%;
+    margin-bottom: 50px;
+    /* background-size: cover;
+        background-position: center; */
+    display: flex;
+    justify-content: center;
+}
+
+.titc-logo-container {
+    display: flex;
+    margin-top: 91.33px;
+}
+
+.titc-logo {
+    max-height: 262.56px;
+    width: auto;
+}
+
+.full-nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 114px;
+    gap: 74px;
+}
+
+.social-media-nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 11px;
+    flex-wrap: wrap;
+}
+
+.social-media-links {
+    max-height: 56px;
+    width: auto;
+}
+
+.main-nav {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+    letter-spacing: 5.85px;
+    flex-wrap: wrap
+}
+
+.menu a {
+    color: #ffffff;
+    font-size: 39px;
+    text-transform: uppercase;
+    font-family: 'Horrormaster';
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #b90803;
+    text-transform: uppercase;
+    font-family: 'Horrorfind'
+}
+
+.get-tickets-container {
+    color: #000000;
+    font-size: 35px;
+    display: flex;
+    background-image: url('../template-assets/button-static-2.png');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    width: 261px;
+    margin-top: -20px
+}
+
+#get-tickets-link {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Gilaka'
+}
+
+/* Footer CSS */
+
+.footer {
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mailing-list-section {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../template-assets/corn-footer.png');
+    min-height: 68vh;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ads-section {
+    display: flex;
+    gap: 28px
+}
+
+.email-signup-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#mailing-list-text {
+    font-size: 48px;
+    color: #b90803;
+    font-family: 'Gilaka';
+    letter-spacing: 7.2px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#mailing-list-instructions {
+    font-size: 21px;
+    color: #ffffff;
+    font-family: 'EB Garamond';
+    margin: 10px 0px;
+}
+
+#email-input {
+    width: 368px;
+    height: 40px;
+    font-size: 21px;
+    font-family: 'EB Garamond'
+}
+
+#mailing-list-disclaimer {
+    font-size: 14px;
+    color: #ffffff;
+    inline-size: 376px;
+}
+
+.subscribe-button-container {
+    font-size: 35px;
+    background-image: url('../template-assets/button-static-1.png');
+    background-size: cover;
+    background-position: center;
+    width: 275px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-button {
+    font-family: 'Gilaka';
+    letter-spacing: 3.5px;
+}
+
+.universal-section {
+    height: 129.5px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buckelew-links-container {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.buckelew-links-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    font-size: 21px;
+    margin: 15px 0px;
+    padding-left: 0px;
+    /* font-family: New Spirit, Bold Condensed */
+}
+
+#contact-info {
+    margin: 10px 0px;
+    font-size: 16px;
+    font-family: 'EB Garamond';
+    display: flex;
+    justify-content: center;
+}
+
+#email-address {
+    color: #fdb41a;
+}
+
+.gjj-footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../template-assets/bg-texture.png');
+    background-size: cover;
+    height: 129.5px;
+    display: flex;
+    justify-content: center;
+}
+
+#gjj-logo {
+    height: 129.5px;
+}
+
+@media (min-width: 601px) {
+    .mobile-nav {
+        display: none;
+    }
+
+    .mobile-social-media-nav {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+        /* Header Mobile CSS */
+
+        .header {
+            flex-direction: column;
+            justify-content: unset;
+        }
+    
+        .titc-logo-container {
+            justify-content: center;
+            margin-top: 81.75px;
+        }
+    
+        .social-media-nav {
+            display: none;
+        }
+    
+        .get-tickets-container {
+            display: none;
+        }
+    
+        .main-nav {
+            display: none;
+        }
+    
+        .titc-logo {
+            width: 190.27px;
+            height: 170.26px;
+        }
+    
+        .full-nav {
+            align-items: center;
+            margin-top: 30px;
+        }
+    
+        .nav-hamburger {
+            width: 75px;
+        }
+    
+        /* Footer Mobile CSS*/
+    
+        .mailing-list-section {
+            flex-direction: column-reverse;
+        }
+    
+        .email-signup-container {
+            align-items: center;
+        }
+    
+        .ads-section {
+            gap: 4px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    
+        .universal-section {
+            height: 308px;
+            max-width: 100%;
+        }
+    
+        .buckelew-links-container {
+            max-width: 100%;
+        }
+    
+        .buckelew-links-list {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    
+        #buckelew-farm {
+            flex-basis: 35%;
+            text-align: center;
+        }
+    
+        #titc {
+            flex-basis: 35%;
+            text-align: center;
+        }
+    
+        #fireworks-stands {
+            flex-basis: 35%;
+            text-align: center;
+        }
+    
+        #christmas-tree-lots {
+            flex-basis: 35%;
+            text-align: center;
+        }
+    
+        #contact-info {
+            flex-wrap: wrap;
+            line-height: 1.21;
+            text-align: center;
+        }
+    
+        .social-media-nav {
+            max-width: 600rem;
+            display: flex;
+        }
+    
+        .social-media-links {
+            width: 56px;
+        }
+    
+        #email-input {
+            width: 75%;
+        }
 }
