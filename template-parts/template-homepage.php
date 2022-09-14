@@ -20,11 +20,11 @@
 
         <div class="full-nav">
             <div class="social-media-nav">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
+                <a class="social-media-links"><img id='twitter-image' src="/wp-content/uploads/2022/09/1.png"></a>
+                <a class="social-media-links"><img id='facebook-image' src="/wp-content/uploads/2022/09/2.png"></a>
+                <a class="social-media-links"><img id='instagram-image' src="/wp-content/uploads/2022/09/3.png"></a>
+                <a class="social-media-links"><img id='youtube-image' src="/wp-content/uploads/2022/09/5.png"></a>
+                <a class="social-media-links"><img id='tiktok-image' src="/wp-content/uploads/2022/09/4.png"></a>
             </div>
 
             <div class="main-nav">
@@ -55,11 +55,12 @@
     </div>
 
     <div class="homepage">
-        <div class="hero-container">
+    <?php echo do_shortcode('[metaslider id="156"]'); ?>
+        <!-- <div class="hero-container">
             <h2 class="hero-title">Circus of Horror</h2>
             <p class="hero-text">Our “big top” is bonkers! Step right up and experience the circus from hell. Our crazy
                 clown-themed attraction is sure to scare even the most seasoned haunted-house aficionados.</p>
-        </div>
+        </div> -->
 
         <div class="sub-hero-container">
             <div class="blood-dot-container">
@@ -72,15 +73,13 @@
             <p class="sub-hero-text">With all new attractions, updated scenes, more scares and a new location closer to
                 town on Tangerine & I-10, Terror In the Corn is gearing up for the greatest, most ghastly Halloween yet!
             </p>
-            <div class="get-tickets-button">
-                <a class='get-tickets-text'>Get Tickets</a>
+            <div class="get-tickets-button" id='fear-ticket'>
+            <img href="https://tucsonterrorinthecorn.fearticket.com" src="https://cdne1.fearticket.com/includes/images/fearticket/buyticket_hor.jpg" alt="Buy Ticket" />
             </div>
         </div>
 
         <div class="video-container">
-            <a id="hompage-video">
-                <!-- insert video asset here -->
-            </a>
+        <video controls src="/wp-content/uploads/2022/09/TITC-Homepage-Video.mp4" type='video/mp4' id="hompage-video">  
         </div>
 
         <div class="calendar-location-container">
@@ -99,7 +98,7 @@
             </div>
 
             <div class="calendar-location-visuals">
-                <img src="/wp-content/uploads/2022/09/calendar.png" class="calendar-visual">
+                <img src="/wp-content/uploads/2022/09/TITC-Calendar-2022-wDiscounts.png" class="calendar-visual">
                 <h2 class="mobile-calendar-location-heading">Location</h2>
                 <img src="/wp-content/uploads/2022/09/map.png" class="map-visual">
             </div>
@@ -114,44 +113,44 @@
             <h2 class="attractions-heading">Attractions</h2>
             <div class="attractions-cards-container">
                 <div class="attractions-card" id="field-screams-card">
-                    <h3 class="attractions-title">Field of Screams</h3>
+                    <h3 class="attractions-title">The Pirate's Plague</h3>
                     <div class="get-tickets-button-alt">
-                        <a class='get-tickets-text-alt'>Get Tickets</a>
+                        <a class='get-tickets-text-alt'>Learn More</a>
                     </div>
                 </div>
 
                 <div class="attractions-card-alt" id="shady-acres-card">
                     <h3 class="attractions-title">Shady Acres Asylum</h3>
                     <div class="get-tickets-button-alt">
-                        <a class='get-tickets-text-alt'>Get Tickets</a>
+                        <a class='get-tickets-text-alt'>Learn More</a>
                     </div>
                 </div>
 
                 <div class="attractions-card" id="circus-horror-card">
-                    <h3 class="attractions-title">Circus of Horror</h3>
+                    <h3 class="attractions-title">We're All Mad Here</h3>
                     <div class="get-tickets-button-alt">
-                        <a class='get-tickets-text-alt'>Get Tickets</a>
+                        <a class='get-tickets-text-alt'>Learn More</a>
                     </div>
                 </div>
 
                 <div class="attractions-card-alt" id="axe-throwing-card">
                     <h3 class="attractions-title">Axe Throwing</h3>
                     <div class="get-tickets-button-alt">
-                        <a class='get-tickets-text-alt'>Get Tickets</a>
+                        <a class='get-tickets-text-alt'>Learn More</a>
                     </div>
                 </div>
 
                 <div class="attractions-card" id="escape-room-card">
                     <h3 class="attractions-title">Escape Room</h3>
                     <div class="get-tickets-button-alt">
-                        <a class='get-tickets-text-alt'>Get Tickets</a>
+                        <a class='get-tickets-text-alt'>Learn More</a>
                     </div>
                 </div>
 
                 <div class="attractions-card-alt" id="zombie-paintball-card">
-                    <h3 class="attractions-title" id="zombie-text">Zombie Paintball Shootout</h3>
+                    <h3 class="attractions-title" id="zombie-text">Zombie Gellyball Shootout</h3>
                     <div class="get-tickets-button-alt">
-                        <a class='get-tickets-text-alt'>Get Tickets</a>
+                        <a class='get-tickets-text-alt'>Learn More</a>
                     </div>
                 </div>
             </div>
@@ -161,9 +160,7 @@
             <img src="/wp-content/uploads/2022/09/tools.png" class="bg-tools">
 
             <h2 class="sponsors-heading">Sponsors</h2>
-            <h3 class="sponsors-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                justo duo dolores et ea rebum.</h3>
+            <h3 class="sponsors-text">Terror In the Corn is a locally owned and operated small business and couldn't happen without support from our community and other businesses in town. Thank you!</h3>
 
 
 
@@ -177,7 +174,6 @@
                     <img src="/wp-content/uploads/2022/09/Depaendable-Health-Services-Logo.png" id="dependable-health-services-logo" class="top-row">
                     <img src="/wp-content/uploads/2022/09/Concord-logo.png" id="concord-logo">
                     <img src="/wp-content/uploads/2022/09/Rusing-Lopez-Lizardi-logo.png" id="rusing-lopez-lizardi-logo">
-                    <img src="/wp-content/uploads/2022/09/BuckelewFarm-ChristmasTrees-Logo.png" id="buckelew-farm-logo">
                 </div>
 
                 <img src="/wp-content/uploads/2022/09/line.png" class="red-line">
@@ -200,16 +196,16 @@
         <div class="mailing-list-section">
             <div class="ads-container">
                 <div class="ads-section">
-                    <img src="/wp-content/uploads/2022/09/Rate-Our-Haunt-1.png" class="hh-ads">
-                    <img src="/wp-content/uploads/2022/09/AZ-Haunted-Houses-1.png" class="hh-ads">
-                    <img src="/wp-content/uploads/2022/09/Haunts-1.png" class="hh-ads">
-                    <img src="/wp-content/uploads/2022/09/Haunted-Corn-Mazes-1.png" class="hh-ads">
+                    <a href='https://www.tucsonhauntedhouses.com/' target="_blank"><img src="/wp-content/uploads/2022/09/Rate-Our-Haunt-1.png" class="hh-ads"/></a>
+                    <a href='https://www.azhauntedhouses.com/' target="_blank"> <img src="/wp-content/uploads/2022/09/AZ-Haunted-Houses-1.png" class="hh-ads"/></a>
+                    <a href='https://www.haunts.com/' target="_blank"><img src="/wp-content/uploads/2022/09/Haunts-1.png" class="hh-ads"></a>
+                    <a href='https://www.hauntedcornmazes.com/' target="_blank><img src="/wp-content/uploads/2022/09/Haunted-Corn-Mazes-1.png" class="hh-ads"/></a>
                 </div>
             </div>
             <div class="email-signup-container">
                 <h2 id="mailing-list-text">Mailing List</h2>
-                <h3 id="mailing-list-instructions">Enter your email address to subscribe*</h3>
-                <input type="text" id="email-input">
+                <h3 id="mailing-list-instructions">Subscribe to be a part of all the holiday happenings!</h3>
+                <input type="text" id="email-input" placeholder='Email'>
                 <p id="mailing-list-disclaimer">By submitting this form you agree to receive marketing emails from
                     Terror in the Corn. Don’t worry, you can unsubscribe at any time.</p>
                 <div class="subscribe-button-container">

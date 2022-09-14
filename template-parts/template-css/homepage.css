@@ -125,6 +125,15 @@ body {
     width: 18vw;
 }
 
+#fear-ticket {
+    background-image: none;
+}
+
+.video-container {
+    margin-top: 87px;
+    margin-bottom: 87px;
+}
+
 .get-tickets-text {
     display: flex;
     align-items: center;
@@ -232,6 +241,7 @@ body {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 8.4px;
+    margin-top: 55px;
 }
 
 .attractions-card {
@@ -378,6 +388,8 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .top-row {
@@ -385,11 +397,11 @@ body {
 }
 
 #concord-logo {
-    width: 33.3333%;
+    width: 25%;
 }
 
 #rusing-lopez-lizardi-logo {
-    width: 33.3333%;
+    width: 25%;
 }
 
 #buckelew-farm-logo {
@@ -405,15 +417,17 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 40px;
 }
 
 .top-row-two {
     width: 20vw;
+    margin-top: 40px;
 }
 
 .bottom-row-two {
     width: 20vw;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 /* Header CSS */
@@ -452,8 +466,40 @@ body {
 }
 
 .social-media-links {
-    max-height: 56px;
-    width: auto;
+    background-image: url('../template-assets/social-carousel.png');
+    background-position: center;
+    background-size: 56px 56px;
+    display: flex;
+    background-repeat: no-repeat;
+    height: 56px;
+    width: 56px;
+    justify-content: center;
+    align-items: center;
+}
+
+#twitter-image {
+    height: 37.59px;
+    width: 37.59px;
+}
+
+#facebook-image {
+    height: 37.59px;
+    width: 37.59px;
+}
+
+#instagram-image {
+    height: 37.59px;
+    width: 37.59px;
+}
+
+#youtube-image {
+    height: 37.59px;
+    width: 37.59px;
+}
+
+#tiktok-image {
+    height: 37.59px;
+    width: 37.59px;
 }
 
 .main-nav {
@@ -478,11 +524,41 @@ body {
     text-decoration: none;
 }
 
-.menu a:hover {
+.menu a:hover{
     color: #b90803;
     text-transform: uppercase;
     font-family: 'Horrorfind'
 }
+
+#menu-item-148 ul {
+    display: none;
+}
+
+#menu-item-148 button {
+    display: none;
+}
+
+#menu-item-146 ul {
+    display: none;
+}
+
+#menu-item-146 button {
+    display: none;
+}
+
+#menu-item-147 ul {
+    display: none;
+}
+
+#menu-item-147 button {
+    display: none;
+}
+
+.menu-item-148:hover ul {
+    display: block;
+}
+
+
 
 .get-tickets-container {
     color: #000000;
@@ -694,11 +770,6 @@ body {
         width: 50%
     }
 
-    .get-tickets-text {
-        font-size: 5vw;
-        margin-top: 13px;
-        text-align: center;
-    }
 
     .calendar-location-heading {
         display: none;
