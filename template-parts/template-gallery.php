@@ -53,9 +53,11 @@
     </div>
     
     <div class="gallery-container">
-        <div class="video-hero">
+        <div class="gallery-hero">
+            <div class='blur-container'>
             <h2 class="hero-heading">Gallery</h2>
             <p class="hero-text">Images and videos from previous events and past years of haunting Tucson!</p>
+</div>
         </div>
 
         <div class="sub-hero">
@@ -80,7 +82,7 @@
             </div>
             <div class="email-signup-container">
                 <h2 id="mailing-list-text">Mailing List</h2>
-                <h3 id="mailing-list-instructions">Enter your email address to subscribe*</h3>
+                <h3 id="mailing-list-instructions">Subscribe to be part of all the holiday happenings!</h3>
                 <input type="text" id="email-input">
                 <p id="mailing-list-disclaimer">By submitting this form you agree to receive marketing emails from
                     Terror in the Corn. Don’t worry, you can unsubscribe at any time.</p>

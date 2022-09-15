@@ -75,7 +75,9 @@ A good rule of thumb is: if you wouldn't bring your child to a horror film or a 
 Pregnant women or those suffering from anxiety, heart conditions, sensitivity to light or sound, or suffering from any condition that is not conducive to experiencing a haunted house are urged to avoid Terror In the Corn.
 
             </p>
+            <div class='warnings-image-container'><a href='https://tucsonterrorinthecorn.com/Terror_Warning.pdf' targe='_blank'><img src='/wp-content/uploads/2022/09/Screen-Shot-2022-09-15-at-11.20.45-AM.png'></a></div>
         </div>
+
     </div>
 
     <div class="footer">
@@ -90,7 +92,7 @@ Pregnant women or those suffering from anxiety, heart conditions, sensitivity to
             </div>
             <div class="email-signup-container">
                 <h2 id="mailing-list-text">Mailing List</h2>
-                <h3 id="mailing-list-instructions">Enter your email address to subscribe*</h3>
+                <h3 id="mailing-list-instructions">Subscribe to be part of all the holiday happenings!</h3>
                 <input type="text" id="email-input">
                 <p id="mailing-list-disclaimer">By submitting this form you agree to receive marketing emails from
                     Terror in the Corn. Don’t worry, you can unsubscribe at any time.</p>

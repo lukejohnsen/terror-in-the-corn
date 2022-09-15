@@ -39,7 +39,7 @@ body {
 }
 
 .jobs-hero {
-    background-image: url('../template-assets/Circus.png');
+    background-image: url('../template-assets/Jobs-Page-Hero.jpeg');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -51,7 +51,7 @@ body {
 .blur-container {
     background-image: url('../template-assets/carousel-border.png');
     background-size: cover;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(6px);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -165,12 +165,12 @@ body {
 }
 
 .apply-button-container {
-    font-size: 35px;
+    font-size: 40px;
     background-image: url('../template-assets/button-static-1.png');
     background-size: cover;
     background-position: center;
-    width: 233px;
-    height: 70px;
+    width: 350px;
+    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -178,13 +178,7 @@ body {
 
 .apply-button {
     font-family: 'Gilaka';
-    letter-spacing: 3.5px;
-}
-
-.apply-button-container:hover {
-    width: 239px;
-    height: 76px;
-    animation-duration: 0.3s;
+    letter-spacing: 4.5px;
 }
 
 .apply-button:hover {

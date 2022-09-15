@@ -45,7 +45,7 @@ body {
 }
 
 .warnings-hero {
-    background-image: url('../template-assets/Circus.png');
+    background-image: url('../template-assets/Warning-Page-Hero.png');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -79,6 +79,17 @@ body {
     font-family: 'EB Garamond';
     line-height: 1.45;
     text-align: center;
+}
+
+.warnings-image-container {
+    width: 381px;
+    height: 533px;
+    margin-top: 87px;
+    filter: blur(6px);
+}
+
+.warnings-image-container:hover {
+    filter: blur(0px);
 }
 
 .get-tickets-button {

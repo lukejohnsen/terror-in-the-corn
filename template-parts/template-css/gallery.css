@@ -38,16 +38,25 @@ body {
     overflow-x: hidden;
 }
 
-.video-hero {
-    background-image: url('../template-assets/carousel-border.png');
-    backdrop-filter: blur(30px);
+.gallery-hero {
+    background-image: url('../template-assets/Gallery-Page-Hero.png');
+    background-position: center;
     background-size: cover;
     display: flex;
-    flex-direction: column;
-    width: 1160px;
     height: 75vh;
+    width: 1160px;
+    margin-bottom: 87px;
+}
+
+.blur-container {
+    background-image: url('../template-assets/carousel-border.png');
+    background-size: cover;
+    backdrop-filter: blur(6px);
+    display: flex;
     justify-content: center;
-    margin-bottom: 65px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 .hero-heading {
@@ -66,7 +75,8 @@ body {
     font-family: 'EB Garamond';
     line-height: 1.45;
     margin-left: 44px;
-    width: 496px;
+    width: 700px;
+    text-align: center;
 }
 
 .sub-hero {

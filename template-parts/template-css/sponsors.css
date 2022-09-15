@@ -40,7 +40,7 @@ body {
 }
 
 .sponsors-hero {
-    background-image: url('../template-assets/Circus.png');
+    background-image: url('../template-assets/Sponsors-Page-Hero.png');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -51,7 +51,7 @@ body {
 .blur-container {
     background-image: url('../template-assets/carousel-border.png');
     background-size: cover;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(6px);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -76,22 +76,20 @@ body {
     text-align: center;
 }
 
+.sponsors-secondary-heading {
+    font-size: 60px;
+    font-family: 'Horrorfind';
+    color: #b90803;
+    letter-spacing: 9px;
+    margin-top: 187px;
+}
+
 .sponsor-logos-container {
     display: flex;
     flex-direction: column;
-    width: 1177px;
+    width: 80%;
     z-index: 1;
     align-items: center;
-}
-
-.sponsors-secondary-heading {
-    font-size: 60px;
-    color: #b90803;
-    font-family: 'Horrorfind';
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 7.8px;
-    margin-top: 114px;
 }
 
 .top-level-sponsors {
@@ -99,11 +97,13 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    width: 1177px;
+    width: 80%;
 }
 
 .premier-row {
-    width: 33%;
+    width: 50%;
+    height: 50%;
+    margin-top: 87px;
 }
 
 .level-1-sponsors {
@@ -111,6 +111,8 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .top-row {
@@ -118,19 +120,15 @@ body {
 }
 
 #concord-logo {
-    width: 33.3333%;
-    height: 114px
-    
+    width: 25%;
 }
 
 #rusing-lopez-lizardi-logo {
-    width: 33.3333%;
-    height: 114px
+    width: 25%;
 }
 
 #buckelew-farm-logo {
-    width: 200px;
-    height: 200px;
+    width: 20vw;
 }
 
 .red-line {
@@ -142,11 +140,23 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 40px;
+}
+
+.top-row-two {
+    width: 20vw;
+    margin-top: 40px;
 }
 
 .bottom-row-two {
-    width: 25%;
-    margin-top: 20px;
+    width: 20vw;
+    margin-top: 40px;
+}
+
+.sponsor-signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sponsor-signup-text {
@@ -155,6 +165,7 @@ body {
     color:#ffffff;
     text-align: center;
     width: 1020px;
+    margin-bottom: 47px;
     
 }
 
@@ -186,6 +197,14 @@ body {
     height: 64px;
     font-family: 'EB Garamond';
     font-size: 32px;
+}
+
+.input-4 {
+    width: 1020px;
+    height: 400px;
+    font-family: 'EB Garamond';
+    font-size: 32px;
+    margin-bottom: 21px;
 }
 
 .submit-button-container {

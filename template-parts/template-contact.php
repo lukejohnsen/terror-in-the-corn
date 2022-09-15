@@ -74,7 +74,7 @@
         </div>
 
         <div class="contact-form-container">
-            <div class="box"></div>
+            <div class="contact-image-container"><img src='/wp-content/uploads/2022/09/Contact-Us-Next-to-Form.png' class='contact-image'></div>
             <div class="contact-form">
                 <h2 class="contact-form-heading">Contact Form</h2>
                 <input type="text" class="input-1" placeholder='Name'>
@@ -100,7 +100,7 @@
             </div>
             <div class="email-signup-container">
                 <h2 id="mailing-list-text">Mailing List</h2>
-                <h3 id="mailing-list-instructions">Enter your email address to subscribe*</h3>
+                <h3 id="mailing-list-instructions">Subscribe to be part of all the holiday happenings!</h3>
                 <input type="text" id="email-input">
                 <p id="mailing-list-disclaimer">By submitting this form you agree to receive marketing emails from
                     Terror in the Corn. Don’t worry, you can unsubscribe at any time.</p>

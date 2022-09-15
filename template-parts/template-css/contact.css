@@ -66,11 +66,9 @@ body {
     align-items: center;
 }
 
-.box {
-    background: grey 0% 0% no-repeat padding-box;;
+.contact-image {
     width: 474px;
-    height: 323px;
-    backdrop-filter: blur(30px);
+    height: 410px;
 }
 
 .contact-form {

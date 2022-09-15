@@ -66,7 +66,7 @@
         <div class="info-container">
             <div class="calendar-container">
                 <h2 class="heading">Calendar</h2>
-                <img src="/wp-content/uploads/2022/09/calendar.png" class="calendar-visual">
+                <img src="/wp-content/uploads/2022/09/TITC-Calendar-2022-wDiscounts.png" class="calendar-visual">
             </div>
 
             <div class="time-container">
@@ -101,7 +101,7 @@
             </div>
             <div class="email-signup-container">
                 <h2 id="mailing-list-text">Mailing List</h2>
-                <h3 id="mailing-list-instructions">Enter your email address to subscribe*</h3>
+                <h3 id="mailing-list-instructions">Subscribe to be part of all the holiday happenings!</h3>
                 <input type="text" id="email-input">
                 <p id="mailing-list-disclaimer">By submitting this form you agree to receive marketing emails from
                     Terror in the Corn. Don’t worry, you can unsubscribe at any time.</p>

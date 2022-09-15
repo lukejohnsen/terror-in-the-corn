@@ -39,7 +39,7 @@ body {
 }
 
 .dates-hero {
-    background-image: url('../template-assets/Circus.png');
+    background-image: url('../template-assets/Dates-Page-Hero.png');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -52,7 +52,7 @@ body {
 .blur-container {
     background-image: url('../template-assets/carousel-border.png');
     background-size: cover;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(6px);
     display: flex;
     justify-content: center;
     flex-direction: column;
