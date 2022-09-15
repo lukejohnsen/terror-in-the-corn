@@ -56,6 +56,7 @@
 
     <div class="homepage">
         <div class="hero-container">
+        <?php echo do_shortcode('[[slide-anything id="247"]'); ?>
             <h2 class="hero-title">Circus of Horror</h2>
             <p class="hero-text">Our “big top” is bonkers! Step right up and experience the circus from hell. Our crazy
                 clown-themed attraction is sure to scare even the most seasoned haunted-house aficionados.</p>

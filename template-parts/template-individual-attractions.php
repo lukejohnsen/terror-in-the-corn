@@ -32,12 +32,18 @@ Template Post Type: attractions
     </div>
 
     <div class="main-nav">
-        <ul class="nav-links-container">
+        <!-- <ul class="nav-links-container">
             <li class="nav-links">Home</li>
             <li class="nav-links">Visit</li>
             <li class="nav-links">Attractions</li>
             <li class="nav-links">More</li>
-        </ul>
+        </ul> -->
+        <?php
+        wp_nav_menu( 
+        array( 
+            'theme_location' => 'my-custom-menu'
+        ) 
+    ); ?>
         <div class="get-tickets-container">
             <a id="get-tickets-link">Get Tickets</a>
         </div>
@@ -53,7 +59,11 @@ Template Post Type: attractions
 $wp_query;
 $postid = get_the_ID(); 
 $post = get_post($postid);
-$posttitle = get_post_meta($postid, 'title', true)
+$posttitle = get_post_meta($postid, 'title', true);
+$posthero = get_post_meta($postid, 'hero', true);
+$postdes = get_post_meta($postid, 'des', true);
+$postimage = get_post_meta($postid, 'hero_image', true);
+
 ;?>
 
 
@@ -61,9 +71,9 @@ $posttitle = get_post_meta($postid, 'title', true)
     <div class="attraction-info-container">
         <div class="video-hero">
             <h2 class="hero-heading"><?php echo ($posttitle); ?></h2>
+            <div class='hero-image'><?php ($postimage); ?></div>
             
-            <p class="hero-text">With all new attractions, updated scenes, more scares and a new location closer to town
-                on Tangerine & I-10, Terror In the Corn is gearing up for the greatest, most ghastly Halloween yet!</p>
+            <p class="hero-text"><?php echo ($posthero); ?></p>
             
         </div>
 
@@ -72,10 +82,7 @@ $posttitle = get_post_meta($postid, 'title', true)
         </div>
 
         <div class="sub-hero">
-            <p class="sub-hero-text">See what dangers and devilish scares await you in the darkness of a haunted
-                cornfield. Avoid the insane locals who lurk in the long grass. Escape the monsters of lore just waiting
-                to snatch their next victim. Keep away from the creatures that call the corn home. Enter if you dare,
-                but remember…if you get lost in the Field of Screams, you may never make it out again!</p>
+            <p class="sub-hero-text"><?php echo ($postdes); ?></p>
                 
         </div>
 

@@ -671,6 +671,7 @@ function load_scripts() {
 	wp_register_style( 'contact', get_stylesheet_directory_uri().'/template-parts/template-css/contact.css');
 	wp_register_style( 'jobs', get_stylesheet_directory_uri().'/template-parts/template-css/jobs.css');
 	wp_register_style( 'attractions-individual', get_stylesheet_directory_uri().'/template-parts/template-css/attractions-individual.css');
+	wp_register_style( 'characters', get_stylesheet_directory_uri().'/template-parts/template-css/characters.css');
 
 if ( is_page_template( 'template-parts/template-homepage.php' ) ) {
     wp_enqueue_style( 'homepage' );
@@ -726,6 +727,10 @@ if ( is_page_template( 'template-parts/template-jobs.php' ) ) {
 
 if ( is_page_template( 'template-parts/template-individual-attractions.php' ) ) {
     wp_enqueue_style( 'attractions-individual' );
+}
+
+if ( is_page_template( 'template-parts/template-characters.php' ) ) {
+    wp_enqueue_style( 'characters' );
 }
 }
 add_action('wp_enqueue_scripts', 'load_scripts');

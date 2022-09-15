@@ -81,7 +81,7 @@ body {
     background-size: cover;
     display: flex;
     justify-content: center;
-    height: 22vh;
+    height: 24vh;
     width: 18vw;
 }
 
@@ -92,7 +92,75 @@ body {
     font-size: 35px;
     letter-spacing: 3.5px;
     font-family: 'Gilaka';
+    text-decoration: none;
 }
+
+.faq-accordion {
+    width: 80%;
+    margin-top: 150px;
+}
+
+.accordion-item {
+    background-color: rgba(128, 128, 128, 0.65);
+    margin-top: 15px;
+}
+
+.accordion-button:not(.collapsed) {
+background-color: rgba(128, 128, 128, 0.65);
+}
+
+button:not(:hover):not(:active):not(.has-background) {
+    background-color: rgba(128, 128, 128, 0.65);
+}
+
+button {
+    font-family: 'Gilaka';
+    font-size: 30px;
+}
+
+button:hover {
+    font-family: 'Gilaka';
+    font-size: 30px;
+}
+
+button:not(:hover):not(:active):not(.has-text-color) {
+    color: #fdb41a;
+    font-size: 30px;
+    font-family: 'Gilaka';
+}
+
+.accordion-header {
+    color: #fdb41a;
+    font-size: 30px;
+    font-family: 'Gilaka';
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fdb41a;
+    font-size: 30px;
+    font-family: 'Gilaka';
+}
+
+.accordion-body {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'EB Garamond';
+}
+
+.faq-text {
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
 
 /* Header CSS */
 

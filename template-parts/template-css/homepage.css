@@ -48,8 +48,11 @@ body {
     overflow-x: hidden;
 }
 
+.wpcp-carousel-wrapper {
+    position: absolute;
+}
+
 .hero-container {
-    background-image: url('../template-assets/Circus.png');
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
@@ -274,30 +277,31 @@ body {
     width: auto;
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: 75px;
 }
 
 #field-screams-card {
-    background-image: url('../template-assets/Polaroid-corn.png');
+    background-image: url('../template-assets/pol-PiratesPlague.png');
 }
 
 #shady-acres-card {
-    background-image: url('../template-assets/Polaroid-asylum.png');
+    background-image: url('../template-assets/pol-Shady-Acres-Asylum.png');
 }
 
 #circus-horror-card {
-    background-image: url('../template-assets/Polaroid-circus.png')
+    background-image: url('../template-assets/pol-were-all-mad-here.png')
 }
 
 #axe-throwing-card {
-    background-image: url('../template-assets/Polaroid-axe.png');
+    background-image: url('../template-assets/pol-Axe-Throwing.png');
 }
 
 #escape-room-card {
-    background-image: url('../template-assets/Polaroid-escape.png');
+    background-image: url('../template-assets/pol-Escape-Room.png');
 }
 
 #zombie-paintball-card {
-    background-image: url('../template-assets/Polaroid-paintball.png');
+    background-image: url('../template-assets/pol-Zombie-GellyBall-Shootout.png');
 }
 
 #zombie-text {
@@ -315,6 +319,7 @@ body {
     width: 350px;
     height: 100px;
     transform: matrix(1, -0.02, 0.02, 1, 0, 0);
+    margin-left: 60px;
 }
 
 .get-tickets-text-alt {
