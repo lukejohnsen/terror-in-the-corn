@@ -20,11 +20,11 @@
 
         <div class="full-nav">
             <div class="social-media-nav">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
+            <a class="social-media-links" href='https://twitter.com/terror1nthecorn'><img id='twitter-image' src="/wp-content/uploads/2022/09/1.png"></a>
+                <a class="social-media-links" href='https://www.facebook.com/Terror1ntheCorn'><img id='facebook-image' src="/wp-content/uploads/2022/09/2.png"></a>
+                <a class="social-media-links" href='https://www.instagram.com/terrorinthecorn/'><img id='instagram-image' src="/wp-content/uploads/2022/09/3.png"></a>
+                <a class="social-media-links" href='https://www.youtube.com/channel/UCOWtPHUlsHzmc2giMJTCHTQ'><img id='youtube-image' src="/wp-content/uploads/2022/09/5.png"></a>
+                <a class="social-media-links" href='https://www.tiktok.com/@tucsonterrorinthecorn'><img id='tiktok-image' src="/wp-content/uploads/2022/09/4.png"></a>
             </div>
 
             <div class="main-nav">
@@ -54,12 +54,15 @@
 
     <div class="about-container">
         <div class="video-hero">
+        <div class="blur-container">
             <h2 class="hero-heading">About</h2>
-            <p class="hero-text">With all new attractions, updated scenes, more scares and a new location closer to
-                town
-                on Tangerine & I-10, Terror In the Corn is gearing up for the greatest, most ghastly Halloween yet!
+            <p class="hero-text">What dangers and devilish scares await you in the darkness of a haunted cornfield? Avoid the insane locals who lurk in the long grass. Escape the monsters of lore just waiting to snatch their next victim. 
+<br>
+<br>
+Welcome to Terror In the Corn!
             </p>
         </div>
+</div>
 
         <div class="about-info">
             <h2 class="about-heading">Haunting Tucson for Over 10 Years</h2>
@@ -91,16 +94,25 @@
                 for generations to come.
             </p>
         </div>
+
+        <div class='about-image-gallery'>
+            <img src='/wp-content/uploads/2022/09/About_Page_In-Copy4.jpg' class='about-images'>
+            <img src='/wp-content/uploads/2022/09/About_Page_In-Copy1.jpg' class='about-images'>
+            <img src='/wp-content/uploads/2022/09/About-Page-In-Copy3-1-scaled.jpg' class='about-images'>
+            <img src='/wp-content/uploads/2022/09/About-Page-In-Copy2-1.jpeg' class='about-images'>
+            <img src='/wp-content/uploads/2022/09/About-Page-In-Copy5-1-scaled.jpg' class='about-images'>
+        </div>
+
     </div>
 
     <div class="footer">
         <div class="mailing-list-section">
             <div class="ads-container">
                 <div class="ads-section">
-                    <img src="/wp-content/uploads/2022/09/Rate Our Haunt.png" class="hh-ads">
-                    <img src="/wp-content/uploads/2022/09/AZ Haunted Houses.png" class="hh-ads">
-                    <img src="/wp-content/uploads/2022/09/Haunts.png" class="hh-ads">
-                    <img src="/wp-content/uploads/2022/09/Haunted Corn Mazes.png" class="hh-ads">
+                <a href='https://www.tucsonhauntedhouses.com/' target="_blank"><img src="/wp-content/uploads/2022/09/Rate-Our-Haunt-1.png" class="hh-ads"/></a>
+                    <a href='https://www.azhauntedhouses.com/' target="_blank"> <img src="/wp-content/uploads/2022/09/AZ-Haunted-Houses-1.png" class="hh-ads"/></a>
+                    <a href='https://www.haunts.com/' target="_blank"><img src="/wp-content/uploads/2022/09/Haunts-1.png" class="hh-ads"></a>
+                    <a href='https://www.hauntedcornmazes.com/' target="_blank"><img src="/wp-content/uploads/2022/09/Haunted-Corn-Mazes-1.png" class="hh-ads"/></a>
                 </div>
             </div>
             <div class="email-signup-container">
@@ -118,10 +130,10 @@
         <div class="universal-section">
             <div class='buckelew-links-container'>
                 <ul class="buckelew-links-list">
-                    <li id="buckelew-farm">Buckelew Farm</li>
-                    <li id="titc">Terror in the Corn</li>
-                    <li id="fireworks-stands">Fireworks Stands</li>
-                    <li id="christmas-tree-lots">Christmas Tree Lots</li>
+                    <a href='https://www.tucsonterrorinthecorn.com/' target='_blank'><img src='/wp-content/uploads/2022/09/Buckelew-Farm.png' class="bf-logos" id="buckelew-farm"></a>
+                    <a href='https://www.buckelewfarm.com/'> <img  src=/wp-content/uploads/2022/09/titc-logo.png class="bf-logos" id="titc"></a>
+                    <a href='https://www.buckelewfireworks.com/'> <img src='/wp-content/uploads/2022/09/Fireworks-Stands.png' class="bf-logos" id="fireworks-stands"></a>
+                    <a href='https://www.buckelewchristmastrees.com/'> <img src='/wp-content/uploads/2022/09/BuckelewFarm-ChristmasTrees-Logo.png' class="bf-logos" id="christmas-tree-lots"></a>
                 </ul>
                 <p id="contact-info"> I-10 & Tangerine Exit 240 • 9312 W Rillito Village Trail Tucson, AZ 85653 • <a
                         href="/" id="email-address">info@buckelewfarm.com</a></p>

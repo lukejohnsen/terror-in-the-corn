@@ -226,7 +226,6 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 	--entry-header--color: var(--global--color-primary);
 	--entry-header--color-link: currentColor;
 	--entry-header--color-hover: var(--global--color-primary-hover);
-	--entry-header--color-focus: var(--global--color-secondary);
 	--entry-header--font-size: var(--heading--font-size-h2);
 	--entry-content--font-family: var(--global--font-secondary);
 	--entry-author-bio--font-family: var(--heading--font-family);
@@ -1224,26 +1223,6 @@ input[type=color],
 	max-width: 100%;
 }
 
-input[type=text]:focus,
-input[type=email]:focus,
-input[type=url]:focus,
-input[type=password]:focus,
-input[type=search]:focus,
-input[type=number]:focus,
-input[type=tel]:focus,
-input[type=date]:focus,
-input[type=month]:focus,
-input[type=week]:focus,
-input[type=time]:focus,
-input[type=datetime]:focus,
-input[type=datetime-local]:focus,
-input[type=color]:focus,
-.site textarea:focus {
-	color: var(--form--color-text);
-	outline-offset: 2px;
-	outline: 2px dotted var(--form--border-color);
-}
-
 input[type=text]:disabled,
 input[type=email]:disabled,
 input[type=url]:disabled,
@@ -1280,14 +1259,6 @@ input[type=color]:disabled,
 	background: var(--global--color-white-90);
 }
 
-input[type=search]:focus {
-	outline-offset: -7px;
-}
-
-.is-dark-theme input[type=search]:focus {
-	outline-color: var(--global--color-background);
-}
-
 input[type=color] {
 	padding: calc(var(--form--spacing-unit) / 2);
 	height: calc(4 * var(--form--spacing-unit));
@@ -1308,11 +1279,6 @@ select {
 	padding: var(--form--spacing-unit) var(--form--spacing-unit) var(--form--spacing-unit) calc(3 * var(--form--spacing-unit));
 	background: var(--global--color-white) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' fill='%2328303d'><polygon points='0,0 10,0 5,5'/></svg>") no-repeat;
 	background-position: left var(--form--spacing-unit) top 60%;
-}
-
-select:focus {
-	outline-offset: 2px;
-	outline: 2px dotted var(--form--border-color);
 }
 
 .is-dark-theme select {
@@ -1356,11 +1322,6 @@ License: MIT.
 	.is-dark-theme input[type=checkbox],
 	.is-dark-theme input[type=radio] {
 		background: var(--global--color-white-90);
-	}
-
-	input[type=checkbox]:focus {
-		outline-offset: 2px;
-		outline: 2px dotted var(--form--border-color);
 	}
 
 	input[type=checkbox]:after {
@@ -1655,63 +1616,9 @@ a:hover {
 	text-decoration-skip-ink: none;
 }
 
-.site a:focus:not(.wp-block-button__link):not(.wp-block-file__button) {
-
-	/* Only visible in Windows High Contrast mode */
-	outline: 2px solid transparent;
-	text-decoration: underline 1px dotted currentColor;
-	text-decoration-skip-ink: none;
-	background: rgba(255, 255, 255, 0.9);
-}
-
-.is-dark-theme .site a:focus:not(.wp-block-button__link):not(.wp-block-file__button) {
-	background: var(--global--color-black);
-	color: var(--global--color-white);
-	text-decoration: none;
-}
-
-.is-dark-theme .site a:focus:not(.wp-block-button__link):not(.wp-block-file__button) .meta-nav {
-	color: var(--wp--style--color--link, var(--global--color-white));
-}
-
-.has-background-white .site a:focus:not(.wp-block-button__link):not(.wp-block-file__button) {
-	background: rgba(0, 0, 0, 0.9);
-	color: var(--wp--style--color--link, var(--global--color-white));
-}
-
-.has-background-white .site a:focus:not(.wp-block-button__link):not(.wp-block-file__button) .meta-nav {
-	color: var(--wp--style--color--link, var(--global--color-white));
-}
-
-.site a:focus:not(.wp-block-button__link):not(.wp-block-file__button).skip-link {
-
-	/* Only visible in Windows High Contrast mode */
-	outline: 2px solid transparent;
-	outline-offset: -2px;
-}
-
-.site a:focus:not(.wp-block-button__link):not(.wp-block-file__button).skip-link:focus {
-	color: #21759b;
-	background-color: #f1f1f1;
-}
-
-.site a:focus:not(.wp-block-button__link):not(.wp-block-file__button).custom-logo-link {
-	background: none;
-}
-
-.site a:focus:not(.wp-block-button__link):not(.wp-block-file__button) img {
-	outline: 2px dotted var(--wp--style--color--link, var(--global--color-primary));
-}
-
 .has-background .has-link-color a,
 .has-background.has-link-color a {
 	color: var(--wp--style--color--link, var(--global--color-primary));
-}
-
-/* Category 05 is all about adjusting the default block styles to the given layout. I only added three blocks as examples. */
-.wp-block-audio audio:focus {
-	outline-offset: 5px;
-	outline: 2px solid var(--global--color-primary);
 }
 
 /**
@@ -1804,17 +1711,6 @@ input[type=reset]:active,
 	color: inherit;
 }
 
-.site .button:focus,
-button:focus,
-input[type=submit]:focus,
-input[type=reset]:focus,
-.wp-block-search .wp-block-search__button:focus,
-.wp-block-button .wp-block-button__link:focus,
-.wp-block-file a.wp-block-file__button:focus {
-	outline-offset: -6px;
-	outline: 2px dotted currentColor;
-}
-
 .site .button:disabled,
 button:disabled,
 input[type=submit]:disabled,
@@ -1899,12 +1795,6 @@ input[type=reset]:disabled,
 
 .wp-block-button .is-style-squared .wp-block-button__link {
 	border-radius: 0;
-}
-
-.is-style-outline .wp-block-button__link[style*=radius]:focus,
-.wp-block-button a.wp-block-button__link[style*=radius]:focus {
-	outline-offset: 2px;
-	outline: 2px dotted var(--button--color-background);
 }
 
 .wp-block-code {

@@ -20,11 +20,11 @@
 
         <div class="full-nav">
             <div class="social-media-nav">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
+            <a class="social-media-links" href='https://twitter.com/terror1nthecorn' target='_blank'><img id='twitter-image' src="/wp-content/uploads/2022/09/1.png"></a>
+                <a class="social-media-links" href='https://www.facebook.com/Terror1ntheCorn' target='_blank'><img id='facebook-image' src="/wp-content/uploads/2022/09/2.png"></a>
+                <a class="social-media-links" href='https://www.instagram.com/terrorinthecorn/' target='_blank'><img id='instagram-image' src="/wp-content/uploads/2022/09/3.png"></a>
+                <a class="social-media-links" href='https://www.youtube.com/channel/UCOWtPHUlsHzmc2giMJTCHTQ' target='_blank'><img id='youtube-image' src="/wp-content/uploads/2022/09/5.png"></a>
+                <a class="social-media-links" href='https://www.tiktok.com/@tucsonterrorinthecorn' target='_blank'><img id='tiktok-image' src="/wp-content/uploads/2022/09/4.png"></a>
             </div>
 
             <div class="main-nav">
@@ -95,62 +95,86 @@
                         <p class="bullet-info">Terror in the Corn is hiring for a variety of positions @ $15/hour</p>
                     </div>
 
+                    <br>
+
                     <div class="bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint-alt">
                         <p class="bullet-info">We need people for the following positions:
                         </p>
                     </div>
 
+                    <br>
+
                     <div class="sub-bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint">
                         <p class="bullet-info">Scare Squad (costumed actors)</p>
                     </div>
+
+                    <br>
 
                     <div class="sub-bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint-alt">
                         <p class="bullet-info">GellyBall "Zombies" (can earn tips!)</p>
                     </div>
 
+                    <br>
+
                     <div class="sub-bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint">
                         <p class="bullet-info">Prop Activators</p>
                     </div>
+
+                    <br>
 
                     <div class="sub-bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint-alt">
                         <p class="bullet-info">Custodians</p>
                     </div>
 
+                    <br>
+
                     <div class="sub-bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint">
                         <p class="bullet-info">Maintinence</p>
                     </div>
+
+                    <br>
 
                     <div class="sub-bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint-alt">
                         <p class="bullet-info">Security</p>
                     </div>
 
+                    <br>
+
                     <div class="sub-bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint">
                         <p class="bullet-info">Parking Attendants</p>
                     </div>
+
+                    <br>
 
                     <div class="sub-bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint-alt">
                         <p class="bullet-info">Front Gate / Greeters</p>
                     </div>
 
+                    <br>
+
                     <div class="sub-bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint">
                         <p class="bullet-info">Salespeople / Support Staff</p>
                     </div>
+
+                    <br>
 
                     <div class="bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint-alt">
                         <p class="bullet-info">Must be 16 years or older
                         </p>
                     </div>
+
+                    <br>
                 </div>
 
                 <div class="bullets-right">
@@ -159,25 +183,35 @@
                         <p class="bullet-info">Must have reliable transportation</p>
                     </div>
 
+                    <br>
+
                     <div class="bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint-alt">
                         <p class="bullet-info">Must be able to work every night we’re open without exception</p>
                     </div>
+
+                    <br>
 
                     <div class="bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint">
                         <p class="bullet-info">Must be available for virtual/online job interview after submitting application below. </p>
                     </div>
 
+                    <br>
+
                     <div class="sub-bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint-alt">
                         <p class="bullet-info">Must provide two (2) valid forms of ID prior to interview. (Required for employment; see list of acceptable documents HERE.)</p>
                     </div>
 
+                    <br>
+
                     <div class="sub-bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint">
                         <p class="bullet-info">Those without valid ID & required paperwork will not be interviewed.</p>
                     </div>
+
+                    <br>
 
                     <div class="bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint-alt">
@@ -185,20 +219,28 @@
                         </p>
                     </div>
 
+                    <br>
+
                     <div class="sub-bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint">
                         <p class="bullet-info">Must provide two (2) valid forms of ID prior to interview. (Required for employment; see list of acceptable documents HERE.)</p>
                     </div>
+
+                    <br>
 
                     <div class="bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint">
                         <p class="bullet-info">Mandatory Scare Squad costume fitting on Saturday September 24, 2022 at 9am @ Terror In the Corn location (I-10 & Tangerine Rd, Exit 240)</p>
                     </div>
 
+                    <br>
+
                     <div class="sub-bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint-alt">
                         <p class="bullet-info">Actors will be assigned a time to arrive to accommodate social distancing; exact interview times TBD and applicants will be notified by phone.</p>
                     </div>
+
+                    <br>
                 </div>
             </div>
         </div>
@@ -212,10 +254,10 @@
         <div class="mailing-list-section">
             <div class="ads-container">
                 <div class="ads-section">
-                    <img src="/wp-content/uploads/2022/09/Rate Our Haunt.png" class="hh-ads">
-                    <img src="/wp-content/uploads/2022/09/AZ Haunted Houses.png" class="hh-ads">
-                    <img src="/wp-content/uploads/2022/09/Haunts.png" class="hh-ads">
-                    <img src="/wp-content/uploads/2022/09/Haunted Corn Mazes.png" class="hh-ads">
+                <a href='https://www.tucsonhauntedhouses.com/' target="_blank"><img src="/wp-content/uploads/2022/09/Rate-Our-Haunt-1.png" class="hh-ads"/></a>
+                    <a href='https://www.azhauntedhouses.com/' target="_blank"> <img src="/wp-content/uploads/2022/09/AZ-Haunted-Houses-1.png" class="hh-ads"/></a>
+                    <a href='https://www.haunts.com/' target="_blank"><img src="/wp-content/uploads/2022/09/Haunts-1.png" class="hh-ads"></a>
+                    <a href='https://www.hauntedcornmazes.com/' target="_blank"><img src="/wp-content/uploads/2022/09/Haunted-Corn-Mazes-1.png" class="hh-ads"/></a>
                 </div>
             </div>
             <div class="email-signup-container">
@@ -243,11 +285,10 @@
             </div>
 
             <div class="mobile-social-media-nav">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
+            <a href='https://tucsonterrorinthecorn.com/' target='_blank'><img src='/wp-content/uploads/2022/09/Buckelew-Farm.png' class="bf-logos" id="buckelew-farm"></a>
+                    <a href='https://www.buckelewfarm.com/' target='_blank'><img  src='/wp-content/uploads/2022/09/titc-logo.png' class="bf-logos" id="titc"></a>
+                    <a href='https://buckelewfireworks.com/' target='_blank'><img src='/wp-content/uploads/2022/09/Fireworks-Stands.png' class="bf-logos" id="fireworks-stands"></a>
+                    <a href='https://buckelewchristmastrees.com/' target='_blank'><img src='/wp-content/uploads/2022/09/BuckelewFarm-ChristmasTrees-Logo.png' class="bf-logos" id="christmas-tree-lots"></a>
             </div>
         </div>
 

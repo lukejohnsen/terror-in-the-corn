@@ -15,25 +15,6 @@ a:hover {
 	text-decoration-skip-ink: none;
 }
 
-.site a:focus:not(.wp-block-button__link):not(.wp-block-file__button) {
-
-	/* Only visible in Windows High Contrast mode */
-	outline: 2px solid transparent;
-
-	text-decoration: underline 1px dotted currentColor;
-	text-decoration-skip-ink: none;
-	background: rgba(255, 255, 255, .9);
-
-	// Change text color when the body background is dark.
-	.is-dark-theme & {
-		background: var(--global--color-black);
-		color: var(--global--color-white);
-		text-decoration: none;
-
-		.meta-nav {
-			color: var(--wp--style--color--link, var(--global--color-white));
-		}
-	}
 
 	// Change colors when the body background is white.
 	.has-background-white & {

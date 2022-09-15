@@ -20,11 +20,11 @@
 
         <div class="full-nav">
             <div class="social-media-nav">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
+            <a class="social-media-links" href='https://twitter.com/terror1nthecorn' target='_blank'><img id='twitter-image' src="/wp-content/uploads/2022/09/1.png"></a>
+                <a class="social-media-links" href='https://www.facebook.com/Terror1ntheCorn' target='_blank'><img id='facebook-image' src="/wp-content/uploads/2022/09/2.png"></a>
+                <a class="social-media-links" href='https://www.instagram.com/terrorinthecorn/' target='_blank'><img id='instagram-image' src="/wp-content/uploads/2022/09/3.png"></a>
+                <a class="social-media-links" href='https://www.youtube.com/channel/UCOWtPHUlsHzmc2giMJTCHTQ' target='_blank'><img id='youtube-image' src="/wp-content/uploads/2022/09/5.png"></a>
+                <a class="social-media-links" href='https://www.tiktok.com/@tucsonterrorinthecorn' target='_blank'><img id='tiktok-image' src="/wp-content/uploads/2022/09/4.png"></a>
             </div>
 
             <div class="main-nav">
@@ -55,12 +55,8 @@
     <div class="warnings-container">
         <div class="warnings-hero">
             <div class="blur-container">
-                <h2 class="warnings-heading">Warnings</h2>
-                <p class="warnings-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                    eirmod
-                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                    et
-                    justo</p>
+                <h2 class="warnings-heading">Enter at Your Own Risk</h2>
+                <p class="warnings-text"> Our haunted attractions are among the scariest in the state. There WILL be live actors, continuous scares, bright lights, loud noises, lasers, smoke, screams and related stimuli.</p>
             </div>
         </div>
 
@@ -70,11 +66,13 @@
 
         <div class="warnings-disclaimer">
             <h2 class="warnings-heading-alt">Warnings</h2>
-            <p class="warnings-text-alt">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-                sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+            <p class="warnings-text-alt">While our attraction is for all ages, due to the graphic nature of the content, Terror In the Corn is not recommended for small children, toddlers or babies. Children 12 years and under WILL NOT be admitted without an adult and parental discretion is strongly advised. 
+<br>
+<br>
+A good rule of thumb is: if you wouldn't bring your child to a horror film or a PG-13 rated movie, it's probably not a good idea to bring them to Terror In the Corn.
+<br>
+<br>
+Pregnant women or those suffering from anxiety, heart conditions, sensitivity to light or sound, or suffering from any condition that is not conducive to experiencing a haunted house are urged to avoid Terror In the Corn.
 
             </p>
         </div>
@@ -84,10 +82,10 @@
         <div class="mailing-list-section">
             <div class="ads-container">
                 <div class="ads-section">
-                    <img src="/wp-content/uploads/2022/09/Rate Our Haunt.png" class="hh-ads">
-                    <img src="/wp-content/uploads/2022/09/AZ Haunted Houses.png" class="hh-ads">
-                    <img src="/wp-content/uploads/2022/09/Haunts.png" class="hh-ads">
-                    <img src="/wp-content/uploads/2022/09/Haunted Corn Mazes.png" class="hh-ads">
+                <a href='https://www.tucsonhauntedhouses.com/' target="_blank"><img src="/wp-content/uploads/2022/09/Rate-Our-Haunt-1.png" class="hh-ads"/></a>
+                    <a href='https://www.azhauntedhouses.com/' target="_blank"> <img src="/wp-content/uploads/2022/09/AZ-Haunted-Houses-1.png" class="hh-ads"/></a>
+                    <a href='https://www.haunts.com/' target="_blank"><img src="/wp-content/uploads/2022/09/Haunts-1.png" class="hh-ads"></a>
+                    <a href='https://www.hauntedcornmazes.com/' target="_blank"><img src="/wp-content/uploads/2022/09/Haunted-Corn-Mazes-1.png" class="hh-ads"/></a>
                 </div>
             </div>
             <div class="email-signup-container">
@@ -105,10 +103,10 @@
         <div class="universal-section">
             <div class='buckelew-links-container'>
                 <ul class="buckelew-links-list">
-                    <li id="buckelew-farm">Buckelew Farm</li>
-                    <li id="titc">Terror in the Corn</li>
-                    <li id="fireworks-stands">Fireworks Stands</li>
-                    <li id="christmas-tree-lots">Christmas Tree Lots</li>
+                <a href='https://tucsonterrorinthecorn.com/' target='_blank'><img src='/wp-content/uploads/2022/09/Buckelew-Farm.png' class="bf-logos" id="buckelew-farm"></a>
+                    <a href='https://www.buckelewfarm.com/' target='_blank'><img  src='/wp-content/uploads/2022/09/titc-logo.png' class="bf-logos" id="titc"></a>
+                    <a href='https://buckelewfireworks.com/' target='_blank'><img src='/wp-content/uploads/2022/09/Fireworks-Stands.png' class="bf-logos" id="fireworks-stands"></a>
+                    <a href='https://buckelewchristmastrees.com/' target='_blank'><img src='/wp-content/uploads/2022/09/BuckelewFarm-ChristmasTrees-Logo.png' class="bf-logos" id="christmas-tree-lots"></a>
                 </ul>
                 <p id="contact-info"> I-10 & Tangerine Exit 240 • 9312 W Rillito Village Trail Tucson, AZ 85653 • <a
                         href="/" id="email-address">info@buckelewfarm.com</a></p>

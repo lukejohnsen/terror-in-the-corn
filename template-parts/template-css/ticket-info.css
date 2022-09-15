@@ -44,7 +44,7 @@ body {
 }
 
 .ticket-info-hero {
-    background-image: url('../template-assets/Circus.png');
+    background-image: url('../template-assets/Ticket-Info-Page-Hero.jpeg');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -55,7 +55,7 @@ body {
 .blur-container {
     background-image: url('../template-assets/carousel-border.png');
     background-size: cover;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(6px);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -79,9 +79,14 @@ body {
     text-align: center;
 }
 
+#fear-ticket {
+    background-image: none;
+}
+
 .pricing-promotion-container {
     display: flex;
     width: 1160px;
+    margin-top: 87px;
 }
 
 .pricing-container {
@@ -127,17 +132,10 @@ body {
     background-size: cover;
     display: flex;
     justify-content: center;
-    font-size: 35px;
-    width: 350px;
-    height: 120px;
-}
-
-.get-tickets-text {
-    display: flex;
-    align-items: center;
-    margin-top: 25px;
-    letter-spacing: 3.5px;
-    font-family: 'Gilaka'
+    height: 22vh;
+    width: 18vw;
+    margin-top: 87px;
+    margin-bottom: 87px;
 }
 
 .admission-info-container {
@@ -154,8 +152,8 @@ body {
 .admission-heading {
     color: #b90803;
     font-size: 70px;
-    margin-bottom: 40px;
-    margin-top: 84px;
+    margin-bottom: 87px;
+    margin-top: 87px;
     text-transform: uppercase;
     font-family: 'Horrormaster';
     letter-spacing: 8.4px;
@@ -166,7 +164,7 @@ body {
     color: #ffffff;
     font-size: 25px;
     font-family: 'EB Garamond';
-    line-height: 1.32;
+    line-height: 1.6;
 }
 
 .admission-bullets-container {
@@ -178,6 +176,24 @@ body {
     display: flex;
     flex-direction: column;
     width: 628px;
+    line-height: 1.5;
+}
+
+.links-text {
+    color:#b90803;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.link-text:hover {
+    text-decoration: underline;
+    color:#b90803;
+}
+
+#no-refunds-text {
+    text-transform: uppercase;
+    font-size: 25px;
+    color:#b90803
 }
 
 .admission-bullets-right {
@@ -231,7 +247,7 @@ body {
     color: #ffffff;
     font-size: 25px;
     font-family: 'EB Garamond';
-    line-height: 1.32;
+    line-height: 1.5;
 }
 
 /* Header CSS */
@@ -270,8 +286,44 @@ body {
 }
 
 .social-media-links {
-    max-height: 56px;
-    width: auto;
+    background-image: url('../template-assets/social-carousel.png');
+    background-position: center;
+    background-size: 56px 56px;
+    display: flex;
+    background-repeat: no-repeat;
+    height: 56px;
+    width: 56px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-links:focus {
+    outline: none;
+    }
+
+#twitter-image {
+    height: 37.59px;
+    width: 37.59px;
+}
+
+#facebook-image {
+    height: 37.59px;
+    width: 37.59px;
+}
+
+#instagram-image {
+    height: 37.59px;
+    width: 37.59px;
+}
+
+#youtube-image {
+    height: 37.59px;
+    width: 37.59px;
+}
+
+#tiktok-image {
+    height: 37.59px;
+    width: 37.59px;
 }
 
 .main-nav {
@@ -286,20 +338,95 @@ body {
     gap: 20px;
     letter-spacing: 5.85px;
     flex-wrap: wrap
+    
 }
 
 .menu a {
     color: #ffffff;
     font-size: 39px;
-    text-transform: uppercase;
     font-family: 'Horrormaster';
     text-decoration: none;
 }
 
-.menu a:hover {
+.menu-item {
+    width: 100px;
+}
+
+#menu-item-146 {
+    width: 250px;
+}
+
+.menu a:hover{
     color: #b90803;
     text-transform: uppercase;
-    font-family: 'Horrorfind'
+    font-family: 'Horrorfind';
+    font-size: 39px;
+}
+
+.menu-item button {
+    display: none;
+}
+
+.menu-item ul {
+    display: none;
+}
+
+.menu-item-148:hover .sub-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 1;
+    width: 250px;
+}
+
+#menu-item-184 {
+    width: 250px
+}
+
+.menu-item-146:hover .sub-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 1;
+    width: 425px;
+}
+
+#menu-item-192 {
+    width: 450px
+}
+
+#menu-item-191 {
+    width: 450px
+}
+
+#menu-item-190 {
+    width: 450px
+}
+
+#menu-item-189 {
+    width: 450px
+}
+
+#menu-item-188 {
+    width: 450px
+}
+
+#menu-item-187 {
+    width: 450px
+}
+
+.menu-item-147:hover .sub-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 1;
+    width: 200px;
 }
 
 .get-tickets-container {
@@ -341,6 +468,10 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.ads-container {
+    display: flex;
 }
 
 .ads-section {
@@ -400,7 +531,7 @@ body {
 }
 
 .universal-section {
-    height: 129.5px;
+    height: 145px;
     background-color: #000000;
     display: flex;
     flex-direction: column;
@@ -420,9 +551,17 @@ body {
     justify-content: space-around;
     gap: 20px;
     font-size: 21px;
-    margin: 15px 0px;
+    align-items: center;
     padding-left: 0px;
     /* font-family: New Spirit, Bold Condensed */
+}
+
+.bf-logos {
+    height: 75px;
+}
+
+#buckelew-farm {
+    height: 100px;
 }
 
 #contact-info {

@@ -20,11 +20,11 @@
 
         <div class="full-nav">
             <div class="social-media-nav">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
+            <a class="social-media-links" href='https://twitter.com/terror1nthecorn' target='_blank'><img id='twitter-image' src="/wp-content/uploads/2022/09/1.png"></a>
+                <a class="social-media-links" href='https://www.facebook.com/Terror1ntheCorn' target='_blank'><img id='facebook-image' src="/wp-content/uploads/2022/09/2.png"></a>
+                <a class="social-media-links" href='https://www.instagram.com/terrorinthecorn/' target='_blank'><img id='instagram-image' src="/wp-content/uploads/2022/09/3.png"></a>
+                <a class="social-media-links" href='https://www.youtube.com/channel/UCOWtPHUlsHzmc2giMJTCHTQ' target='_blank'><img id='youtube-image' src="/wp-content/uploads/2022/09/5.png"></a>
+                <a class="social-media-links" href='https://www.tiktok.com/@tucsonterrorinthecorn' target='_blank'><img id='tiktok-image' src="/wp-content/uploads/2022/09/4.png"></a>
             </div>
 
             <div class="main-nav">
@@ -56,11 +56,7 @@
         <div class="ticket-info-hero">
             <div class="blur-container">
                 <h2 class="ticket-hero-heading">Ticket Information</h2>
-                <h3 class="ticket-hero-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                    eirmod
-                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                    et
-                    justo</h3>
+                <p class="ticket-hero-text">Terror In the Corn is three haunted attractions in one and can be experienced with General Admission tickets or with our upgraded Fast Pass that allows you to skip the line.</p>
             </div>
         </div>
 
@@ -68,25 +64,27 @@
             <div class="pricing-container">
                 <h2 class="pricing-promotion-heading">Pricing</h2>
                 <p class="pricing-info">
-                    General Admission: Starting @ $25.00 + tax
-                    <br>FastPass: Starting @ $35.00 + tax
+                    General Admission: Starting @ $28.00 + tax
                     <br>
-                    <br> No Refunds. All sales final
+                    <br>FastPass: Starting @ $38.00 + tax
+                    <br>
+                    <br> <a id='no-refunds-text'>No Refunds. All sales final</a>
                 </p>
             </div>
 
             <div class="promotion-container">
-                <h2 class="pricing-promotion-heading">Promotion</h2>
-                <p class="promotion-info">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                    eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                    accusam et justo duo dolores et ea rebum.</p>
+                <h2 class="pricing-promotion-heading">Details</h2>
+                <h3 class="promotion-info">Open weekend nights in October + Halloween
+                    <br>Hours: 6pm - Midnight*
+                </h3>
+                <h4 class="hours-sub-text">Closes at 10pm on OCT. 6, 10, 13, 20, 27 & 30</h4>
             </div>
 
         </div>
 
-        <div class="get-tickets-button">
-            <a class='get-tickets-text'>Get Tickets</a>
-        </div>
+        <div class="get-tickets-button" id='fear-ticket'>
+            <a href="https://tucsonterrorinthecorn.fearticket.com" target='_blank'> <img src="https://cdne1.fearticket.com/includes/images/fearticket/buyticket_hor.jpg" alt="Buy Ticket" /> </a>
+            </div>
 
         <div class="admission-info-container">
             <h2 class="admission-heading">Admission</h2>
@@ -100,29 +98,37 @@
                 <div class="admission-bullets-left">
                     <div class="admission-bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint">
-                        <p class="bullet-info">Regular Admission: tickets starting at $25.00 + tax (all ages, general
+                        <p class="bullet-info"><a class="links-text" href="https://tucsonterrorinthecorn.fearticket.com/event/orderticket/eventid/1055">General Admission</a>: tickets starting at $28.00 + tax (all ages, general
                             public line)</p>
                     </div>
 
+                    <br>
+
                     <div class="admission-bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint-alt">
-                        <p class="bullet-info">Fast Pass: tickets starting at $35.00 + tax (all ages, skip the lines!)
+                        <p class="bullet-info"><a class="links-text" href="https://tucsonterrorinthecorn.fearticket.com/event/orderticket/eventid/1055">Fast Pass</a>: tickets starting at $38.00 + tax (all ages, skip the lines!)
                         </p>
                     </div>
+
+                    <br>
 
                     <div class="admission-bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint">
                         <p class="bullet-info">General Parking: FREE</p>
                     </div>
 
+                    <br>
+
                     <div class="admission-bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint-alt">
                         <p class="bullet-info">VIP Parking: $10.00 per vehicle</p>
                     </div>
 
+                    <br>
+
                     <div class="admission-bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint">
-                        <p class="bullet-info">Zombie Paintball Shootout: $10.00 for one "hopper" full of paintballs
+                        <p class="bullet-info">Zombie Gellyball Shootout: $10.00 for one "hopper" full of paintballs
                             (approx. 140 rounds)</p>
                     </div>
                 </div>
@@ -134,14 +140,18 @@
                             room experience</p>
                     </div>
 
+                    <br>
+
                     <div class="admission-bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint-alt">
                         <p class="bullet-info">Axe Throwing: $10.00 for 8 throws</p>
                     </div>
 
+                    <br>
+
                     <div class="admission-bullet">
                         <img src='/wp-content/uploads/2022/09/fingerprint.png' class="fingerprint">
-                        <p class="bullet-info">Group Rates & Special Events: Email info@tucsonterrorinthecorn.com for
+                        <p class="bullet-info">Group Rates & Special Events: Email <a class="links-text" href='mailto: info@tucsonterrorinthecorn.com'>info@tucsonterrorinthecorn.com</a> for
                             more information on groups of 50+ or for any custom events.</p>
                     </div>
                 </div>
@@ -165,17 +175,17 @@
     <div class="footer">
         <div class="mailing-list-section">
             <div class="ads-container">
-                <div class="ads-section">
-                    <img src="/wp-content/uploads/2022/09/Rate Our Haunt.png" class="hh-ads">
-                    <img src="/wp-content/uploads/2022/09/AZ Haunted Houses.png" class="hh-ads">
-                    <img src="/wp-content/uploads/2022/09/Haunts.png" class="hh-ads">
-                    <img src="/wp-content/uploads/2022/09/Haunted Corn Mazes.png" class="hh-ads">
+            <div class="ads-section">
+                    <a href='https://www.tucsonhauntedhouses.com/' target="_blank"><img src="/wp-content/uploads/2022/09/Rate-Our-Haunt-1.png" class="hh-ads"/></a>
+                    <a href='https://www.azhauntedhouses.com/' target="_blank"> <img src="/wp-content/uploads/2022/09/AZ-Haunted-Houses-1.png" class="hh-ads"/></a>
+                    <a href='https://www.haunts.com/' target="_blank"><img src="/wp-content/uploads/2022/09/Haunts-1.png" class="hh-ads"></a>
+                    <a href='https://www.hauntedcornmazes.com/' target="_blank"><img src="/wp-content/uploads/2022/09/Haunted-Corn-Mazes-1.png" class="hh-ads"/></a>
                 </div>
             </div>
             <div class="email-signup-container">
                 <h2 id="mailing-list-text">Mailing List</h2>
                 <h3 id="mailing-list-instructions">Enter your email address to subscribe*</h3>
-                <input type="text" id="email-input">
+                <input type="text" id="email-input" placeholder="Email">
                 <p id="mailing-list-disclaimer">By submitting this form you agree to receive marketing emails from
                     Terror in the Corn. Don’t worry, you can unsubscribe at any time.</p>
                 <div class="subscribe-button-container">
@@ -187,10 +197,10 @@
         <div class="universal-section">
             <div class='buckelew-links-container'>
                 <ul class="buckelew-links-list">
-                    <li id="buckelew-farm">Buckelew Farm</li>
-                    <li id="titc">Terror in the Corn</li>
-                    <li id="fireworks-stands">Fireworks Stands</li>
-                    <li id="christmas-tree-lots">Christmas Tree Lots</li>
+                <a href='https://tucsonterrorinthecorn.com/' target='_blank'><img src='/wp-content/uploads/2022/09/Buckelew-Farm.png' class="bf-logos" id="buckelew-farm"></a>
+                    <a href='https://www.buckelewfarm.com/' target='_blank'><img  src='/wp-content/uploads/2022/09/titc-logo.png' class="bf-logos" id="titc"></a>
+                    <a href='https://buckelewfireworks.com/' target='_blank'><img src='/wp-content/uploads/2022/09/Fireworks-Stands.png' class="bf-logos" id="fireworks-stands"></a>
+                    <a href='https://buckelewchristmastrees.com/' target='_blank'><img src='/wp-content/uploads/2022/09/BuckelewFarm-ChristmasTrees-Logo.png' class="bf-logos" id="christmas-tree-lots"></a>
                 </ul>
                 <p id="contact-info"> I-10 & Tangerine Exit 240 • 9312 W Rillito Village Trail Tucson, AZ 85653 • <a
                         href="/" id="email-address">info@buckelewfarm.com</a></p>

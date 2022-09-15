@@ -20,11 +20,11 @@
 
         <div class="full-nav">
             <div class="social-media-nav">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
+            <a class="social-media-links" href='https://twitter.com/terror1nthecorn' target='_blank'><img id='twitter-image' src="/wp-content/uploads/2022/09/1.png"></a>
+                <a class="social-media-links" href='https://www.facebook.com/Terror1ntheCorn' target='_blank'><img id='facebook-image' src="/wp-content/uploads/2022/09/2.png"></a>
+                <a class="social-media-links" href='https://www.instagram.com/terrorinthecorn/' target='_blank'><img id='instagram-image' src="/wp-content/uploads/2022/09/3.png"></a>
+                <a class="social-media-links" href='https://www.youtube.com/channel/UCOWtPHUlsHzmc2giMJTCHTQ' target='_blank'><img id='youtube-image' src="/wp-content/uploads/2022/09/5.png"></a>
+                <a class="social-media-links" href='https://www.tiktok.com/@tucsonterrorinthecorn' target='_blank'><img id='tiktok-image' src="/wp-content/uploads/2022/09/4.png"></a>
             </div>
 
             <div class="main-nav">
@@ -57,6 +57,9 @@
             <h2 class="hero-heading">Attractions</h2>
             <p class="hero-text">With all new attractions, updated scenes, more scares and a new location closer to town
                 on Tangerine & I-10, Terror In the Corn is gearing up for the greatest, most ghastly Halloween yet!</p>
+                <div class='blur-container'>
+                <video controls autoplay muted src='/wp-content/uploads/2022/09/Attractions-Page-Hero-Video.mp4' type='video/mp4' id="attractions-video">
+</div>
         </div>
 
         <div class="get-tickets-button">
@@ -64,22 +67,17 @@
         </div>
 
         <div class="mobile-attraction-title">
-            <p class="mobile-attraction-heading">Field of Screams</p>
+            <p class="mobile-attraction-heading">The Pirate's Plague</p>
         </div>
-        <div class="field-of-screams-container">
+        <div class="pirates-plague-container">
             <div class="border-container">
                 <div class="inner-hero">
-                    <h2 class="attraction-heading">Field of Screams</h2>
-                    <p class="attraction-text">See what dangers and devilish scares await you in the darkness of a
-                        haunted
-                        cornfield. Avoid the insane locals who lurk in the long grass. Escape the monsters of lore just
-                        waiting to snatch their next victim. Keep away from the creatures that call the corn home. Enter
-                        if
-                        you dare, but remember…if you get lost in the Field of Screams, you may never make it out again!
+                    <h2 class="attraction-heading">The Pirate's Plague</h2>
+                    <p class="attraction-text">An unholy plague has infested this undead pirate crew, and they don't want treasure...they want terror!
                     </p>
 
                     <div class="get-tickets-button-alt">
-                        <a class='get-tickets-text-alt'>Get Tickets</a>
+                        <a class='get-tickets-text-alt'>Read More</a>
                     </div>
                 </div>
             </div>
@@ -95,16 +93,10 @@
             <div class="border-container-alt">
                 <div class="inner-hero">
                     <h2 class="attraction-heading">Shady Acres Asylum</h2>
-                    <p class="attraction-text">Explore our insanitorium where unthinkable events occurred and the
-                        scariest
-                        secrets are still waiting to be fully uncovered. As you wander the Shady Acres Asylum, you’ll be
-                        surrounded by the same darkness, death and decay that became the final resting place for the
-                        criminally-insane. Will you survive or, like the previous “patients” who lost their minds, will
-                        you
-                        succumb to its insanity?</p>
+                    <p class="attraction-text">Will you survive or, like the previous “patients” who lost their minds, will you succumb to its insanity?</p>
 
                     <div class="get-tickets-button-alt">
-                        <a class='get-tickets-text-alt'>Get Tickets</a>
+                        <a class='get-tickets-text-alt'>Read More</a>
                     </div>
                 </div>
             </div>
@@ -114,22 +106,16 @@
         </div>
 
         <div class="mobile-attraction-title">
-            <p class="mobile-attraction-heading">Circus of Horrors</p>
+            <p class="mobile-attraction-heading">WE'RE ALL MAD HERE</p>
         </div>
-        <div class="circus-of-horrors-container">
+        <div class="all-mad-here-container">
             <div class="border-container">
                 <div class="inner-hero">
-                    <h2 class="attraction-heading">Circus of Horrors</h2>
-                    <p class="attraction-text">Explore our insanitorium where unthinkable events occurred and the
-                        scariest
-                        secrets are still waiting to be fully uncovered. As you wander the Shady Acres Asylum, you’ll be
-                        surrounded by the same darkness, death and decay that became the final resting place for the
-                        criminally-insane. Will you survive or, like the previous “patients” who lost their minds, will
-                        you
-                        succumb to its insanity?</p>
+                    <h2 class="attraction-heading">WE'RE ALL MAD HERE</h2>
+                    <p class="attraction-text">Follow Alice down the rabbit hole of horror...and pray you return unscathed.</p>
 
                     <div class="get-tickets-button-alt">
-                        <a class='get-tickets-text-alt'>Get Tickets</a>
+                        <a class='get-tickets-text-alt'>Read More</a>
                     </div>
 
                 </div>
@@ -148,16 +134,13 @@
             <div class="border-container-alt">
                 <div class="inner-hero">
                     <h2 class="attraction-heading">Axe Throwing</h2>
-                    <p class="attraction-text">Where else are you actually encouraged to play with sharp objects? Just
-                        like
-                        darts, only better, you can let your wild side out and axe-perience the rush of axe throwing!
-                        It’s a
-                        rush of adrenaline when you hit a bullseye and hear your friends screaming your name. Come split
-                        some timber at Terror In the Corn. (Not included in price; CLICK HERE to purchase Axe Throwing
-                        tickets in advance.)</p>
+                    <p class="attraction-text">Where else are you actually encouraged to play with sharp objects? Come split some timber at Terror In the Corn.
+<br>
+<br>
+<a class='special-text' href='https://tucsonterrorinthecorn.fearticket.com/event/orderticket/eventid/1055'> (Not included in price; CLICK HERE to purchase Axe Throwing tickets in advance.)</a></p>
 
                     <div class="get-tickets-button-alt">
-                        <a class='get-tickets-text-alt'>Get Tickets</a>
+                        <a class='get-tickets-text-alt'>Read More</a>
                     </div>
                 </div>
             </div>
@@ -173,17 +156,12 @@
             <div class="border-container">
                 <div class="inner-hero">
                     <h2 class="attraction-heading">Escape Room</h2>
-                    <p class="attraction-text">Can you make it out alive before your time runs out? With only minutes
-                        before
-                        the murderer strikes again, try to escape our scary school bus and avoid the serial killer who
-                        wants
-                        to make you their next victim. Grab some friends, figure out the clues, and find your way off
-                        the
-                        school bus from hell before you’re stuck inside…forever. (Not included in price; CLICK HERE to
-                        purchase Escape Room tickets in advance.)</p>
+                    <p class="attraction-text">Choose your Escape Room experience and see if you can make it out alive before your time runs out!
+                    <a class='special-text' href='https://tucsonterrorinthecorn.fearticket.com/event/orderticket/eventid/1055'> (Not included in price; CLICK HERE to purchase Axe Throwing tickets in advance.)</a>
+                    </p>
 
                     <div class="get-tickets-button-alt">
-                        <a class='get-tickets-text-alt'>Get Tickets</a>
+                        <a class='get-tickets-text-alt'>Read More</a>
                     </div>
                 </div>
             </div>
@@ -194,23 +172,18 @@
         </div>
 
         <div class="mobile-attraction-title">
-            <p class="mobile-attraction-heading">Zombie Paintball Shootout</p>
+            <p class="mobile-attraction-heading">Zombie Gellyball Shootout</p>
         </div>
         <div class="zombie-paintball-container">
             <div class="border-container-alt">
                 <div class="inner-hero" id="zb-hero">
-                    <h2 class="attraction-heading">Zombie Paintball Shootout</h2>
-                    <p class="attraction-text">Shoot live zombies! Can you handle the walking dead before they attack?
-                        With
-                        18 mounted paintball guns aimed at a field of both fixed targets and live actors who slowly make
-                        their way towards you, jump out from behind obstacles and taunt those hunting them, see if you
-                        have
-                        what it takes to “take out” the zombies before they turn you into one! (Not included in price;
-                        CLICK
-                        HERE to purchase Zombie Paintball tickets in advance.)</p>
+                    <h2 class="attraction-heading">Zombie Gellyaball Shootout</h2>
+                    <p class="attraction-text">Shoot live zombies and save the day! Can you handle the walking dead before they attack? 
+                    <a class='special-text' href='https://tucsonterrorinthecorn.fearticket.com/event/orderticket/eventid/1055'> (Not included in price; CLICK HERE to purchase Axe Throwing tickets in advance.)</a>
+                    </p>
 
                     <div class="get-tickets-button-alt">
-                        <a class='get-tickets-text-alt'>Get Tickets</a>
+                        <a class='get-tickets-text-alt'>Read More</a>
                     </div>
                 </div>
             </div>
@@ -227,15 +200,11 @@
             <div class="border-container">
                 <div class="inner-hero">
                     <h2 class="attraction-heading">Midway Area</h2>
-                    <p class="attraction-text">In addition to the three haunted attractions included in your ticket
-                        price,
-                        plus the Zombie Paintball, Escape Room, and Ax Throwing (for additional fees), there’s much more
-                        to
-                        see and do at Terror in the Corn.</p>
+                    <p class="attraction-text">In addition to the three haunted attractions included in your ticket price, plus the Zombie GellyBall, Escape Room, and Axe Throwing (for additional fees), there’s much more to see and do at Terror In the Corn!</p>
 
 
                     <div class="get-tickets-button-alt">
-                        <a class='get-tickets-text-alt'>Learn More</a>
+                        <a class='get-tickets-text-alt'>Read More</a>
                     </div>
                 </div>
             </div>
@@ -249,10 +218,10 @@
         <div class="mailing-list-section">
             <div class="ads-container">
                 <div class="ads-section">
-                    <img src="/wp-content/uploads/2022/09/Rate Our Haunt.png" class="hh-ads">
-                    <img src="/wp-content/uploads/2022/09/AZ Haunted Houses.png" class="hh-ads">
-                    <img src="/wp-content/uploads/2022/09/Haunts.png" class="hh-ads">
-                    <img src="/wp-content/uploads/2022/09/Haunted Corn Mazes.png" class="hh-ads">
+                <a href='https://www.tucsonhauntedhouses.com/' target="_blank"><img src="/wp-content/uploads/2022/09/Rate-Our-Haunt-1.png" class="hh-ads"/></a>
+                    <a href='https://www.azhauntedhouses.com/' target="_blank"> <img src="/wp-content/uploads/2022/09/AZ-Haunted-Houses-1.png" class="hh-ads"/></a>
+                    <a href='https://www.haunts.com/' target="_blank"><img src="/wp-content/uploads/2022/09/Haunts-1.png" class="hh-ads"></a>
+                    <a href='https://www.hauntedcornmazes.com/' target="_blank"><img src="/wp-content/uploads/2022/09/Haunted-Corn-Mazes-1.png" class="hh-ads"/></a>
                 </div>
             </div>
             <div class="email-signup-container">
@@ -270,10 +239,10 @@
         <div class="universal-section">
             <div class='buckelew-links-container'>
                 <ul class="buckelew-links-list">
-                    <li id="buckelew-farm">Buckelew Farm</li>
-                    <li id="titc">Terror in the Corn</li>
-                    <li id="fireworks-stands">Fireworks Stands</li>
-                    <li id="christmas-tree-lots">Christmas Tree Lots</li>
+                    <a href='https://www.tucsonterrorinthecorn.com/' target='_blank'><img src='/wp-content/uploads/2022/09/Buckelew-Farm.png' class="bf-logos" id="buckelew-farm"></a>
+                    <a href='https://www.buckelewfarm.com/'> <img  src=/wp-content/uploads/2022/09/titc-logo.png class="bf-logos" id="titc"></a>
+                    <a href='https://www.buckelewfireworks.com/'> <img src='/wp-content/uploads/2022/09/Fireworks-Stands.png' class="bf-logos" id="fireworks-stands"></a>
+                    <a href='https://www.buckelewchristmastrees.com/'> <img src='/wp-content/uploads/2022/09/BuckelewFarm-ChristmasTrees-Logo.png' class="bf-logos" id="christmas-tree-lots"></a>
                 </ul>
                 <p id="contact-info"> I-10 & Tangerine Exit 240 • 9312 W Rillito Village Trail Tucson, AZ 85653 • <a
                         href="/" id="email-address">info@buckelewfarm.com</a></p>

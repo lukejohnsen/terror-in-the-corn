@@ -1,14 +1,13 @@
 body {
     margin: 0;
     border: 0;
-    background-image: url('../template-assets/corn-stalks.png'), url('../template-assets/bg-texture.png');
+    background: url('../template-assets/corn-stalks.png'), url('../template-assets/bg-texture.png');
     background-position: top center, bottom center;
     background-size: contain;
     background-repeat: no-repeat, repeat;
-    background-color: rgba(0, 0, 0, .9);
-    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+    
 }
-
 
 @font-face {
     font-family: 'Horrormaster';
@@ -381,6 +380,7 @@ body {
 .premier-row {
     width: 50%;
     height: 50%;
+    margin-top: 87px;
 }
 
 .level-1-sponsors {
@@ -477,6 +477,10 @@ body {
     align-items: center;
 }
 
+.social-media-links:focus {
+    outline: none;
+    }
+
 #twitter-image {
     height: 37.59px;
     width: 37.59px;
@@ -514,51 +518,96 @@ body {
     gap: 20px;
     letter-spacing: 5.85px;
     flex-wrap: wrap
+    
 }
 
 .menu a {
     color: #ffffff;
     font-size: 39px;
-    text-transform: uppercase;
     font-family: 'Horrormaster';
     text-decoration: none;
+}
+
+.menu-item {
+    width: 100px;
+}
+
+#menu-item-146 {
+    width: 250px;
 }
 
 .menu a:hover{
     color: #b90803;
     text-transform: uppercase;
-    font-family: 'Horrorfind'
+    font-family: 'Horrorfind';
+    font-size: 39px;
 }
 
-#menu-item-148 ul {
+.menu-item button {
     display: none;
 }
 
-#menu-item-148 button {
+.menu-item ul {
     display: none;
 }
 
-#menu-item-146 ul {
-    display: none;
+.menu-item-148:hover .sub-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 1;
+    width: 250px;
 }
 
-#menu-item-146 button {
-    display: none;
+#menu-item-184 {
+    width: 250px
 }
 
-#menu-item-147 ul {
-    display: none;
+.menu-item-146:hover .sub-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 1;
+    width: 425px;
 }
 
-#menu-item-147 button {
-    display: none;
+#menu-item-192 {
+    width: 450px
 }
 
-.menu-item-148:hover ul {
-    display: block;
+#menu-item-191 {
+    width: 450px
 }
 
+#menu-item-190 {
+    width: 450px
+}
 
+#menu-item-189 {
+    width: 450px
+}
+
+#menu-item-188 {
+    width: 450px
+}
+
+#menu-item-187 {
+    width: 450px
+}
+
+.menu-item-147:hover .sub-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 1;
+    width: 200px;
+}
 
 .get-tickets-container {
     color: #000000;
@@ -662,7 +711,7 @@ body {
 }
 
 .universal-section {
-    height: 129.5px;
+    height: 145px;
     background-color: #000000;
     display: flex;
     flex-direction: column;
@@ -682,9 +731,17 @@ body {
     justify-content: space-around;
     gap: 20px;
     font-size: 21px;
-    margin: 15px 0px;
+    align-items: center;
     padding-left: 0px;
     /* font-family: New Spirit, Bold Condensed */
+}
+
+.bf-logos {
+    height: 75px;
+}
+
+#buckelew-farm {
+    height: 100px;
 }
 
 #contact-info {

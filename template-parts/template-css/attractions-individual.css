@@ -54,24 +54,18 @@ justify-content: center;
 .hero-heading {
 color: #b90803;
 font-size: 70px;
-margin-left: 97px;
-margin-top: 163px;
-margin-bottom: 0;
 text-transform: uppercase;
 font-family: 'Horrormaster';
 letter-spacing: 8.4px;
 margin-left: 44px;
-width: 307px;
 }
 
 .hero-text {
 color: #ffffff;
 font-size: 35px;
-margin-left: 97px;
-margin-right: 400px;
 font-family: 'EB Garamond';
 line-height: 1.45;
-margin-right: 500px;
+width: 50%;
 margin-left: 44px;
 }
 
