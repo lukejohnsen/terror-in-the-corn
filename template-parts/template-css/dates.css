@@ -9,6 +9,10 @@ body {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 @font-face {
     font-family: 'Horrormaster';
     src: url('../template-assets/fonts/Horrormaster.ttf');
@@ -485,19 +489,20 @@ body {
     width: 10%;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     .mobile-nav {
         display: none;
     }
 
-    .mobile-social-media-nav {
+    .social-media-nav-footer {
         display: none;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .dates-hero {
         width: 100%;
+        height: 55vw;
     }
 
     .dates-heading {
@@ -525,10 +530,20 @@ body {
         font-family: 'Horrorfind';
     }
 
+    .social-media-nav {
+        display: none;
+    }
+
+    .social-media-nav-footer {
+        display: flex;
+        flex-direction: row;
+    }
+
     .calendar-container {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 47px;
     }
 
     .time-container {
@@ -547,6 +562,11 @@ body {
 
     .get-tickets-button {
         width: 50vw;
+        height: 15vw;
+    }
+
+    .promotions-container {
+        margin-bottom: 47px;
     }
 
     .promotions-text {
@@ -645,11 +665,6 @@ body {
         flex-wrap: wrap;
         line-height: 1.21;
         text-align: center;
-    }
-
-    .social-media-nav {
-        max-width: 600rem;
-        display: flex;
     }
 
     .social-media-links {

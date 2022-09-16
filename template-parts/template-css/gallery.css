@@ -9,6 +9,10 @@ body {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 @font-face {
     font-family: 'Horrormaster';
     src: url('../template-assets/fonts/Horrormaster.ttf');
@@ -428,7 +432,7 @@ body {
     width: 10%;
 }
 
-@media (min-width: 601px) {
+@media (min-width: 801px) {
     .mobile-nav {
         display: none;
     }
@@ -438,7 +442,7 @@ body {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     /* Header Mobile CSS */
 
     .header {

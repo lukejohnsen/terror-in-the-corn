@@ -50,16 +50,14 @@
                 <img src="/wp-content/uploads/2022/09/mobile-hamburger.png" class="nav-hamburger">
             </div>
         </div>
-
-
-    </div>
+</div>
 
     <div class="homepage">
         <div class="hero-container">
-        <?php echo do_shortcode('[[slide-anything id="247"]'); ?>
-            <h2 class="hero-title">Circus of Horror</h2>
-            <p class="hero-text">Our “big top” is bonkers! Step right up and experience the circus from hell. Our crazy
-                clown-themed attraction is sure to scare even the most seasoned haunted-house aficionados.</p>
+            <div class='blur-container'>
+            <h2 class="hero-title">Tucson Terror in the Corn</h2>
+            <p class="hero-text">Voted Tucson’s best haunted attraction for over a decade, Terror In the Corn is Southern Arizona’s scariest and most unique Halloween experience.</p>
+</div>
         </div>
 
         <div class="sub-hero-container">
@@ -226,12 +224,12 @@
                         href="/" id="email-address">info@buckelewfarm.com</a></p>
             </div>
 
-            <div class="mobile-social-media-nav">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
+            <div class="social-media-nav-footer">
+                <a class="social-media-links" href='https://twitter.com/terror1nthecorn' target='_blank'><img id='twitter-image' src="/wp-content/uploads/2022/09/1.png"></a>
+                <a class="social-media-links" href='https://www.facebook.com/Terror1ntheCorn' target='_blank'><img id='facebook-image' src="/wp-content/uploads/2022/09/2.png"></a>
+                <a class="social-media-links" href='https://www.instagram.com/terrorinthecorn/' target='_blank'><img id='instagram-image' src="/wp-content/uploads/2022/09/3.png"></a>
+                <a class="social-media-links" href='https://www.youtube.com/channel/UCOWtPHUlsHzmc2giMJTCHTQ' target='_blank'><img id='youtube-image' src="/wp-content/uploads/2022/09/5.png"></a>
+                <a class="social-media-links" href='https://www.tiktok.com/@tucsonterrorinthecorn' target='_blank'><img id='tiktok-image' src="/wp-content/uploads/2022/09/4.png"></a>
             </div>
         </div>
 

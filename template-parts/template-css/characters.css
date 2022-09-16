@@ -9,6 +9,10 @@ body {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 @font-face {
     font-family: 'Horrormaster';
     src: url('../template-assets/fonts/Horrormaster.ttf');
@@ -39,27 +43,18 @@ body {
 }
 
 .video-hero {
-    background-image: url('../template-assets/Characters-Page-Hero.jpeg');
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    width: 1160px;
-    height: 589px;
-    justify-content: center;
-    margin-bottom: 65px;
-}
-
-.blur-container {
-    backdrop-filter: blur(6px);
     background-image: url('../template-assets/carousel-border.png');
-    background-position: center;
+    background-color: rgba(75, 75, 75, .35);
+    backdrop-filter: blur(30px);
     background-size: cover;
-    justify-content: center;
-    width: 1160px;
-    height: 589px;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: 75vh;
+    max-height: 589px;
+    max-width: 1160px;
     align-items: center;
+    justify-content: center;
 }
 
 .hero-heading {
@@ -75,8 +70,8 @@ body {
     font-size: 35px;
     font-family: 'EB Garamond';
     line-height: 1.45;
-    width: 700px;
     text-align: center;
+    width: 80%;
 }
 
 
@@ -99,71 +94,68 @@ body {
     font-family: 'Gilaka';
 }
 
-.character-cards-container {
+.card-grid {
     display: flex;
+    width: 80%;
     flex-wrap: wrap;
-    margin-bottom: 60px;
-    width: 100%;
-    height: 1160px;
 }
 
-.character-card-info {
+.character-card-container {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    align-items: center;
+}
+
+.character-card {
     background-size: cover;
-    width: 472px;
     height: 472px;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    margin-left: 65px;
-    margin-bottom: -82px;
+    justify-content: center;
+    align-items: flex-end;
 }
 
-.character-card-bg {
-    background-size: cover;
-    width: 500px;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    flex-basis: 33.33333%;
+.character-title {
+    font-size: 40px;
+    font-family: 'Gilaka';
+    color: #b90803;
+    letter-spacing: 1.5px;
+    margin-bottom: 10%;
+}
+
+.character-description {
+    width: 50%;
+    color: #ffffff;
+    font-family: 'EB Garamond';
+    font-size: 20px;
+    text-align: center;
 }
 
 #skitso {
     background-image: url('../template-assets/Skitso.png');
-}
-
-.character-card-alt-info {
-    background-size: cover;
-    width: 275px;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    flex-basis: 33.33333%;
     transform: matrix(1, -0.07, 0.07, 1, 0, 0);
-    background-image: url('../template-assets/polaroid-border.png');
 }
 
-.character-title {
-    color: #b90803;
-    font-family: 'Gilaka';
-    font-size: 48px;
-    transform: matrix(1, 0.03, -0.03, 1, 0, 0);
-    width: auto;
-    margin-top: 0;
-    margin-bottom: 47px;
+#escapee {
+    background-image: url('../template-assets/Escapee.png');
 }
 
-.character-description {
-    font-family: 'EB Garamond';
-    font-size: 20px;
-    text-align: center;
-    line-height: 1.26;
-    color: #ffffff;
-    width: 278px;
+#mad-hatter {
+    background-image: url('../template-assets/Mad-Hatter.png');
+    transform: matrix(1, -0.07, 0.07, 1, 0, 0);
+}
+#jason {
+    background-image: url('../template-assets/Jason.png');
+}
+
+#pennywise {
+    background-image: url('../template-assets/Pennywise.png');
+    transform: matrix(1, -0.07, 0.07, 1, 0, 0);
+}
+
+#scourge {
+    background-image: url('../template-assets/Scourge.png');
 }
 
 /* Header CSS */
@@ -503,7 +495,7 @@ body {
     height: 10%;
     width: 10%;
 }
-@media (min-width: 601px) {
+@media (min-width: 801px) {
     .mobile-nav {
         display: none;
     }
@@ -513,7 +505,7 @@ body {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .video-hero {
         width: 100%;
     }

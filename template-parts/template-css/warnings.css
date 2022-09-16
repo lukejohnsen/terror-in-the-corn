@@ -473,7 +473,7 @@ body {
     width: 10%;
 }
 
-@media (min-width: 601px) {
+@media (min-width: 801px) {
     .mobile-nav {
         display: none;
     }
@@ -483,7 +483,7 @@ body {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .warnings-hero {
         width: 100%;
     }

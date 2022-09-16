@@ -9,6 +9,10 @@ body {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 @font-face {
     font-family: 'Horrormaster';
     src: url('../template-assets/fonts/Horrormaster.ttf');
@@ -365,7 +369,7 @@ body {
     width: 250px;
 }
 
-.menu a:hover{
+.menu a:hover {
     color: #b90803;
     text-transform: uppercase;
     font-family: 'Horrorfind';
@@ -597,7 +601,7 @@ body {
     width: 10%;
 }
 
-@media (min-width: 601px) {
+@media (min-width: 801px) {
     .mobile-attraction-title {
         display: none;
     }
@@ -610,14 +614,15 @@ body {
         display: none;
     }
 
-    .mobile-social-media-nav {
+    .social-media-nav {
         display: none;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .video-hero {
         width: 100%;
+        height: 350px;
     }
 
     .hero-heading {
@@ -633,101 +638,61 @@ body {
 
     .get-tickets-button {
         width: 50vw;
+        margin-top: 100px;
     }
 
-    .attraction-text {
-        display: none;
-    }
-
-    .border-container {
-        background-image: url('../template-assets/square-border.png');
-        justify-content: center;
-    }
-
-    .border-container-alt {
-        background-image: url('../template-assets/square-border.png');
-        justify-content: center;
-    }
-
-    .inner-hero {
-        width: 100%;
-        align-items: center;
-        backdrop-filter: none;
-    }
-
-    .attraction-heading {
-        display: none;
-    }
-
-    .mobile-attraction-heading {
-        display: none;
-        color: #b90803;
-    font-family: 'Gilaka';
-    font-size: 48px;
-    display: flex;
-    margin-left: 25px;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    }
-
-    .field-of-screams-container {
-        margin-top: 0;
-        height: 63vh;
-        max-height: 417px;
+    .pirates-plague-container {
+        height: 15rem;
     }
 
     .shady-acres-asylum-container {
-        margin-top: 0;
-        height: 63vh;
+        height: 15rem;
     }
 
-    .circus-of-horrors-container {
-        margin-top: 0;
-        height: 63vh;
+    .all-mad-here-container {
+        height: 15rem;
     }
 
     .axe-throwing-container {
-        margin-top: 0;
-        height: 63vh;
+        height: 15rem;
     }
 
     .escape-room-container {
-        margin-top: 0;
-        height: 63vh;
+        height: 15rem;
     }
 
     .zombie-paintball-container {
-        margin-top: 0;
-        height: 63vh;
+        height: 15rem;
     }
 
     .midway-container {
-        margin-top: 0;
-        height: 63vh;
+        height: 15rem;
     }
 
-    .get-tickets-button-alt {
-        display: none;
+    .border-container {
+        height: 15rem;
     }
 
-    .mobile-arrow-container {
-        display: flex;
-        flex-direction: row;
+    .border-container-alt {
+        height: 15rem;
+    }
+
+    .inner-hero {
+        height: 15rem;
         width: 100%;
-        justify-content: center;
-        align-items: flex-end;
     }
 
-    .mobile-arrow {
-        width: 50px;
-        height: 50px;
+    #axe-text {
+        font-size: 15px;
     }
+
+
+
 
         /* Header Mobile CSS */
 
         .header {
             flex-direction: column;
-            justify-content: unset;
         }
     
         .titc-logo-container {
@@ -743,9 +708,6 @@ body {
             display: none;
         }
     
-        .main-nav {
-            display: none;
-        }
     
         .titc-logo {
             width: 190.27px;
@@ -817,13 +779,13 @@ body {
             text-align: center;
         }
     
-        .social-media-nav {
-            max-width: 600rem;
-            display: flex;
-        }
-    
         .social-media-links {
             width: 56px;
+        }
+
+        .social-media-nav-footer {
+            display: flex;
+            flex-direction: row;
         }
     
         #email-input {

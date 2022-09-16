@@ -47,7 +47,14 @@
             </div>
 
             <div class="mobile-nav">
-                <img src="/wp-content/uploads/2022/09/mobile-hamburger.png" class="nav-hamburger">
+                <button src="/wp-content/uploads/2022/09/mobile-hamburger.png" class="nav-hamburger">
+                <?php 
+    wp_nav_menu( 
+        array( 
+            'theme_location' => 'my-custom-menu'
+        ) 
+    ); 
+    ?>
             </div>
         </div>
     </div>
@@ -65,10 +72,6 @@
         <div class="get-tickets-button">
             <a class='get-tickets-text' href='https://tucsonterrorinthecorn.fearticket.com/event/orderticket/eventid/1055' target='_blank'>Get Tickets</a>
         </div>
-
-        <div class="mobile-attraction-title">
-            <p class="mobile-attraction-heading">The Pirate's Plague</p>
-        </div>
         <div class="pirates-plague-container">
             <div class="border-container">
                 <div class="inner-hero">
@@ -81,13 +84,6 @@
                     </div>
                 </div>
             </div>
-            <div class="mobile-arrow-container">
-                <img src='/wp-content/uploads/2022/09/arrow.png' class="mobile-arrow">
-            </div>
-        </div>
-
-        <div class="mobile-attraction-title">
-            <p class="mobile-attraction-heading">Shady Acres Asylum</p>
         </div>
         <div class="shady-acres-asylum-container">
             <div class="border-container-alt">
@@ -100,13 +96,6 @@
                     </div>
                 </div>
             </div>
-            <div class="mobile-arrow-container">
-                <img src='/wp-content/uploads/2022/09/arrow.png' class="mobile-arrow">
-            </div>
-        </div>
-
-        <div class="mobile-attraction-title">
-            <p class="mobile-attraction-heading">WE'RE ALL MAD HERE</p>
         </div>
         <div class="all-mad-here-container">
             <div class="border-container">
@@ -121,20 +110,14 @@
                 </div>
             </div>
 
-            <div class="mobile-arrow-container">
-                <img src='/wp-content/uploads/2022/09/arrow.png' class="mobile-arrow">
-            </div>
 
         </div>
 
-        <div class="mobile-attraction-title">
-            <p class="mobile-attraction-heading">Axe Throwing</p>
-        </div>
         <div class="axe-throwing-container">
             <div class="border-container-alt">
                 <div class="inner-hero">
                     <h2 class="attraction-heading">Axe Throwing</h2>
-                    <p class="attraction-text">Where else are you actually encouraged to play with sharp objects? Come split some timber at Terror In the Corn.
+                    <p class="attraction-text" id='axe-text'>Where else are you actually encouraged to play with sharp objects? Come split some timber at Terror In the Corn.
 <br>
 <br>
 <a class='special-text' href='https://tucsonterrorinthecorn.fearticket.com/event/orderticket/eventid/1055'> (Not included in price; CLICK HERE to purchase Axe Throwing tickets in advance.)</a></p>
@@ -144,14 +127,8 @@
                     </div>
                 </div>
             </div>
-            <div class="mobile-arrow-container">
-                <img src='/wp-content/uploads/2022/09/arrow.png' class="mobile-arrow">
-            </div>
         </div>
 
-        <div class="mobile-attraction-title">
-            <p class="mobile-attraction-heading">Escape Room</p>
-        </div>
         <div class="escape-room-container">
             <div class="border-container">
                 <div class="inner-hero">
@@ -165,15 +142,8 @@
                     </div>
                 </div>
             </div>
-
-            <div class="mobile-arrow-container">
-                <img src='/wp-content/uploads/2022/09/arrow.png' class="mobile-arrow">
-            </div>
         </div>
 
-        <div class="mobile-attraction-title">
-            <p class="mobile-attraction-heading">Zombie Gellyball Shootout</p>
-        </div>
         <div class="zombie-paintball-container">
             <div class="border-container-alt">
                 <div class="inner-hero" id="zb-hero">
@@ -187,15 +157,8 @@
                     </div>
                 </div>
             </div>
-
-            <div class="mobile-arrow-container">
-                <img src='/wp-content/uploads/2022/09/arrow.png' class="mobile-arrow">
-            </div>
         </div>
 
-        <div class="mobile-attraction-title">
-            <p class="mobile-attraction-heading">Midway Area</p>
-        </div>
         <div class="midway-container">
             <div class="border-container">
                 <div class="inner-hero">
@@ -207,9 +170,6 @@
                         <a class='get-tickets-text-alt'>Read More</a>
                     </div>
                 </div>
-            </div>
-            <div class="mobile-arrow-container">
-                <img src='/wp-content/uploads/2022/09/arrow.png' class="mobile-arrow">
             </div>
         </div>
     </div>
@@ -248,12 +208,12 @@
                         href="/" id="email-address">info@buckelewfarm.com</a></p>
             </div>
 
-            <div class="mobile-social-media-nav">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
+            <div class="social-media-nav-footer">
+            <a class="social-media-links" href='https://twitter.com/terror1nthecorn' target='_blank'><img id='twitter-image' src="/wp-content/uploads/2022/09/1.png"></a>
+                <a class="social-media-links" href='https://www.facebook.com/Terror1ntheCorn' target='_blank'><img id='facebook-image' src="/wp-content/uploads/2022/09/2.png"></a>
+                <a class="social-media-links" href='https://www.instagram.com/terrorinthecorn/' target='_blank'><img id='instagram-image' src="/wp-content/uploads/2022/09/3.png"></a>
+                <a class="social-media-links" href='https://www.youtube.com/channel/UCOWtPHUlsHzmc2giMJTCHTQ' target='_blank'><img id='youtube-image' src="/wp-content/uploads/2022/09/5.png"></a>
+                <a class="social-media-links" href='https://www.tiktok.com/@tucsonterrorinthecorn' target='_blank'><img id='tiktok-image' src="/wp-content/uploads/2022/09/4.png"></a>
             </div>
         </div>
 

@@ -139,12 +139,12 @@ Welcome to Terror In the Corn!
                         href="/" id="email-address">info@buckelewfarm.com</a></p>
             </div>
 
-            <div class="mobile-social-media-nav">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
-                <img class="social-media-links" src="/wp-content/uploads/2022/09/social-carousel.png">
+            <div class="social-media-nav-footer">
+            <a class="social-media-links" href='https://twitter.com/terror1nthecorn'><img id='twitter-image' src="/wp-content/uploads/2022/09/1.png"></a>
+                <a class="social-media-links" href='https://www.facebook.com/Terror1ntheCorn'><img id='facebook-image' src="/wp-content/uploads/2022/09/2.png"></a>
+                <a class="social-media-links" href='https://www.instagram.com/terrorinthecorn/'><img id='instagram-image' src="/wp-content/uploads/2022/09/3.png"></a>
+                <a class="social-media-links" href='https://www.youtube.com/channel/UCOWtPHUlsHzmc2giMJTCHTQ'><img id='youtube-image' src="/wp-content/uploads/2022/09/5.png"></a>
+                <a class="social-media-links" href='https://www.tiktok.com/@tucsonterrorinthecorn'><img id='tiktok-image' src="/wp-content/uploads/2022/09/4.png"></a>
             </div>
         </div>
 

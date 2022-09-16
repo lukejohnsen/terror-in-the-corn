@@ -9,6 +9,10 @@ body {
     
 }
 
+a {
+    text-decoration: none;
+}
+
 @font-face {
     font-family: 'Horrormaster';
     src: url('../template-assets/fonts/Horrormaster.ttf');
@@ -48,11 +52,8 @@ body {
     overflow-x: hidden;
 }
 
-.wpcp-carousel-wrapper {
-    position: absolute;
-}
-
 .hero-container {
+    background: url('../template-assets/Homepage-Hero-Slider-1.png');
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
@@ -63,23 +64,31 @@ body {
     width: 1160px;
 }
 
+.blur-container {
+    backdrop-filter: blur(6px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .hero-title {
     color: #b90803;
     font-size: 70px;
-    margin-left: 97px;
-    margin-bottom: 0;
     text-transform: uppercase;
     font-family: 'Horrormaster';
     letter-spacing: 8.4px;
+    text-align: center;
 }
 
 .hero-text {
     color: #ffffff;
     font-size: 35px;
-    margin-left: 97px;
-    margin-right: 400px;
+    width: 65%;
     font-family: 'EB Garamond';
     line-height: 1.45;
+    text-align: center;
 }
 
 .sub-hero-container {
@@ -248,8 +257,8 @@ body {
 
 .attractions-card {
     background-size: cover;
-    width: 275px;
-    height: 600px;
+    width: 38rem;
+    height: 30rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -259,8 +268,8 @@ body {
 
 .attractions-card-alt {
     background-size: cover;
-    width: 275px;
-    height: 600px;
+    width: 38rem;
+    height: 30rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -272,12 +281,11 @@ body {
 .attractions-title {
     color: #b90803;
     font-family: 'Gilaka';
-    font-size: 48px;
+    font-size: 37px;
     transform: matrix(1, 0.03, -0.03, 1, 0, 0);
     width: auto;
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 75px;
 }
 
 #field-screams-card {
@@ -319,7 +327,7 @@ body {
     width: 350px;
     height: 100px;
     transform: matrix(1, -0.02, 0.02, 1, 0, 0);
-    margin-left: 60px;
+    margin-bottom: -32px;
 }
 
 .get-tickets-text-alt {
@@ -464,6 +472,13 @@ body {
 }
 
 .social-media-nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 11px;
+    flex-wrap: wrap;
+}
+
+.social-media-nav-footer {
     display: flex;
     justify-content: flex-end;
     gap: 11px;
@@ -773,7 +788,7 @@ body {
     width: 10%;
 }
 
-@media (min-width: 601px) {
+@media (min-width: 801px) {
     .mobile-calendar-location-heading {
         display: none;
     }
@@ -782,12 +797,12 @@ body {
         display: none;
     }
 
-    .mobile-social-media-nav {
+    .social-media-nav-footer {
         display: none;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .hero-container {
         background-size: contain;
         background-repeat: no-repeat;
@@ -829,7 +844,7 @@ body {
     }
 
     .get-tickets-button {
-        width: 50%
+        display: none;
     }
 
 
@@ -856,6 +871,10 @@ body {
         display: none;
     }
 
+    .hours-text {
+        margin-top: 0;
+    }
+
     .calendar-location-visuals {
         flex-direction: column;
         align-items: center;
@@ -864,12 +883,35 @@ body {
     .calendar-visual {
         width: 80%;
         opacity: .75;
+        margin-bottom: 47px;
     }
 
     .map-visual {
         width: 80%;
         opacity: .75;
     }
+
+    .attractions-cards-container {
+        flex-direction: column;
+    }
+
+    .attractions-card {
+        width: 100%;
+    }
+
+    .attractions-card-alt {
+        width: 100%;
+    }
+
+    .get-tickets-button-alt {
+        height: 350px;
+    }
+
+    .attractions-heading {
+        font-size: 45px;
+    }
+
+    .attraction
 
     .attractions-heading {
         font-size: 45px;
@@ -885,6 +927,14 @@ body {
 
     .sponsors-text {
         font-size: 21px;
+    }
+
+    #fear-ticket {
+        width: 33%
+    }
+
+    .video-container {
+        width: 80%;
     }
 
     /* Header Mobile CSS */
@@ -979,11 +1029,6 @@ body {
         flex-wrap: wrap;
         line-height: 1.21;
         text-align: center;
-    }
-
-    .social-media-nav {
-        max-width: 600rem;
-        display: flex;
     }
 
     .social-media-links {

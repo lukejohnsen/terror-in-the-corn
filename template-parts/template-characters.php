@@ -9,6 +9,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href='../css/homepage.css'>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
 
 <body>
@@ -53,53 +55,58 @@
     </div>
 
     <div class="characters-container">
-    <div class="video-hero">
-        <div class="blur-container">
+        <div class="video-hero">
             <h2 class="hero-heading">Characters</h2>
-            <p class="hero-text">Come meet our monsters - a creepy collection of the oddest, scariest, strangest freaks straight from Hell and into your nightmare. The Terror is real!
-            </p>
+            <p class="hero-text">Come meet our monsters - a creepy collection of the oddest, scariest, strangest freaks
+                straight from Hell and into your nightmare. The Terror is real!</p>
         </div>
-</div>
 
         <div class="get-tickets-button">
-            <a class='get-tickets-text' href='https://tucsonterrorinthecorn.fearticket.com/event/orderticket/eventid/1055' target='_blank'>Get Tickets</a>
+            <a class='get-tickets-text'>Get Tickets</a>
         </div>
 
-        <div class="card-container">
-            <div class="character-cards-container">
-                <div class="character-card-bg" id='skitso'>
-                    <div class='character-card-info'>
-                    <h3 class="character-title">Skitso</h3>
-                    <p class="character-description">This crazy, chainsaw-wielding clown is all twisted smiles and manic laughter and will stop at nothing to force a “smile" on your face.</p>
+        <div class="card-grid">
+            <div class="character-card-container">
+                <div class="character-card" id="skitso">
+                    <p class="character-title">Skitso</p>
                 </div>
-</div>
-
-<div class='character-card-bg'
-                <div class="character-card-alt-info">
-                    <h3 class="character-title">Character</h3>
-                    <p class="character-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-                        vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,</p>
-                </div>
-</div>  
-
-                <div class="character-card-bg" id='skitso'>
-                    <div class='character-card-info'>
-                    <h3 class="character-title">Skitso</h3>
-                    <p class="character-description">This crazy, chainsaw-wielding clown is all twisted smiles and manic laughter and will stop at nothing to force a “smile" on your face.</p>
-                </div>
+                <p class="character-description">This crazy, chainsaw-wielding clown is all twisted smiles and manic laughter and will stop at nothing to force a “smile" on your face.</p>
             </div>
-            
-            <div class='character-card-bg'
-                <div class="character-card-alt-info">
-                    <h3 class="character-title">Character</h3>
-                    <p class="character-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-                        vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,</p>
+
+            <div class="character-card-container">
+                <div class="character-card" id="escapee">
+                    <p class="character-title">Escapee</p>
                 </div>
-</div>  
+                <p class="character-description">This patient never got better, but he did get out! Our asylum couldn't hold this insane inmate, and now he's escaped...and capable of anything!</p>
+            </div>
 
+            <div class="character-card-container">
+                <div class="character-card" id="mad-hatter">
+                    <p class="character-title">The Mad Hatter</p>
+                </div>
+                <p class="character-description">Follow this mad maniac down the rabbit hole and you might not make it back out!  And if you do, you'll never be the same.</p>
+            </div>
 
+            <div class="character-card-container">
+                <div class="character-card" id="jason">
+                    <p class="character-title">Jason</p>
+                </div>
+                <p class="character-description">There's a legend around here. A killer buried, but not dead. A curse on Crystal Lake, a death curse. Jason Voorhees' curse. They say he died as a boy, but he keeps coming back. Few have seen him and lived. Some have even tried to stop him... No one can. People forget he's down there, waiting...</p>
+            </div>
+
+            <div class="character-card-container">
+                <div class="character-card" id="pennywise">
+                    <p class="character-title">Pennywise</p>
+                </div>
+                <p class="character-description">With an evil grin, hellish fangs, and freakish claws, "It's" favorite form is a terrifying clown called Pennywise. It haunts our dreams. It never stops. It is here at Terror In the Corn!</p>
+            </div>
+
+            <div class="character-card-container">
+                <div class="character-card" id='scourge'>
+                    <p class="character-title">Scourge</p>
+                </div>
+                <p class="character-description">From the depths of the briny deep and more creature than Captain, this pirate is the true terror of the Seven Seas and is what's found underneath a dead man's chest.</p>
+            </div>
         </div>
     </div>
 
