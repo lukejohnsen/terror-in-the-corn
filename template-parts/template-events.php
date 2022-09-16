@@ -42,7 +42,7 @@
     ); 
 ?>
                 <div class="get-tickets-container">
-                    <a id="get-tickets-link">Get Tickets</a>
+                    <a id="get-tickets-link" href='https://tucsonterrorinthecorn.fearticket.com/event/orderticket/eventid/1055' target='_blank'>Get Tickets</a>
                 </div>
             </div>
 
@@ -91,11 +91,11 @@
                 <input type="text" class="input-1" placeholder='Name'>
                 <input type="text" class="input-2" placeholder='Email'>
                 <input type="text" class="input-3" placeholder='Phone'>
-                <textarea type="text" class="input-1"></textarea>
-                <div class="submit-button-container">
+                <textarea type="text" class="input-4" placeholder='Write your message here!'></textarea>
+            </div>
+            <div class="submit-button-container">
                     <a class="submit-button">Submit</a>
                 </div>
-            </div>
         </div>
     </div>
 
@@ -124,10 +124,10 @@
         <div class="universal-section">
             <div class='buckelew-links-container'>
                 <ul class="buckelew-links-list">
-                    <li id="buckelew-farm">Buckelew Farm</li>
-                    <li id="titc">Terror in the Corn</li>
-                    <li id="fireworks-stands">Fireworks Stands</li>
-                    <li id="christmas-tree-lots">Christmas Tree Lots</li>
+                <a href='https://tucsonterrorinthecorn.com/' target='_blank'><img src='/wp-content/uploads/2022/09/Buckelew-Farm.png' class="bf-logos" id="buckelew-farm"></a>
+                    <a href='https://www.buckelewfarm.com/' target='_blank'><img  src='/wp-content/uploads/2022/09/titc-logo.png' class="bf-logos" id="titc"></a>
+                    <a href='https://buckelewfireworks.com/' target='_blank'><img src='/wp-content/uploads/2022/09/Fireworks-Stands.png' class="bf-logos" id="fireworks-stands"></a>
+                    <a href='https://buckelewchristmastrees.com/' target='_blank'><img src='/wp-content/uploads/2022/09/BuckelewFarm-ChristmasTrees-Logo.png' class="bf-logos" id="christmas-tree-lots"></a>
                 </ul>
                 <p id="contact-info"> I-10 & Tangerine Exit 240 • 9312 W Rillito Village Trail Tucson, AZ 85653 • <a
                         href="/" id="email-address">info@buckelewfarm.com</a></p>
@@ -142,7 +142,7 @@
         </div>
 
         <div class='gjj-footer'>
-            <img src="/wp-content/uploads/2022/09/GoodJuJu-Bloody.png" id="gjj-logo">
+            <img src="/wp-content/uploads/2022/09/made-with-good-juju.png" id="gjj-logo">
         </div>
     </div>
 </body>

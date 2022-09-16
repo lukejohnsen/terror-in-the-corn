@@ -42,7 +42,7 @@
     ); 
 ?>
                 <div class="get-tickets-container">
-                    <a id="get-tickets-link">Get Tickets</a>
+                    <a id="get-tickets-link" href='https://tucsonterrorinthecorn.fearticket.com/event/orderticket/eventid/1055' target='_blank'>Get Tickets</a>
                 </div>
             </div>
 
@@ -76,8 +76,10 @@
                 <h2 class="pricing-promotion-heading">Details</h2>
                 <h3 class="promotion-info">Open weekend nights in October + Halloween
                     <br>Hours: 6pm - Midnight*
+                    <br>
+                    <br>
+                    Closes at 10pm on OCT. 6, 10, 13, 20, 27 & 30
                 </h3>
-                <h4 class="hours-sub-text">Closes at 10pm on OCT. 6, 10, 13, 20, 27 & 30</h4>
             </div>
 
         </div>
@@ -216,7 +218,7 @@
         </div>
 
         <div class='gjj-footer'>
-            <img src="/wp-content/uploads/2022/09/GoodJuJu-Bloody.png" id="gjj-logo">
+            <img src="/wp-content/uploads/2022/09/made-with-good-juju.png" id="gjj-logo">
         </div>
     </div>
 </body>

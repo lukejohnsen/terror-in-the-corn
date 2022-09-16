@@ -45,7 +45,7 @@ Template Post Type: attractions
         ) 
     ); ?>
         <div class="get-tickets-container">
-            <a id="get-tickets-link">Get Tickets</a>
+            <a id="get-tickets-link" href='https://tucsonterrorinthecorn.fearticket.com/event/orderticket/eventid/1055' target='_blank'>Get Tickets</a>
         </div>
     </div>
 
@@ -78,7 +78,7 @@ $postimage = get_post_meta($postid, 'hero_image', true);
         </div>
 
         <div class="get-tickets-button">
-            <a class='get-tickets-text'>Get Tickets</a>
+            <a class='get-tickets-text' href='https://tucsonterrorinthecorn.fearticket.com/event/orderticket/eventid/1055' target='_blank'>Get Tickets</a>
         </div>
 
         <div class="sub-hero">
@@ -174,7 +174,7 @@ $postimage = get_post_meta($postid, 'hero_image', true);
         </div>
 
         <div class='gjj-footer'>
-            <img src="/wp-content/uploads/2022/09/GoodJuJu-Bloody.png" id="gjj-logo">
+            <img src="/wp-content/uploads/2022/09/made-with-good-juju.png" id="gjj-logo">
         </div>
     </div>
 </body>

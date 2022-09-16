@@ -47,7 +47,7 @@ wp_nav_menu(
 ); 
 ?>
             <div class="get-tickets-container">
-                <a id="get-tickets-link">Get Tickets</a>
+                <a id="get-tickets-link" href='https://tucsonterrorinthecorn.fearticket.com/event/orderticket/eventid/1055' target='_blank'>Get Tickets</a>
             </div>
         </div>
 
@@ -61,7 +61,7 @@ wp_nav_menu(
     <div class="faq-hero">
         <div class="blur-container">
             <h2 class="faq-heading">faq</h2>
-            <p class="faq-text">Need more info on dates, directions, or other details, we've tried to answer your
+            <p class="faq-text-hero">Need more info on dates, directions, or other details, we've tried to answer your
                 Terror In the Corn related questions here.</p>
         </div>
     </div>
@@ -803,7 +803,7 @@ wp_nav_menu(
 
 <div class='button-container'>
 <div class="get-tickets-button">
-    <a class='get-tickets-text'>Get Tickets</a>
+    <a class='get-tickets-text' href='https://tucsonterrorinthecorn.fearticket.com/event/orderticket/eventid/1055' target='_blank'>Get Tickets</a>
 </div>
 </div>
 
@@ -861,7 +861,7 @@ wp_nav_menu(
     </div>
 
     <div class='gjj-footer'>
-        <img src="/wp-content/uploads/2022/09/GoodJuJu-Bloody.png" id="gjj-logo">
+        <img src="/wp-content/uploads/2022/09/made-with-good-juju.png" id="gjj-logo">
     </div>
 </div>
 </body>

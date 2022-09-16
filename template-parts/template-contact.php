@@ -42,7 +42,7 @@
     ); 
 ?>
                 <div class="get-tickets-container">
-                    <a id="get-tickets-link">Get Tickets</a>
+                    <a id="get-tickets-link" href='https://tucsonterrorinthecorn.fearticket.com/event/orderticket/eventid/1055' target='_blank'>Get Tickets</a>
                 </div>
             </div>
 
@@ -80,7 +80,7 @@
                 <input type="text" class="input-1" placeholder='Name'>
                 <input type="text" class="input-2" placeholder='Email'>
                 <input type="text" class="input-3" placeholder='Phone #'>
-                <textarea class="input-4" placeholder='Wite your message here!'></textarea>
+                <textarea class="input-4" placeholder='Write your message here!'></textarea>
                 <div class="submit-button-container">
                     <a class="submit-button">Submit</a>
                 </div>
@@ -132,7 +132,7 @@
         </div>
 
         <div class='gjj-footer'>
-            <img src="/wp-content/uploads/2022/09/GoodJuJu-Bloody.png" id="gjj-logo">
+            <img src="/wp-content/uploads/2022/09/made-with-good-juju.png" id="gjj-logo">
         </div>
     </div>
 </body>

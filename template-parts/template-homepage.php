@@ -42,7 +42,7 @@
     ); 
 ?>
                 <div class="get-tickets-container">
-                    <a id="get-tickets-link">Get Tickets</a>
+                    <a id="get-tickets-link" href='https://tucsonterrorinthecorn.fearticket.com/event/orderticket/eventid/1055' target='_blank'>Get Tickets</a>
                 </div>
             </div>
 
@@ -89,7 +89,7 @@
                 <h2 class="calendar-location-heading">Calendar and Location</h2>
                 <h2 class="mobile-calendar-location-heading">Calendar</h2>
                 <div class="get-tickets-button">
-                    <a class='get-tickets-text'>Get Tickets</a>
+                    <a class='get-tickets-text' href='https://tucsonterrorinthecorn.fearticket.com/event/orderticket/eventid/1055' target='_blank'>Get Tickets</a>
                 </div>
                 <h3 class="hours-text">Open weekend nights in October + Halloween
                     <br>Hours: 6pm - Midnight*
@@ -108,7 +108,7 @@
 
         <div class="attractions-container">
             <div class="get-tickets-button">
-                <a class='get-tickets-text'>Get Tickets</a>
+                <a class='get-tickets-text' href='https://tucsonterrorinthecorn.fearticket.com/event/orderticket/eventid/1055' target='_blank'>Get Tickets</a>
             </div>
             <h2 class="attractions-heading">Attractions</h2>
             <div class="attractions-cards-container">
@@ -236,7 +236,7 @@
         </div>
 
         <div class='gjj-footer'>
-            <img src="/wp-content/uploads/2022/09/GoodJuJu-Bloody.png" id="gjj-logo">
+            <img src="/wp-content/uploads/2022/09/made-with-good-juju.png" id="gjj-logo">
         </div>
     </div>
 </body>

@@ -66,7 +66,7 @@ body {
     letter-spacing: 8.4px;
 }
 
-.faq-text {
+.faq-text-hero {
     color: #ffffff;
     font-size: 35px;
     margin: 24px 196px;
@@ -491,13 +491,13 @@ button:not(:hover):not(:active):not(.has-text-color) {
 .gjj-footer {
     background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../template-assets/bg-texture.png');
     background-size: cover;
-    height: 129.5px;
     display: flex;
     justify-content: center;
 }
 
 #gjj-logo {
-    height: 129.5px;
+    height: 10%;
+    width: 10%;
 }
 
 @media (min-width: 601px) {

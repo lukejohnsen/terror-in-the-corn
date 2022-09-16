@@ -101,6 +101,7 @@ body {
     width: 1160px;
     justify-content: center;
     margin-top: 87px;
+    flex-direction: column;
 }
 
 .input-container {
@@ -129,6 +130,13 @@ body {
 .input-3 {
     width: 450px;
     height: 64px;
+    font-family: 'EB Garamond';
+    font-size: 32px;
+}
+
+.input-4 {
+    width: 671;
+    height: 256px;
     font-family: 'EB Garamond';
     font-size: 32px;
 }
@@ -490,13 +498,13 @@ body {
 .gjj-footer {
     background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../template-assets/bg-texture.png');
     background-size: cover;
-    height: 129.5px;
     display: flex;
     justify-content: center;
 }
 
 #gjj-logo {
-    height: 129.5px;
+    height: 10%;
+    width: 10%;
 }
 
 @media (min-width: 601px) {
