@@ -3,10 +3,14 @@ body {
     border: 0;
     background-image: url('../template-assets/corn-stalks.png'), url('../template-assets/bg-texture.png');
     background-position: top center, bottom center;
+    background-color: #000000;
     background-size: contain;
-    background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, .9);
+    background-repeat: no-repeat, repeat;
     width: 100%;
+}
+
+.shader {
+    background-color: rgba(0, 0, 0, 0.35);
 }
 
 a {
@@ -44,32 +48,31 @@ a {
 
 .video-hero {
     background-image: url('../template-assets/About-Page-Hero.png');
+    background-position: center;
     background-size: cover;
     display: flex;
-    flex-direction: column;
     width: 80%;
-    justify-content: center;
-    margin-bottom: 65px;
+    max-width: 1160px;
+    height: 75vh;
+    margin-bottom: 87px;
 }
 
 .blur-container {
-    backdrop-filter: blur(6px);
     background-image: url('../template-assets/carousel-border.png');
-    background-position: center;
     background-size: cover;
-    justify-content: center;
-    width: 1160px;
-    height: 589px;
+    backdrop-filter: blur(6px);
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .hero-heading {
     color: #b90803;
     font-size: 70px;
     text-transform: uppercase;
-    font-family: 'Horrormaster';
+    font-family: 'Horrorfind';
     letter-spacing: 8.4px;
 }
 
@@ -229,7 +232,7 @@ a {
     display: none;
 }
 
-.menu-item-148:hover .sub-menu {
+.menu-item-257:hover .sub-menu {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -277,7 +280,7 @@ a {
     width: 450px
 }
 
-.menu-item-147:hover .sub-menu {
+.menu-item-258:hover .sub-menu {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -442,7 +445,6 @@ a {
 }
 
 #gjj-logo {
-    height: 10%;
     width: 10%;
 }
 
@@ -537,6 +539,34 @@ a {
         .nav-hamburger {
             width: 75px;
         }
+	
+		ul {
+		list-style: none;
+	}
+	
+	.mobile-nav {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	#mobile-nav-list {
+		width: 100%;
+	}
+	
+	.sub-menu {
+		list-style: none;
+	}
+	
+	.sub-menu a{
+		font-size: 35px;
+		width: 100%;
+	}
+	
+	.sub-menu li {
+		width: 100%;
+	}
     
         /* Footer Mobile CSS*/
     
@@ -555,7 +585,7 @@ a {
         }
     
         .universal-section {
-            height: 308px;
+            height: 330px;
             max-width: 100%;
         }
     
@@ -608,4 +638,9 @@ a {
         #email-input {
             width: 75%;
         }
+	
+	#gjj-logo {
+		width: 10%;
+		height: 10%;
+	}
 }

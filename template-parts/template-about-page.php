@@ -8,10 +8,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/about.css" />
+    <link rel="stylesheet" href='../css/homepage.css'>
+	<script>
+		function toggleMenu() {
+		  var x = document.getElementById("mobile-nav-list");
+		  if (x.style.display === "block") {
+			x.style.display = "none";
+		  } else {
+			x.style.display = "block";
+		  }
+		}
+	</script>
 </head>
 
 <body>
+	<div class='shader'>
     <div class="header">
 
         <div class="titc-logo-container">
@@ -20,11 +31,11 @@
 
         <div class="full-nav">
             <div class="social-media-nav">
-            <a class="social-media-links" href='https://twitter.com/terror1nthecorn'><img id='twitter-image' src="/wp-content/uploads/2022/09/1.png"></a>
-                <a class="social-media-links" href='https://www.facebook.com/Terror1ntheCorn'><img id='facebook-image' src="/wp-content/uploads/2022/09/2.png"></a>
-                <a class="social-media-links" href='https://www.instagram.com/terrorinthecorn/'><img id='instagram-image' src="/wp-content/uploads/2022/09/3.png"></a>
-                <a class="social-media-links" href='https://www.youtube.com/channel/UCOWtPHUlsHzmc2giMJTCHTQ'><img id='youtube-image' src="/wp-content/uploads/2022/09/5.png"></a>
-                <a class="social-media-links" href='https://www.tiktok.com/@tucsonterrorinthecorn'><img id='tiktok-image' src="/wp-content/uploads/2022/09/4.png"></a>
+                <a class="social-media-links" href='https://twitter.com/terror1nthecorn' target='_blank'><img id='twitter-image' src="/wp-content/uploads/2022/09/1.png"></a>
+                <a class="social-media-links" href='https://www.facebook.com/Terror1ntheCorn' target='_blank'><img id='facebook-image' src="/wp-content/uploads/2022/09/2.png"></a>
+                <a class="social-media-links" href='https://www.instagram.com/terrorinthecorn/' target='_blank'><img id='instagram-image' src="/wp-content/uploads/2022/09/3.png"></a>
+                <a class="social-media-links" href='https://www.youtube.com/channel/UCOWtPHUlsHzmc2giMJTCHTQ' target='_blank'><img id='youtube-image' src="/wp-content/uploads/2022/09/5.png"></a>
+                <a class="social-media-links" href='https://www.tiktok.com/@tucsonterrorinthecorn' target='_blank'><img id='tiktok-image' src="/wp-content/uploads/2022/09/4.png"></a>
             </div>
 
             <div class="main-nav">
@@ -47,20 +58,34 @@
             </div>
 
             <div class="mobile-nav">
-                <img src="/wp-content/uploads/2022/09/mobile-hamburger.png" class="nav-hamburger">
+                <img src="/wp-content/uploads/2022/09/mobile-hamburger.png" style="width: 75px;" id="nav-hamburger" onclick="toggleMenu()">
+				<div id="mobile-nav-list" style="display: none;">
+					<?php
+				wp_nav_menu( 
+        array( 
+            'theme_location' => 'my-custom-menu'
+        ) 
+    );
+					?>
+				</div>
             </div>
         </div>
-    </div>
+</div>
+
+<?php 
+$wp_query;
+$postid = get_the_ID(); 
+$post = get_post($postid);
+$herotitle = get_post_meta($postid, 'hero_title_text', true);
+$herotext = get_post_meta($postid, 'hero_description_text', true)
+
+;?>
 
     <div class="about-container">
         <div class="video-hero">
         <div class="blur-container">
-            <h2 class="hero-heading">About</h2>
-            <p class="hero-text">What dangers and devilish scares await you in the darkness of a haunted cornfield? Avoid the insane locals who lurk in the long grass. Escape the monsters of lore just waiting to snatch their next victim. 
-<br>
-<br>
-Welcome to Terror In the Corn!
-            </p>
+            <h2 class="hero-heading"><?php echo ($herotitle); ?></h2>
+            <p class="hero-text"><?php echo ($herotext); ?></p>
         </div>
 </div>
 
@@ -130,13 +155,13 @@ Welcome to Terror In the Corn!
         <div class="universal-section">
             <div class='buckelew-links-container'>
                 <ul class="buckelew-links-list">
-                    <a href='https://www.tucsonterrorinthecorn.com/' target='_blank'><img src='/wp-content/uploads/2022/09/Buckelew-Farm.png' class="bf-logos" id="buckelew-farm"></a>
-                    <a href='https://www.buckelewfarm.com/'> <img  src=/wp-content/uploads/2022/09/titc-logo.png class="bf-logos" id="titc"></a>
-                    <a href='https://www.buckelewfireworks.com/'> <img src='/wp-content/uploads/2022/09/Fireworks-Stands.png' class="bf-logos" id="fireworks-stands"></a>
-                    <a href='https://www.buckelewchristmastrees.com/'> <img src='/wp-content/uploads/2022/09/BuckelewFarm-ChristmasTrees-Logo.png' class="bf-logos" id="christmas-tree-lots"></a>
+                    <a href='https://www.buckelewfarm.com/' target='_blank'><img src='/wp-content/uploads/2022/09/Buckelew-Farm.png' class="bf-logos" id="buckelew-farm"></a>
+                    <a href='https://tucsonterrorinthecorn.com/' target='_blank'><img  src='/wp-content/uploads/2022/09/titc-logo.png' class="bf-logos" id="titc"></a>
+                    <a href='https://buckelewfireworks.com/' target='_blank'><img src='/wp-content/uploads/2022/09/Fireworks-Stands.png' class="bf-logos" id="fireworks-stands"></a>
+                    <a href='https://buckelewchristmastrees.com/' target='_blank'><img src='/wp-content/uploads/2022/09/BuckelewFarm-ChristmasTrees-Logo.png' class="bf-logos" id="christmas-tree-lots"></a>
                 </ul>
-                <p id="contact-info"> I-10 & Tangerine Exit 240 • 9312 W Rillito Village Trail Tucson, AZ 85653 • <a
-                        href="/" id="email-address">info@buckelewfarm.com</a></p>
+                <p id="contact-info"> I-10 & Tangerine Exit 240 • 9312 W Rillito Village Trail, Marana, AZ 85653 • <a
+                        href="mailto:info@tucsonterrorinthecorn.com" id="email-address">info@tucsonterrorinthecorn.com</a></p>
             </div>
 
             <div class="social-media-nav-footer">
@@ -149,9 +174,10 @@ Welcome to Terror In the Corn!
         </div>
 
         <div class='gjj-footer'>
-            <img src="/wp-content/uploads/2022/09/made-with-good-juju.png" id="gjj-logo">
+            <a class='gjj-footer' href='https://goodjujuagency.com/' target='_blank'><img src="/wp-content/uploads/2022/09/made-with-good-juju.png" id="gjj-logo"></a>
         </div>
     </div>
+		</div>
 </body>
 
 </html>

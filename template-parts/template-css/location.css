@@ -3,10 +3,14 @@ body {
     border: 0;
     background-image: url('../template-assets/corn-stalks.png'), url('../template-assets/bg-texture.png');
     background-position: top center, bottom center;
+    background-color: #000000;
     background-size: contain;
     background-repeat: no-repeat, repeat;
-    background-color: rgba(0, 0, 0, .9);
     width: 100%;
+}
+
+.shader {
+    background-color: rgba(0, 0, 0, 0.85);
 }
 
 a {
@@ -648,4 +652,62 @@ a {
         #email-input {
             width: 75%;
         }
+}
+
+.menu-item-257:hover .sub-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 1;
+    width: 250px;
+}
+
+#menu-item-184 {
+    width: 250px
+}
+
+.menu-item-146:hover .sub-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 1;
+    width: 425px;
+}
+
+#menu-item-192 {
+    width: 450px
+}
+
+#menu-item-191 {
+    width: 450px
+}
+
+#menu-item-190 {
+    width: 450px
+}
+
+#menu-item-189 {
+    width: 450px
+}
+
+#menu-item-188 {
+    width: 450px
+}
+
+#menu-item-187 {
+    width: 450px
+}
+
+.menu-item-258:hover .sub-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 1;
+    width: 200px;
 }

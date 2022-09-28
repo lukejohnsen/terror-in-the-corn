@@ -66,7 +66,7 @@
         </div>
 
         <div class="image-gallery">
-            <!-- image gallery goes here -->
+            
         </div>
     </div>
 

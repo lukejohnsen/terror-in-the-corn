@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <div class=shader>
     <div class="header">
 
         <div class="titc-logo-container">
@@ -145,6 +146,7 @@ Take Tangerine Rd. west and turn left on N. Rillito Village Trail. You'll see Te
             <img src="/wp-content/uploads/2022/09/made-with-good-juju.png" id="gjj-logo">
         </div>
     </div>
+</div>
 </body>
 
 </html>

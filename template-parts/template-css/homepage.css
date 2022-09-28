@@ -1,12 +1,16 @@
 body {
     margin: 0;
     border: 0;
-    background: url('../template-assets/corn-stalks.png'), url('../template-assets/bg-texture.png');
+    background-image: url('../template-assets/corn-stalks.png'), url('../template-assets/bg-texture.png');
     background-position: top center, bottom center;
+    background-color: #000000;
     background-size: contain;
     background-repeat: no-repeat, repeat;
-    background-color: rgba(0,0,0,0.9);
-    
+    width: 100%;
+}
+
+.shader {
+    background-color: rgba(0, 0, 0, 0.35);
 }
 
 a {
@@ -77,7 +81,7 @@ a {
     color: #b90803;
     font-size: 70px;
     text-transform: uppercase;
-    font-family: 'Horrormaster';
+    font-family: 'Horrorfind';
     letter-spacing: 8.4px;
     text-align: center;
 }
@@ -132,12 +136,22 @@ a {
     background-size: cover;
     display: flex;
     justify-content: center;
-    height: 22vh;
-    width: 18vw;
+	width: 17rem;
 }
 
 #fear-ticket {
     background-image: none;
+}
+
+.fear-ticket-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 35%;
+}
+
+.fear-ticket-image {
+	width: 75%;
 }
 
 .video-container {
@@ -180,7 +194,7 @@ a {
 .calendar-location-heading {
     font-size: 70px;
     color: #b90803;
-    font-family: 'Horrormaster';
+    font-family: 'Horrorfind';
     margin-bottom: 0;
     text-transform: uppercase;
     letter-spacing: 8.4px;
@@ -247,7 +261,7 @@ a {
 .attractions-heading {
     font-size: 70px;
     color: #b90803;
-    font-family: 'Horrormaster';
+    font-family: 'Horrorfind';
     margin-bottom: 0;
     text-transform: uppercase;
     text-align: center;
@@ -257,6 +271,7 @@ a {
 
 .attractions-card {
     background-size: cover;
+	background-position: center;
     width: 38rem;
     height: 30rem;
     display: flex;
@@ -268,6 +283,7 @@ a {
 
 .attractions-card-alt {
     background-size: cover;
+	background-position: center;
     width: 38rem;
     height: 30rem;
     display: flex;
@@ -538,7 +554,6 @@ a {
     gap: 20px;
     letter-spacing: 5.85px;
     flex-wrap: wrap
-    
 }
 
 .menu a {
@@ -571,7 +586,7 @@ a {
     display: none;
 }
 
-.menu-item-148:hover .sub-menu {
+.menu-item-257:hover .sub-menu {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -619,7 +634,7 @@ a {
     width: 450px
 }
 
-.menu-item-147:hover .sub-menu {
+.menu-item-258:hover .sub-menu {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -784,7 +799,6 @@ a {
 }
 
 #gjj-logo {
-    height: 10%;
     width: 10%;
 }
 
@@ -858,6 +872,10 @@ a {
         font-family: 'Horrorfind';
         letter-spacing: 6.75px;
     }
+	
+	.fear-ticket-container {
+		width: 75%;
+	}
 
     .bg-farm {
         display: none;
@@ -884,11 +902,15 @@ a {
         width: 80%;
         opacity: .75;
         margin-bottom: 47px;
+		display: flex;
+		justify-content: center;
     }
 
     .map-visual {
         width: 80%;
         opacity: .75;
+		display: flex;
+		justify-content: center;
     }
 
     .attractions-cards-container {
@@ -974,6 +996,34 @@ a {
     .nav-hamburger {
         width: 75px;
     }
+	
+	ul {
+		list-style: none;
+	}
+	
+	.mobile-nav {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	#mobile-nav-list {
+		width: 100%;
+	}
+	
+	.sub-menu {
+		list-style: none;
+	}
+	
+	.sub-menu a{
+		font-size: 35px;
+		width: 100%;
+	}
+	
+	.sub-menu li {
+		width: 100%;
+	}
 
     /* Footer Mobile CSS*/
 
@@ -992,7 +1042,7 @@ a {
     }
 
     .universal-section {
-        height: 308px;
+        height: 330px;
         max-width: 100%;
     }
 
@@ -1038,4 +1088,8 @@ a {
     #email-input {
         width: 75%;
     }
+	
+	#gjj-logo {
+		width: 30%
+	}
 }
